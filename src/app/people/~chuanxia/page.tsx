@@ -20,7 +20,7 @@ export default function ChuanxiaPage() {
         <section className="max-w-6xl pt-6 pb-2 rounded-lg">
             <div className="flex flex-col md:flex-row gap-8 px-4 md:px-6 py-2">
                 {/* Image */}
-                <div className="w-1/5 flex items-center">
+                <div className="w-2/3 md:w-1/5 flex sm:flex-row items-center">
                     <Image
                         src={person.photo}
                         alt={person.name}
@@ -126,7 +126,7 @@ export default function ChuanxiaPage() {
                                     className="flex flex-col md:flex-row gap-8 bg-white border border-gray-200 rounded-lg shadow-sm pl-2 py-2"
                                     >
                                         {/* Image */}
-                                        <div className="w-1/7 flex justify-between items-center">
+                                        <div className="w-2/3 md:w-1/7 flex sm:flex-row justify-between items-center">
                                             {pub.image && pub.image.endsWith(".mp4") ? (
                                             <video
                                                 key={pub.image}

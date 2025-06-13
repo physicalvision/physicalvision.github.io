@@ -97,7 +97,7 @@ export default function SYN3DPage() {
                                                 className="flex flex-col md:flex-row gap-8 bg-white border border-gray-200 rounded-lg shadow-sm pl-2 py-2"
                                                 >
                                                 {/* Image */}
-                                                <div className="w-1/7 flex justify-between items-center">
+                                                <div className="w-2/3 md:w-1/7 flex sm:flex-row justify-between items-center">
                                                     {pub.image && pub.image.endsWith(".mp4") ? (
                                                     <video
                                                         key={pub.image}
