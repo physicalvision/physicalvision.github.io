@@ -1,0 +1,32 @@
+[
+    {
+        "category": "Motion",
+        "src": "/videos/geo4d-short.mp4",
+        "title": "Geo4D",
+        "url": "https://geo4d.github.io/"
+    },
+    {
+        "category": "Occlusion",
+        "src": "/videos/amodal3r_teaser.mp4",
+        "title": "Amodal3R",
+        "url": "https://sm0kywu.github.io/Amodal3R/"
+    },
+    {
+        "category": "Stability under Gravity",
+        "src": "/videos/DSO.mp4",
+        "title": "DSO",
+        "url": "https://ruiningli.com/dso/"
+    },
+    {
+        "category": "Interaction",
+        "src": "/videos/puppet-master.mp4",
+        "title": "Puppet-Master",
+        "url": "https://vgg-puppetmaster.github.io/"
+    },
+    {
+        "category": "Geometry and Appearance",
+        "src": "/videos/mvsplat-360.mp4",
+        "title": "MVSplat, MVSplat360",
+        "url": "https://donydchen.github.io/mvsplat/"
+    }
+]

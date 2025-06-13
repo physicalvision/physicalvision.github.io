@@ -1,0 +1,1650 @@
+[
+    {
+        "date": "28/03/2025",
+        "image": "/videos/geo4d-short.mp4",
+        "title": "Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction",
+        "description": "A method to repurpose video diffusion models for monocular 3D reconstruction of dynamic scenes.",
+        "type": ["preprint"],
+        "projects": ["SYN3D"], 
+        "preprint": "arXiv, 2025",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Zeren Jiang",
+                "url": "https://jzr99.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Iro Laina",
+                "url": "https://eng.ox.ac.uk/people/iro-laina/"
+            },
+            {
+                "name": "Diane Larlus",
+                "url": "https://dlarlus.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://geo4d.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2504.07961"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/jzr99/Geo4D/"
+            }
+        ]
+    },
+    {
+        "date": "28/03/2025",
+        "image": "/videos/DSO_teaser.mp4",
+        "title": "DSO: Aligning 3D Generators with Simulation Feedback for Physical Soundness",
+        "description": "A feed-forward approach to increase the likelihood that the 3D generator outputs stable 3D objects directly.",
+        "type": ["preprint"],
+        "projects": ["SYN3D"], 
+        "preprint": "arXiv, 2025",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Gravity"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://ruiningli.com/dso"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2503.22677"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/RuiningLi/dso"
+            },
+            {
+                "label": "data",
+                "url": "https://huggingface.co/datasets/rayli/image-to-3D-eval-stability-under-gravity"
+            }
+        ]
+    },
+    {
+        "date": "28/03/2025",
+        "image": "/videos/amodal3r_teaser.mp4",
+        "title": "Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images",
+        "description": "A modal for completed 3D reconstruction from partially visible inputs.",
+        "type": ["preprint"],
+        "projects": ["SYN3D"], 
+        "preprint": "arXiv, 2025",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Occlusion"],
+        "authors":
+        [
+            {
+                "name": "Tianhao Wu",
+                "url": "https://sm0kywu.github.io/CV/CV.html"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Frank Guan",
+                "url": "https://www.singaporetech.edu.sg/directory/faculty/frank-guan"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://sm0kywu.github.io/Amodal3R/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2503.13439"
+            },
+            {
+                "label": "code",
+                "url":"https://huggingface.co/Sm0kyWu/Amodal3R"
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/Sm0kyWu/Amodal3R"
+            }
+        ]
+    },
+    {
+        "date": "24/04/2025",
+        "image": "/videos/semantix_teaser.mp4",
+        "title": "Semantix: An Energy Guided Sampler for Semantic Style Transfer",
+        "description": "Semantic Style Transfer that simultaneously guides both style and appearance transfer.",
+        "type": ["conference"],
+        "conference": "ICLR, 2025",
+        "topics": ["Image Translation", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Huiang He",
+                "url": "https://github.com/Huiang-He"
+            },
+            {
+                "name": "Minghui Hu",
+                "url": "https://mhh0318.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Chaoyue Wang",
+                "url": "https://wang-chaoyue.github.io/"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://huiang-he.github.io/semantix/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openreview.net/pdf?id=si37wk8U5D"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2503.22344"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/Huiang-He/Semantix-Styler"
+            }
+        ]
+    },
+    {
+        "date": "25/03/2025",
+        "image": "/videos/flash3d_teaser.mp4",
+        "title": "Flash3D: Feed-Forward Generalisable 3D Scene Reconstruction from a Single Image",
+        "description": "A fast, super efficient, trainable on a single GPU in one day for scene 3D reconstruction from a single image.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "conference": "3DV, 2025",
+        "id": "selected",
+        "topics": ["Novel View Synthesis", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Stanislaw Szymanowicz*",
+                "url": "https://szymanowiczs.github.io/"
+            },
+            {
+                "name": "Eldar Insafutdinov*",
+                "url": "https://eldar.insafutdinov.com/"
+            },
+            {
+                "name": "Chuanxia Zheng*",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Dylan Campbell",
+                "url": "https://sites.google.com/view/djcampbell"
+            },
+            {
+                "name": "João Henriques",
+                "url": "https://www.robots.ox.ac.uk/~joao/#about"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://www.robots.ox.ac.uk/~vgg/research/flash3d/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2406.04343"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/eldar/flash3d"
+            }
+        ]
+    },
+    {
+        "date": "27/01/2025",
+        "image": "/videos/densepose_teaser.mp4",
+        "title": "One-shot Human Motion Transfer via Occlusion-Robust Flow Prediction and Neural Texturing",
+        "description": "A unified framework to recover better 2D appearance and 2.5D geometry.",
+        "type": ["journal"],
+        "journal": "TMM, 2025",
+        "topics": ["Image Translation"],
+        "authors":
+        [
+            {
+                "name": "Yuzhu Ji",
+                "url": "https://scholar.google.com/citations?user=EqHMEmMAAAAJ&hl=en"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://ieeexplore.ieee.org/abstract/document/10855460/metrics#metrics"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2412.06174"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/AndrewChiyz/ORFPNT_supplementary"
+            }
+        ]
+    },
+    {
+        "date": "25/08/2024",
+        "image": "/videos/splatt3r_teaser.mp4",
+        "title": "Splatt3R: Zero-shot Gaussian Splatting from Uncalibrated Image Pairs",
+        "description": "A Feed-Forward model that reconstruct 3D structure and apperance with uncalibrated images.",
+        "type": ["preprint"],
+        "projects": ["SYN3D"], 
+        "preprint": "arXiv, 2024",
+        "topics": ["3D Reconstruction", "Novel View Synthesis"],
+        "authors":
+        [
+            {
+                "name": "Brandon Smart",
+                "url": "https://scholar.google.com/citations?user=k_jn6-EAAAAJ"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Iro Laina",
+                "url": "https://scholar.google.com/citations?user=n9nXAPcAAAAJ"
+            },
+            {
+                "name": "Victor Adrian Prisacariu",
+                "url": "https://www.robots.ox.ac.uk/~victor/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://splatt3r.active.vision/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2408.13912"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/btsmart/splatt3r"
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/brandonsmart/splatt3r"
+            }
+        ]
+    },
+    {
+        "date": "08/08/2024",
+        "image": "/videos/puppet-master.mp4",
+        "title": "Puppet-Master: Scaling Interactive Video Generation as a Motion Prior for Part-Level Dynamics",
+        "description": "An interactive video generative model that can serve as a motion prior for part-level dynamics.",
+        "type": ["preprint"],
+        "projects": ["SYN3D"], 
+        "preprint": "arXiv, 2024",
+        "id": "selected",
+        "topics": ["Interaction", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://vgg-puppetmaster.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2408.04631"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/RuiningLi/puppet-master"
+            },
+            {
+                "label": "data",
+                "url": "https://github.com/RuiningLi/puppet-master/tree/main/data"
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/rayli/Puppet-Master"
+            }
+        ]
+    },
+    {
+        "date": "23/10/2024",
+        "image": "/videos/matchnerf_teaser.mp4",
+        "title": "Explicit Correspondence Matching for Generalizable Neural Radiance Fields",
+        "description": "Employing explicit correspondence matching as a geometry prior enables NeRF to generalize across scenes.",
+        "type": ["preprint"],
+        "preprint": "arXiv, 2024",
+        "topics": ["Novel View Synthesis", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Haofei Xu",
+                "url": "https://haofeixu.github.io/"
+            },
+            {
+                "name": "Qianyi Wu",
+                "url": "https://wuqianyi.top/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://donydchen.github.io/matchnerf/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2304.12294"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/donydchen/matchnerf"
+            }
+        ]
+    },
+    {
+        "date": "10/12/2024",
+        "image": "/images/phy3d_teaser.png",
+        "title": "A General Protocol to Probe Large Vision Models for 3D Physical Understanding",
+        "description": "Probe large vision models to determine to what extent they 'understand' different physical properties in an image.",
+        "type": ["conference"],
+        "conference": "NeurIPS, 2024",
+        "id": "selected",
+        "topics": ["Physical Understanding", "Large Vision Models"],
+        "authors":
+        [
+            {
+                "name": "Guanqi Zhan",
+                "url": "https://www.robots.ox.ac.uk/~guanqi/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Weidi Xie",
+                "url": "https://weidixie.github.io/"
+            },
+            {
+                "name": "Andrew Zisserman",
+                "url": "https://www.robots.ox.ac.uk/~az/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://www.robots.ox.ac.uk/~vgg/research/phy-sd/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4ca9b0906de992ae32c0001915fbea22-Paper-Conference.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/pdf/2310.06836"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/Championchess/phy-sd"
+            }
+        ]
+    },
+    {
+        "date": "10/12/2024",
+        "image": "/videos/mvsplat360_teaser.mp4",
+        "title": "MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views",
+        "description": "A feed-forward approach for 360-degree scene-level novel view synthesis using only sparse observations.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "conference": "NeurIPS, 2024",
+        "id": "selected",
+        "topics": ["Novel View Synthesis", "3D Reconstruction", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Haofei Xu",
+                "url": "https://haofeixu.github.io/"
+            },
+            {
+                "name": "Bohan Zhuang",
+                "url": "https://bohanzhuang.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://donydchen.github.io/mvsplat360/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://papers.nips.cc/paper_files/paper/2024/file/c196239c5f9481e0db2755f31fe4585f-Paper-Conference.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2411.04924"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/donydchen/mvsplat360"
+            }
+        ]
+    },
+    {
+        "date": "04/10/2024",
+        "image": "/videos/mvsplat_teaser.mp4",
+        "title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+        "description": "A feed-forward approach for efficiently predicting 3D Gaussians from sparse multi-view images in a single forward pass.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "conference": "ECCV, 2024",
+        "category": "oral",
+        "id": "selected",
+        "topics": ["Novel View Synthesis", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Haofei Xu",
+                "url": "https://haofeixu.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Bohan Zhuang",
+                "url": "https://bohanzhuang.github.io/"
+            },
+            {
+                "name": "Marc Pollefeys",
+                "url": "https://people.inf.ethz.ch/marc.pollefeys/"
+            },
+            {
+                "name": "Andreas Geiger",
+                "url": "https://www.cvlibs.net/"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://donydchen.github.io/mvsplat/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03187.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2403.14627"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/donydchen/mvsplat"
+            }
+        ]
+    },
+    {
+        "date": "04/10/2024",
+        "image": "/videos/dragapart_teaser.mp4",
+        "title": "DragAPart: Learning a Part-Level Motion Prior for Articulated Objects",
+        "description": "A physical interaction with objects in vision for part-level dragging.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "conference": "ECCV, 2024",
+        "id": "selected",
+        "topics": ["Interaction", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://dragapart.github.io/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00201.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2403.15382"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/RuiningLi/DragAPart"
+            }
+        ]
+    },
+    {
+        "date": "04/10/2024",
+        "image": "/videos/clusteringsdf_teaser.mp4",
+        "title": "ClusteringSDF: Self-Organized Neural Implicit Surfaces for 3D Decomposition",
+        "description": "A self-organized 3D segmentation/decomposition model via neural implicit surface representation.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "conference": "ECCV, 2024",
+        "topics": ["3D Decomposition", "3D Reconstruction", "Occlusion"],
+        "authors":
+        [
+            {
+                "name": "Tianhao Wu",
+                "url": "https://sm0kywu.github.io/CV/CV.html"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Qianyi Wu",
+                "url": "https://wuqianyi.top/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://sm0kywu.github.io/ClusteringSDF/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07447.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2403.14619"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/Sm0kyWu/ClusteringSDF"
+            }
+        ]
+    },
+    {
+        "date": "17/06/2024",
+        "image": "/videos/free3d_teaser.mp4",
+        "title": "Free3D: Consistent Novel View Synthesis without 3D Representation",
+        "description": "A method to synthesize consistent novel views from a single image on open-set categories without the need of explicit 3D representations.",
+        "type": ["conference"],
+        "projects": ["SYN3D"],
+        "conference": "CVPR, 2024",
+        "id": "selected",
+        "topics": ["Novel View Synthesis", "3D Reconstruction", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "/research/~free3d/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zheng_Free3D_Consistent_Novel_View_Synthesis_without_3D_Representation_CVPR_2024_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2312.04551"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=7CdYuZ7D1DY"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/Free3D"
+            }
+        ]
+    },
+    {
+        "date": "17/06/2024",
+        "image": "/images/amodal_teaser.png",
+        "title": "Amodal Ground Truth and Completion in the Wild",
+        "description": "Setting up a Stable Diffusion based network to solve the amodal completion problem for any category and without occluder mask provided.",
+        "type": ["conference"],
+        "conference": "CVPR, 2024",
+        "topics": ["Occlusion", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Guanqi Zhan",
+                "url": "https://www.robots.ox.ac.uk/~guanqi/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Weidi Xie",
+                "url": "https://weidixie.github.io/"
+            },
+            {
+                "name": "Andrew Zisserman",
+                "url": "https://www.robots.ox.ac.uk/~az/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://www.robots.ox.ac.uk/~vgg/research/amodal/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhan_Amodal_Ground_Truth_and_Completion_in_the_Wild_CVPR_2024_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2312.17247"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/Championchess/Amodal-Completion-in-the-Wild"
+            }
+        ]
+    },
+    {
+        "date": "17/06/2024",
+        "image": "/images/onemorestep_teaser.png",
+        "title": "A Versatile Plug-and-Play Module for Rectifying Diffusion Schedule Flaws and Enhancing Low-Frequency Controls",
+        "description": "A versatile plug-and-play module to fix the scheduler flaws for diffusion models.",
+        "type": ["conference"],
+        "conference": "CVPR, 2024",
+        "topics": ["Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Minghui Hu",
+                "url": "https://mhh0318.github.io/"
+            },
+            {
+                "name": "Jianbin Zheng",
+                "url": "https://jabir-zheng.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Chaoyue Wang",
+                "url": "https://wang-chaoyue.github.io/"
+            },
+            {
+                "name": "Dacheng Tao",
+                "url": "https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://jabir-zheng.github.io/OneMoreStep/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hu_One_More_Step_A_Versatile_Plug-and-Play_Module_for_Rectifying_Diffusion_CVPR_2024_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2311.15744"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/mhh0318/OneMoreStep"
+            },
+            {
+                "label": "demo",
+                "url":"https://huggingface.co/spaces/h1t/oms_sdxl_lcm"
+            }
+        ]
+    },
+    {
+        "date": "07/05/2024",
+        "image": "/videos/panodiffusion_teaser.mp4",
+        "title": "PanoDiffusion: 360-degree Panorama Outpainting via Diffusion",
+        "description": "An indoor panorama outpainting model using latent diffusion models with view-consistent.",
+        "type": ["conference"],
+        "conference": "ICLR, 2024",
+        "id": "selected",
+        "topics": ["Image Completion", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Tianhao Wu",
+                "url": "https://sm0kywu.github.io/CV/CV.html"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://sm0kywu.github.io/panodiffusion/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openreview.net/pdf?id=ZNzDXDFZ0B"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2307.03177"
+            },
+            {
+                "label": "code",
+                "url": "https://sm0kywu.github.io/panodiffusion/"
+            }
+        ]
+    },
+    {
+        "date": "12/04/2024",
+        "image": "/videos/picformer_teaser.mp4",
+        "title": "Bridging Global Context Interactions for High-Fidelity Pluralistic Image Completion",
+        "description": "PICFormer achieves pluralistic image completion with multiple and diverse solutions using a transformer based architecture.",
+        "type": ["journal"],
+        "journal": "T-PAMI, 2024",
+        "topics": ["Codebook", "Image Completion"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Guoxian Song",
+                "url": "https://guoxiansong.github.io/homepage/index.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Linjie Luo",
+                "url": "https://linjieluo.github.io/"
+            },
+            {
+                "name": "Dinh Phung",
+                "url": "https://research.monash.edu/en/persons/dinh-phung"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://ieeexplore.ieee.org/document/10535740"
+            },
+            {
+                "label": "video",
+                "url": "https://youtu.be/yRBzGMmS0Ew"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/TFill"
+            }
+        ]
+    },
+    {
+        "date": "10/12/2023",
+        "image": "/videos/cocktail_teaser.mp4",
+        "title": "Cocktail🍸: Mixing Multi-Modality Controls for Text-Conditional Image Generation",
+        "description": "A generalized framework for multi-modality control based on text-to-image generation.",
+        "type": ["conference"],
+        "conference": "NeurIPS, 2023",
+        "topics": ["Multi-modality", "Diffusion Model", "Image Translation"],
+        "authors":
+        [
+            {
+                "name": "Minghui Hu",
+                "url": "https://mhh0318.github.io/"
+            },
+            {
+                "name": "Jianbin Zheng",
+                "url": "https://jabir-zheng.github.io/"
+            },
+            {
+                "name": "Daqing Liu",
+                "url": "https://daqingliu.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Chaoyue Wang",
+                "url": "https://wang-chaoyue.github.io/"
+            },
+            {
+                "name": "Dacheng Tao",
+                "url": "https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://mhh0318.github.io/cocktail/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/668563ef18fbfef0b66af491ea334d5f-Paper-Conference.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2306.00964"
+            },
+            {
+                "label": "video",
+                "url":"https://www.youtube.com/watch?v=cy0fDO3-QSA"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/mhh0318/Cocktail"
+            }
+        ]
+    },
+    {
+        "date": "17/10/2023",
+        "image": "/images/cvq_teaser.png",
+        "title": "Online clustered codebook",
+        "description": "A simple approach to avoid codebook collapse and achive 100% codebook utilisation.",
+        "type": ["conference"],
+        "conference": "ICCV, 2023",
+        "id": "selected",
+        "topics": ["Codebook", "Image Generation", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Zheng_Online_Clustered_Codebook_ICCV_2023_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2307.15139"
+            },
+            {
+                "label": "video",
+                "url": "https://youtu.be/g098J5Obxvs"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/CVQ-VAE"
+            }
+        ]
+    },
+    {
+        "date": "23/7/2023",
+        "image": "/images/vqvae_teaser.png",
+        "title": "Vector Quantized Wasserstein Auto-Encoder",
+        "description": "Minimize the codebook-data distortion as the Wasserstein distance.",
+        "type": ["conference"],
+        "conference": "ICML, 2023",
+        "topics": ["Codebook", "Image Generation"],
+        "authors":
+        [
+            {
+                "name": "Long Tung Vuong",
+                "url": "https://scholar.google.com/citations?user=DCC657sAAAAJ&hl=en"
+            },
+            {
+                "name": "Trung Le",
+                "url": "https://scholar.google.com/citations?user=gysdMxwAAAAJ&hl=en/"
+            },
+            {
+                "name": "He Zhao",
+                "url": "https://hezgit.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Mehrtash Harandi",
+                "url": "https://sites.google.com/site/mehrtashharandi/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Dinh Phung",
+                "url": "https://research.monash.edu/en/persons/dinh-phung"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://openreview.net/pdf/7cc43ee917a76ab228da527b72fbf90f70fb6608.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2302.05917"
+            }
+        ]
+    },
+    {
+        "date": "50/05/2023",
+        "image": "/videos/UniD3_teaser.mp4",
+        "title": "UniD3: Unified Discrete Diffusion for Simultaneous Vision-Language Generation",
+        "description": "A unified discrete diffusion model for simultaneous vision-language generation.",
+        "type": ["conference"],
+        "conference": "ICLR, 2023",
+        "id": "selected",
+        "topics": ["Multi-modality", "Diffusion Model", "Image Generation", "Image Completion"],
+        "authors":
+        [
+            {
+                "name": "Minghui Hu",
+                "url": "https://mhh0318.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Heliang Zheng",
+                "url": "https://scholar.google.com/citations?user=VRgciTQAAAAJ&hl"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Chaoyue Wang",
+                "url": "https://wang-chaoyue.github.io/"
+            },
+            {
+                "name": "Zuopeng Yang",
+                "url": "https://dblp.org/pid/254/9451.html"
+            },
+            {
+                "name": "Dacheng Tao",
+                "url": "https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html"
+            },
+            {
+                "name": "P.N.Suganthan",
+                "url": "https://www3.ntu.edu.sg/home/epnsugan/"
+            }
+            
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://mhh0318.github.io/unid3/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openreview.net/pdf?id=8JqINxA-2a"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2211.14842"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/mhh0318/UniD3"
+            }
+        ]
+    },
+    {
+        "date": "28/11/2022",
+        "image": "/videos/movq_teaser.mp4",
+        "title": "MoVQ: Modulating Quantized Vectors for High-Fidelity Image Generation",
+        "description": "A spatially conditional normalization is introduced to address the repeated artifacts in vector quantized methods.",
+        "type": ["conference"],
+        "conference": "NeurIPS, 2022",
+        "id": "selected",
+        "category": "spotlight",
+        "topics": ["Codebook", "Image Generation"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Long Tung Vuong",
+                "url": "https://scholar.google.com/citations?user=DCC657sAAAAJ&hl=en"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Dinh Phung",
+                "url": "https://research.monash.edu/en/persons/dinh-phung"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://openreview.net/pdf?id=Qb-AoSw4Jnm"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2209.09002"
+            },
+            {
+                "label": "code(Kandinsky2)",
+                "url": "https://github.com/ai-forever/Kandinsky-2/tree/main/kandinsky2/vqgan"
+            }
+        ]
+    },
+    {
+        "date": "23/10/2022",
+        "image": "/videos/objectsdf_teaser.mp4",
+        "title": "Object-Compositional Neural Implicit Surfaces",
+        "description": "Automatically decompose a scene into 3D instance, trained using only 2D semantic lables and images.",
+        "type": ["conference"],
+        "conference": "ECCV, 2022",
+        "topics": ["3D Decomposition", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Qianyi Wu",
+                "url": "https://wuqianyi.top/"
+            },
+            {
+                "name": "Xian Liu",
+                "url": "https://alvinliu0.github.io/"
+            },
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Kejie Li",
+                "url": "https://likojack.github.io/kejieli/#/home"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Jianmin Zheng",
+                "url": "https://personal.ntu.edu.sg/asjmzheng/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://wuqianyi.top/objectsdf/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136870194.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2207.09686"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/QianyiWu/objsdf"
+            }
+        ]
+    },
+    {
+        "date": "23/10/2022",
+        "image": "/videos/semantic2NeRF_teaser.mp4",
+        "title": "Sem2NeRF: Converting Single-View Semantic Masks to Neural Radiance Fields",
+        "description": "A model that transfers the 2D semantic map into 3D NeRF, and lets users edit 3D model through 2D semantic input.",
+        "type": ["conference"],
+        "id": "selected",
+        "conference": "ECCV, 2022",
+        "topics": ["3D Editing", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Qianyi Wu",
+                "url": "https://wuqianyi.top/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://donydchen.github.io/sem2nerf/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740713.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2203.10821"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=cYr3Dz8N_9E&feature=youtu.be"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/donydchen/sem2nerf"
+            }
+        ]
+    },
+    {
+        "date": "19/06/2022",
+        "image": "/videos/tfill_teaser.mp4",
+        "title": "Bridging global context interactions for high-fidelity image completion",
+        "description": "TFill fills in reasonable contents for both foreground object removal and content completion.",
+        "type": ["conference"],
+        "id": "selected",
+        "conference": "CVPR, 2022",
+        "topics": ["Image Completion"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Dinh Phung",
+                "url": "https://research.monash.edu/en/persons/dinh-phung"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "/research/~tfill/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136740713.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2104.00845"
+            },
+            {
+                "label": "video",
+                "url": "https://youtu.be/efB1fw0jiLs"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/lyndonzheng/TFill"
+            }
+        ]
+    },
+    {
+        "date": "20/11/2021",
+        "image": "/videos/vinv_teaser.mp4",
+        "title": "Visiting the Invisible: Layer-by-Layer Completed Scene Decomposition",
+        "description": "A high-level scene understanding system that simultaneously models the completed shape and appearance for all instances.",
+        "type": ["journal"],
+        "id": "selected",
+        "journal": "IJCV, 2021",
+        "topics": ["Image Completion", "Decomposition"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Duy-Son Dao",
+                "url": "https://scholar.google.com/citations?user=AZWFq1sAAAAJ&hl=en"
+            },
+            {
+                "name": "Guoxian Song",
+                "url": "https://guoxiansong.github.io/homepage/index.html"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://link.springer.com/article/10.1007/s11263-021-01517-0"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2104.05367"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=QSAYxrKgn7A"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/lyndonzheng/VINV"
+            }
+        ]
+    },
+    {
+        "date": "20/11/2021",
+        "image": "/videos/agilegan_teaser.mp4",
+        "title": "AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning",
+        "description": "A GAN inversion model is trained for Stylizing Portraits.",
+        "type": ["conference"],
+        "conference": "SIGGRAPH, 2021",
+        "topics": ["Image Translation"],
+        "authors":
+        [
+            {
+                "name": "Guoxian Song",
+                "url": "https://guoxiansong.github.io/homepage/index.html"
+            },
+            {
+                "name": "Linjie Luo",
+                "url": "https://linjieluo.github.io/"
+            },
+            {
+                "name": "Jing Liu",
+                "url": "https://www.jingliu.net/"
+            },
+            {
+                "name": "Wan-Chun Ma",
+                "url": "https://en.wikipedia.org/wiki/Alex_Ma"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://guoxiansong.github.io/homepage/agilegan.html"
+            },
+            {
+                "label": "pdf",
+                "url": "https://dl.acm.org/doi/10.1145/3450626.3459771"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/embed/o0HHIvOT_n0"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/GuoxianSong/AgileGAN"
+            }
+        ]
+    },
+    {
+        "date": "16/06/2021",
+        "image": "/videos/flsesim_teaser.mp4",
+        "title": "The Spatially-Correlative Loss for Various Image Translation Tasks",
+        "description": "A novel spatially-correlative loss that is simple, efficient and yet effective for preserving scene structure consistency while supporting large appearance changes during unpaired I2I translation.",
+        "type": ["conference"],
+        "conference": "CVPR, 2021",
+        "id": "selected",
+        "topics": ["Image Translation"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "/research/~flsesim/"
+            },
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Zheng_The_Spatially-Correlative_Loss_for_Various_Image_Translation_Tasks_CVPR_2021_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2104.00854"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=pu6PT1om2r0"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/F-LSeSim"
+            }
+        ]
+    },
+    {
+        "date": "16/06/2019",
+        "image": "/videos/pic_teaser.mp4",
+        "title": "Pluralistic (Free-Form) Image Completion",
+        "description": "Given a masked image, the proposed pic model is able to generate multiple and diverse plausible results.",
+        "type": ["conference", "journal"],
+        "conference": "CVPR, 2019",
+        "journal": "IJCV, 2021",
+        "id": "selected",
+        "topics": ["Image Completion"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "/research/~pic/"
+            },
+            {
+                "label": "pdf",
+                "url": "http://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Pluralistic_Image_Completion_CVPR_2019_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/1903.04227"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=9V7rNoLVmSs"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/Pluralistic-Inpainting"
+            }
+        ]
+    },
+    {
+        "date": "08/09/2018",
+        "image": "/videos/synthetic2real_teaser.mp4",
+        "title": "T2Net: Synthetic-to-Realistic Translation for Depth Estimation Tasks",
+        "description": "Without using any real depth map, the proposed model evaluates depth maps on real scenes using only synthetic datasets.",
+        "type": "conference",
+        "conference": "ECCV, 2018",
+        "id": "selected",
+        "topics": ["Depth Estimation", "Image Translation"],
+        "authors":
+        [
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "pdf",
+                "url": "https://openaccess.thecvf.com/content_ECCV_2018/papers/Chuanxia_Zheng_T2Net_Synthetic-to-Realistic_Translation_ECCV_2018_paper.pdf"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/1808.01454"
+            },
+            {
+                "label": "video",
+                "url": "https://www.youtube.com/watch?v=B6lOToIk0xY"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/lyndonzheng/Synthetic2Realistic"
+            }
+        ]
+    }
+]

@@ -1,0 +1,458 @@
+{
+    "faculty":
+    [
+        {
+            "name": "Chuanxia Zheng",
+            "title": "Nanyang Assistant Professor",
+            "group": {
+                "name": "Physical Visual Group",
+                "url": "/"
+            },
+            "department": {
+                "name": "College of Computing and Data Science",
+                "url": "https://www.ntu.edu.sg/computing"
+            },
+            "university": {
+                "name": "Nanyang Technological University",
+                "url": "https://www.ntu.edu.sg"
+            },
+            "photo": "/images/team/chuanxia_zheng.jpg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "/people/~chuanxia/"
+                },
+                {
+                    "label": "email",
+                    "url": "chuanxia001@e.ntu.edu.sg"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=mvpE6bIAAAAJ=en"
+                },
+                {
+                    "label": "github",
+                    "url": "https://github.com/lyndonzheng"
+                },
+                {
+                    "label": "linkedin",
+                    "url": "https://www.linkedin.com/in/chuanxia-zheng-80a3b8110/"
+                },
+                {
+                    "label": "twitter",
+                    "url": "https://x.com/ChuanxiaZ"
+                }
+            ]
+        }
+    ],
+    "currentStudents":
+    [
+        {
+            "name": "Zeren Jiang",
+            "title": "PhD Student",
+            "university": "University of Oxford, UK",
+            "startYear": 2024,
+            "photo": "/images/team/zeren_jiang.jpg",
+            "coSupervisors": "I. Laina and A. Vedaldi",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://jzr99.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=qx0xGs4AAAAJ"
+                }
+            ]
+        },
+        {
+            "name": "Brandon Smart",
+            "title": "PhD Student",
+            "university": "University of Oxford, UK",
+            "startYear": 2023,
+            "photo": "/images/team/brandon_smart.jpg",
+            "coSupervisors": "I. Laina and V. Prisacariu",
+            "links":
+            [
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=k_jn6-EAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Ruining Li",
+            "title": "PhD Student",
+            "university": "University of Oxford, UK",
+            "startYear": 2023,
+            "photo": "/images/team/ruining_li.jpg",
+            "coSupervisors": "C. Rupprecht and A. Vedaldi",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://ruiningli.com/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=JmQkXLUAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Tianhao Wu",
+            "title": "PhD Student",
+            "startYear": 2022,
+            "university": "Nanyang Technological University, SG",
+            "photo": "/images/team/tianhao_wu.jpg",
+            "coSupervisors": "T.J. Cham",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://sm0kywu.github.io/CV/CV.html"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?hl=en&user=AHTID_gAAAAJ"
+                }
+            ]
+        }
+    ],
+    "alumni":
+    [
+        {
+            "name": "Yuedong Chen",
+            "title": "Doctoral",
+            "startYear": 2021,
+            "endYear": 2025,
+            "university": "Monash University, Australia",
+            "workposition": "Research Scientist at ByteDance Seed",
+            "photo": "/images/team/yuedong_chen.jpg",
+            "coSupervisors": "J. Cai and T.J. Cham",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://donydchen.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=GqgGZlQAAAAJ"
+                }
+            ]
+        },
+        {
+            "name": "Minghui Hu",
+            "title": "Doctoral",
+            "startYear": 2021,
+            "endYear": 2023,
+            "university": "Nanyang Technological University, SG",
+            "workposition": "Researcher at SpellBrush",
+            "photo": "/images/team/minghui_hu.jpg",
+            "coSupervisors": "T.J. Cham",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://mhh0318.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=9jfGj64AAAAJ&hl"
+                }
+            ]
+          }
+        
+    ],
+    "collaborators":
+    [
+        {
+            "name": "Dr. Tat-Jen Cham",
+            "title": "Professor",
+            "department": "School of Computer Science and Engineering",
+            "university": "Nanyang Technological University, SG",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://personal.ntu.edu.sg/astjcham/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=Lx3X7W0AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Jianfei Cai",
+            "title": "Professor",
+            "department": "Department of Data Science & AI",
+            "university": "Monash University, Australia",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://jianfei-cai.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=N6czCoUAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Andrea Vedaldi",
+            "title": "Professor",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.robots.ox.ac.uk/~vedaldi/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=bRT7t28AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Andrew Zisserman",
+            "title": "Professor",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.robots.ox.ac.uk/~az/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=UZ5wscMAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Christoph Rupprecht",
+            "title": "Associate Professor",
+            "department": "Department of Computer Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://chrirupp.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=IrYlproAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Diane Larlus",
+            "title": "Principal Research Scientist and Team Lead",
+            "department": "",
+            "university": "NAVER LASB Europe",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://dlarlus.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com.sg/citations?hl=en&user=nI2oJqkAAAAJ"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Victor Adrian Prisacariu",
+            "title": "Associate Professor",
+            "department": "Department of Engineering Science,",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.robots.ox.ac.uk/~victor/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=GmWA-LoAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Marc Pollefeys",
+            "title": "Professor",
+            "department": "Department of Computer Science",
+            "university": "ETH, Zurich, Switzerland",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://people.inf.ethz.ch/pomarc/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=YYH0BjEAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Weidi Xie",
+            "title": "Associate Professor",
+            "department": "",
+            "university": "Shanghai Jiao Tong University, China",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://weidixie.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=Vtrqj4gAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Dylan Campbell",
+            "title": "Lecturer",
+            "department": "School of Computing",
+            "university": "Australian National University, Australia",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://sites.google.com/view/djcampbell"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=FayBF1AAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. João F. Henriques",
+            "title": "Doctoral",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.robots.ox.ac.uk/~joao/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com.sg/citations?user=aCQjyp0AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Iro Laina",
+            "title": "Doctoral",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=n9nXAPcAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Dr. Eldar Insafutdinov",
+            "title": "Doctoral",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://eldar.insafutdinov.com/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com.sg/citations?user=u4unGhAAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Qianyi Wu",
+            "title": "PhD Student",
+            "department": "Department of Data Science & AI",
+            "university": "Monash University, Australia",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://wuqianyi.top/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=XI0RtesAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Haofei Xu",
+            "title": "PhD Student",
+            "department": "Department of Computer Science",
+            "university": "ETH, Zurich, Switzerland",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://haofeixu.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=NhUwq_8AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Guanqi Zhan",
+            "title": "PhD Student",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.robots.ox.ac.uk/~guanqi/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com.sg/citations?user=f_m4WJIAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Stanislaw Szymanowicz",
+            "title": "PhD Student",
+            "department": "Department of Engineering Science",
+            "university": "University of Oxford, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://szymanowiczs.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=kPJKnRIAAAAJ&hl=en"
+                }
+            ]
+        }
+    ]
+}

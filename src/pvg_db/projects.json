@@ -1,0 +1,90 @@
+{
+    "currentProjects":
+    [
+        {
+            "startDate": "01/06/2024",
+            "endDate": "01/06/2026",
+            "awardDate": "13/02/2024",
+            "title": "Synthesizing Photorealistic 3D Scene from Zero to One or Limited Views",
+            "name": "MSCA Fellowship SYN3D",
+            "shortName": "SYN3D",
+            "description": "The aim of SYN3D is to enable the effortless creation of novel view synthesis and 3D reconstruction from limited views (from 0 to 5) in a feed-forward manner. In general, such a few input views do not contain sufficient information for compressive 3D synthesis. However, our scientific hypothesis is that 3D synthesis from limited views is still possible by learning, from billion images, the capability of hallucinating unobserved parts of 3D objects/scenes, thus obtaining plausible if not faithful reconstructions.",
+            "reference": "EP/Z001811/1",
+            "founder": {
+                "name": "MSCA Postdoctoral Fellowship (UKRI Horizon Europe)",
+                "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+            },
+            "role": "PI",
+            "budget": "£ 206,085.62",
+            "website": "/projects/~syn3d/",
+            "topics": ["3D Synthesis", "Novel View Synthesis", "3D Reconstruction"],
+            "objectives":
+            [
+                "To develop a feed-forward 3D scene synthesis model that reconstructs photorealistic 3D scenes from zero to one or limited views.",
+                "To develop a strategy for training the model on large-scale image datasets for generalizable 3D reconstruction across different scenes.",
+                "To decompose the 3D scene into semantically meaningful components, enabling better manipulation of the synthesized scenes."
+            ],
+            "teamMembers":
+            [
+                {
+                    "name": "Andrea Vedaldi",
+                    "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+                }
+            ],
+            "image":
+            [
+                {
+                    "src": "/videos/mvsplat-360.mp4",
+                    "title": "MVSplat, MVSplat-360",
+                    "alt": "Feed-forward 3D scene synthesis from limited views (even for 360 degree)"
+                },
+                {
+                    "src": "/videos/free3d_teaser.mp4",
+                    "title": "Free3D",
+                    "alt": "Feed-forward 3D object synthesis from a single image for open-set categories"
+                }
+            ],
+            "links":
+            [
+                {
+                    "label": "MSCA Postdoctoral Fellowship",
+                    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+                },
+                {
+                    "label": "project website",
+                    "url": "/projects/~syn3d/"
+                }
+            ]
+        }
+    ],
+    "pastProjects":
+    [
+        
+        {
+            "startDate": "01/02/2024",
+            "endDate": "01/08/2024",
+            "awardDate": "24/01/2024",
+            "title": "Object-Centric 3D Reconstruction and Decomposition",
+            "name": "Bavarian Funding Programme",
+            "shortName": "OC3R",
+            "description": "The aim of OC3R is to capture the 3D geometry and appearance of not only the whole scene, but also the individual instances within it.",
+            "founder": {
+                "name": "Bavarian Funding Programme for the Initiation of International Projects (BayIntAn)",
+                "url": "https://bayfor.oasys.uni-passau.de/"
+            },
+            "role": "Co-PI",
+            "topics": ["3D Synthesis", "3D Decomposition", "3D Reconstruction"],
+            "objectives":
+            [
+                "To develop a feed-forward 3D reconstruction model that reconstruct and decompose the 3D instances within it"
+            ],
+            "teamMembers":
+            [
+                {
+                    "name": "Yan Xia",
+                    "url": "https://yan-xia.github.io/"
+                }
+            ]
+        }
+    ]
+}

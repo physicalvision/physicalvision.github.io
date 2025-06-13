@@ -1,0 +1,83 @@
+[
+    {
+        "date": "25/09/2024",
+        "title": "Two papers accepted at NeurIPS'24",
+        "description": "Papers accepted: MVSplat360 and Physical Understanding",
+        "type": "publication",
+        "links":
+            [
+                {
+                    "name": "MVSplat360",
+                    "text": "MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views",
+                    "url": "https://donydchen.github.io/mvsplat360/"
+                },
+                {
+                    "name": "Physical Understanding",
+                    "text": "A General Protocol to Probe Large Vision Models for 3D Physical Understanding",
+                    "url": "https://www.robots.ox.ac.uk/~vgg/research/phy-sd/"
+                }
+            ]
+    },
+    {
+        "date": "03/07/2024",
+        "title": "Three papers accepted at ECCV'24",
+        "description": "Papers accepted: MVSplat, DragApart and ClusteringSDF",
+        "type": "publication",
+        "links":
+            [
+                {
+                    "name": "MVSplat",
+                    "text": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+                    "url": "https://donydchen.github.io/mvsplat/"
+                },
+                {
+                    "name": "DragApart",
+                    "text": "DragApart: Learning a Part-Level Motion Prior for Articulated Objects",
+                    "url": "https://dragapart.github.io/"
+                },
+                {
+                    "name": "ClusteringSDF",
+                    "text": "ClusteringSDF: Self-Organized Neural Implicit Surfaces for 3D Decomposition",
+                    "url": "https://sm0kywu.github.io/ClusteringSDF/"
+                }
+            ]
+    },
+    {
+        "date": "26/02/2024",
+        "title": "Three papers accepted at CVPR'24",
+        "description": "Papers accepted: Free3D, Amodal in the wild, and OneMoreStep",
+        "type": "publication",
+        "links":
+            [
+                {
+                    "name": "Free3D",
+                    "text": "Free3D: Consistent Novel View Synthesis without 3D Representation",
+                    "url": "https://chuanxiaz.com/free3d/"
+                },
+                {
+                    "name": "Amodal in the wild",
+                    "text": "Amodal Ground Truth and Completion in the Wild",
+                    "url": "https://www.robots.ox.ac.uk/~vgg/research/amodal/"
+                },
+                {
+                    "name": "One More Step",
+                    "text": "One More Step",
+                    "url": "https://jabir-zheng.github.io/OneMoreStep/"
+                }
+            ]
+    },
+    {
+        "date": "13/02/2024",
+        "title": "Chuanxia Zheng is awarded the MSCA Fellowship",
+        "description": "The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships",
+        "type": ["award", "project"],
+        "links":
+            [
+                {
+                    "name": "MSCA Fellowship",    
+                    "text": "MSCA Fellowship",
+                    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships"
+                }
+            ]
+    }
+]
