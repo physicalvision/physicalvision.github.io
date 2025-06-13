@@ -22,7 +22,7 @@ export default function PublicationsPage() {
                 // Filter by Search term
                 const matchesSearch = pub.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                                       pub.conference?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                                      pub.authors.toSpliced().some(author => author.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
+                                      pub.authors.toSpliced(0, 0).some(author => author.name.toLowerCase().includes(searchQuery.toLowerCase())) ||
                                       pub.description?.toLowerCase().includes(searchQuery.toLowerCase());
                 // Filter by Type
                 const matchesType = typeFilter === "all types" || (Array.isArray(pub.type) ? pub.type.includes(typeFilter) : pub.type === typeFilter);
@@ -216,8 +216,8 @@ export default function PublicationsPage() {
                                                             {type == "conference" && <span>{pub.conference}</span>}
                                                             {type == "journal" && <span>{pub.journal}</span>}
                                                             {type == "preprint" && <span>{pub.preprint}</span>}
-                                                            {type == "workshop" && <span>{pub.workshop}</span>}
-                                                            {type == "book" && <span>{pub.book}</span>}
+                                                            {/* {type == "workshop" && <span>{pub.workshop}</span>}
+                                                            {type == "book" && <span>{pub.book}</span>} */}
                                                         </span>
                                                     ))}
                                                     {pub.category && (

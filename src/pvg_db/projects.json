@@ -68,11 +68,14 @@
             "name": "Bavarian Funding Programme",
             "shortName": "OC3R",
             "description": "The aim of OC3R is to capture the 3D geometry and appearance of not only the whole scene, but also the individual instances within it.",
+            "reference": "",
             "founder": {
                 "name": "Bavarian Funding Programme for the Initiation of International Projects (BayIntAn)",
                 "url": "https://bayfor.oasys.uni-passau.de/"
             },
             "role": "Co-PI",
+            "budget": "",
+            "website": "",
             "topics": ["3D Synthesis", "3D Decomposition", "3D Reconstruction"],
             "objectives":
             [
@@ -83,6 +86,19 @@
                 {
                     "name": "Yan Xia",
                     "url": "https://yan-xia.github.io/"
+                }
+            ],
+            "image":[
+                {
+                    "src": "",
+                    "title": "",
+                    "alt": ""
+                }
+            ],
+            "links": [
+                {
+                    "label": "",
+                    "url": ""
                 }
             ]
         }

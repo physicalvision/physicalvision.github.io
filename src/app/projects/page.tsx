@@ -175,7 +175,7 @@ export default function PublicationsPage() {
                                         {/* Image */}
                                         {project.image && project.image.length > 0 && (
                                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                                                {project.image.map((img, imgIndex) => (
+                                                {project.image.map((img, imgIndex) => (img.src && (
                                                     <p key={imgIndex} className="relative rounded-lg">
                                                         <video
                                                             key={imgIndex}
@@ -191,13 +191,13 @@ export default function PublicationsPage() {
                                                     <span className="absolute top-0 right-0 bg-black bg-opacity-100 text-white px-2 py-1 text-xs rounded">{img.title}</span>
                                                     <span className="text-sm text-gray-500">{img.alt}</span>
                                                     </p>
-                                                ))}
+                                                )))}
                                             </div>
                                         )}
                                         {/* Links */}
                                         {project.links && project.links.length > 0 && (
                                             <div className="flex flex-wrap gap-2 pt-4 items-bottom">
-                                                {project.links.map((link, linkIndex) => (
+                                                {project.links.map((link, linkIndex) => ( link.label && (
                                                     <a
                                                         key={linkIndex}
                                                         href={link.url}
@@ -207,7 +207,7 @@ export default function PublicationsPage() {
                                                     >
                                                         {link.label}
                                                     </a>
-                                                ))}
+                                                )))}
                                             </div>
                                         )}
                                     </div>

@@ -103,8 +103,6 @@ export default function Free3DPage() {
                             <span key={typeIndex} className="rounded-lg">
                                 {type == "conference" && <span className="mb-2">{pub?.conference}</span>}
                                 {type == "journal" && <span className="mb-2">{pub?.journal}</span>}
-                                {type == "workshop" && <span className="mb-2">{pub?.workshop}</span>}
-                                {type == "book" && <span className="mb-2">{pub?.book}</span>}
                             </span>
                         ))}
                         {pub?.category && (

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import publicationsData from "@/pvg_db/publications.json";
 import peopleData from "@/pvg_db/people.json";
-import { FaGithub } from "react-icons/fa";
 import { SocialIcons } from "@/components/ui/icons";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
 
@@ -11,7 +10,7 @@ const peopleName = "Chuanxia"
 
 export default function ChuanxiaPage() {
     // Find the person data for Chuanxia
-    const person = peopleData.faculty.find(p => p.name && p.name.toLowerCase().includes(peopleName.toLowerCase()));
+    const person = peopleData.faculty[0]; //.find(p => p.name.toLowerCase().includes(peopleName.toLowerCase()));
     
     const selctedPublications = publicationsData.filter(pub => pub.id && pub.id === "selected");
 
@@ -23,8 +22,8 @@ export default function ChuanxiaPage() {
                 {/* Image */}
                 <div className="w-1/5 flex items-center">
                     <Image
-                        src={person?.photo}
-                        alt={person?.name}
+                        src={person.photo}
+                        alt={person.name}
                         width={960}
                         height={960}
                         className="rounded-xl mx-auto">
@@ -162,8 +161,8 @@ export default function ChuanxiaPage() {
                                                             {type == "conference" && <span>{pub.conference}</span>}
                                                             {type == "journal" && <span>{pub.journal}</span>}
                                                             {type == "preprint" && <span>{pub.preprint}</span>}
-                                                            {type == "workshop" && <span>{pub.workshop}</span>}
-                                                            {type == "book" && <span>{pub.book}</span>}
+                                                            {/* {type == "workshop" && <span>{pub.workshop}</span>}
+                                                            {type == "book" && <span>{pub.book}</span>} */}
                                                         </span>
                                                     ))}
                                                     {pub.category && (
