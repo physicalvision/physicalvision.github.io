@@ -11,7 +11,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
   return (
     <>
       {!hideLayout && <Header />}
-      <main className="flex-1 max-w-6xl ma-auto px-0 py-4">{children}</main>
+      <main className="flex-1 max-w-6xl mx-auto px-0 py-4">{children}</main>
       {!hideLayout && <Footer />}
     </>
   );
