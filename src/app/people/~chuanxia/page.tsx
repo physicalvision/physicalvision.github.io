@@ -34,10 +34,10 @@ export default function ChuanxiaPage() {
                     <div className="flex-1">
                         {/* Name and Title */}
                         <h1 className="text-2xl font-bold text-gray-900 mb-4">{person?.name}</h1>
-                        <p className="text-gray-900 mb-4">{person?.title}</p>
-                        <p className="text-blue-800 hover:text-blue-900 underline"><a href={person?.group.url}>{person?.group.name}</a></p>
-                        <p className="text-blue-800 hover:text-blue-900"><a href={person?.department.url}>{person?.department.name}</a></p>
-                        <p className="text-blue-800 hover:text-blue-900 mb-4"><a href={person?.university.url}>{person?.university.name}</a></p>
+                        <p className="text-gray-900 mb-4">{person?.curTitle}</p>
+                        <p className="text-blue-800 hover:text-blue-900 underline"><a href={person?.curGroup.url}>{person?.curGroup.name}</a></p>
+                        <p className="text-blue-800 hover:text-blue-900"><a href={person?.curDepartment.url}>{person?.curDepartment.name}</a></p>
+                        <p className="text-blue-800 hover:text-blue-900 mb-4"><a href={person?.curUniversity.url}>{person?.curUniversity.name}</a></p>
                         {/* Link */}
                         {person?.links && person.links.length > 0 && (
                             <div className="items-center justify-center">

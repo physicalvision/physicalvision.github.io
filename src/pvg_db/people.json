@@ -4,6 +4,19 @@
         {
             "name": "Chuanxia Zheng",
             "title": "Nanyang Assistant Professor",
+            "curTitle": "MSCA Fellow",
+            "curGroup": {
+                "name": "Visual Geometry Group",
+                "url": "http://www.robots.ox.ac.uk/~vgg/"
+            },
+            "curDepartment": {
+                "name": "Department of Engineering Science",
+                "url": "https://eng.ox.ac.uk/"
+            },
+            "curUniversity": {
+                "name": "University of Oxford",
+                "url": "https://www.ox.ac.uk/"
+            },
             "group": {
                 "name": "Physical Visual Group",
                 "url": "/"
