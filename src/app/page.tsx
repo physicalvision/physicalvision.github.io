@@ -199,15 +199,17 @@ export default function Home() {
                 <article key={index} className="w-full bg-white border border-gray-200 rounded-lg shadow-sm">
                   <div className="flex items-center px-4 py-3 border-b bg-gray-200">
                     <h3 className="text-xl font-semibold text-gray-800 pr-6">{project.name}</h3>
-                      <a
-                        key={index}
-                        href={project.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-1 text-lg text-blue-800 hover:text-blue-900"
-                      >
-                        <BsArrowRightCircle/>
-                      </a>
+                      {project.website && (
+                        <a
+                          key={index}
+                          href={project.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-1 text-lg text-blue-800 hover:text-blue-900"
+                        >
+                          <BsArrowRightCircle/>
+                        </a>
+                      )}
                   </div>
 
                   <div className="flex flex-col px-4 py-3">
@@ -241,13 +243,13 @@ export default function Home() {
                       )}
                     </p>
                     <p className="text-base text-gray-900 mb-4">
-                    The grant was awarded in {project.awardDate} ({project.budget}), and started in {project.startDate} and will end in {project.endDate}.
+                    The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
                     </p>
                     {/* Description */}
                     <p className="text-sm text-gray-700 mb-4">{project.description}</p>
                     {/* Links */}
                     {project.links && project.links.length > 0 && (
-                      <div className="flex flex-wrap gap-2 pt-4 items-bottom">
+                      <div className="flex flex-wrap gap-2 items-bottom">
                         {project.links.map((link, linkIndex) => (
                           <a
                             key={linkIndex}

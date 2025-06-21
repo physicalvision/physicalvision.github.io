@@ -5,7 +5,7 @@ import projectsData from "@/pvg_db/projects.json";
 import { HiChevronUp } from "react-icons/hi";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
 
-const projectName = "MSCA Fellowship SYN3D"
+const projectName = "MSCA Fellowship"
 const projectKey = "SYN3D";
 
 export default function SYN3DPage() {
@@ -46,7 +46,7 @@ export default function SYN3DPage() {
                                 </a>
                             </p>
                             <p className="text-lg text-gray-900 mb-6">
-                            The grant was awarded in {project.awardDate} ({project.budget}), and started in {project.startDate} and will end in {project.endDate}.
+                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
                             </p>
                             {/* Objectives */}
                             <h3 className="text-xl font-semibold text-gray-900 mb-2">Objectives</h3>

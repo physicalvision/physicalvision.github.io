@@ -21,15 +21,17 @@ export default function PublicationsPage() {
                                         <h3 className="text-xl font-semibold text-gray-800 pr-6">
                                         {project.name}
                                         </h3>
-                                        <a
-                                            key={index}
-                                            href={project.website}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="px-8 text-lg text-blue-800 hover:text-blue-900 underline flex items-center"
-                                        >
-                                            More ...
-                                        </a>
+                                        {project.website && (
+                                            <a
+                                                key={index}
+                                                href={project.website}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="px-8 text-lg text-blue-800 hover:text-blue-900 underline flex items-center"
+                                            >
+                                                More ...
+                                            </a>
+                                        )}
                                     </div>
 
                                     <div className="flex flex-col px-4 py-3">
@@ -64,14 +66,14 @@ export default function PublicationsPage() {
                                             )}
                                         </p>
                                         <p className="text-base text-gray-900 mb-4">
-                                            The grant was awarded in {project.awardDate} ({project.budget}), and started in {project.startDate} and will end in {project.endDate}.
+                                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
                                         </p>
                                         {/* Description */}
                                         <p className="text-sm text-gray-700 mb-4">{project.description}</p>
                                         {/* Image */}
                                         {project.image && project.image.length > 0 && (
                                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-                                                {project.image.map((img, imgIndex) => (
+                                                {project.image.map((img, imgIndex) => (img.src && (
                                                     <p key={imgIndex} className="relative rounded-lg">
                                                         <video
                                                             key={imgIndex}
@@ -87,7 +89,7 @@ export default function PublicationsPage() {
                                                     <span className="absolute top-0 right-0 bg-black bg-opacity-100 text-white px-2 py-1 text-xs rounded">{img.title}</span>
                                                     <span className="text-sm text-gray-500">{img.alt}</span>
                                                     </p>
-                                                ))}
+                                                )))}
                                             </div>
                                         )}
                                         {/* Links */}
@@ -168,7 +170,7 @@ export default function PublicationsPage() {
                                             )}
                                         </p>
                                         <p className="text-base text-gray-900 mb-4">
-                                            The grant was awarded in {project.awardDate} ({project.budget}), and started in {project.startDate} and will end in {project.endDate}.
+                                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
                                         </p>
                                         {/* Description */}
                                         <p className="text-sm text-gray-700 mb-4">{project.description}</p>

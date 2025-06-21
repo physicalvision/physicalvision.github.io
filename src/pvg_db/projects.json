@@ -2,11 +2,57 @@
     "currentProjects":
     [
         {
+            "startDate": "01/07/2025",
+            "endDate": "30/06/2026",
+            "awardDate": "30/03/2025",
+            "title": "Feed-Forward 4D Scene Reconstruction from Any Monocular Video",
+            "name": "Sony Focused Research Award",
+            "shortName": "Vista4D",
+            "description": "The aim of Vista4D is to obtain photorealistic 4D reconstructions of dynamic scenes from a single monocular video. To achieve this, Vista4D will develop a feed-forward neural network that, given as input a single monocular video, will output directly its 4D reconstruction",
+            "reference": "",
+            "founder": {
+                "name": "Sony Research Award Program",
+                "url": "https://www.sony.com/en/SonyInfo/research-award-program/#FocusedResearchAward"
+            },
+            "role": "Co-PI",
+            "budget": "",
+            "website": "",
+            "topics": ["4D Synthesis", "Novel View Synthesis", "4D Reconstruction"],
+            "objectives":
+            [
+                "To learn a neural network which outputs a corresponding 4D reconstruction of the scene observed in the single monocular video.",
+                "To develop a system that completes the 4D scene by generating the missing parts.",
+                "To further develop the architecture by integrating explicit geometric constraints, such as depth estimation, object tracking and camera registration."
+            ],
+            "teamMembers":
+            [
+                {
+                    "name": "Andrea Vedaldi",
+                    "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+                }
+            ],
+            "image":
+            [
+                {
+                    "src": "",
+                    "title": "",
+                    "alt": ""
+                }
+            ],
+            "links":
+            [
+                {
+                    "label": "Sony Research Award Program",
+                    "url": "https://www.sony.com/en/SonyInfo/research-award-program/#Overview"
+                }
+            ]
+        },
+        {
             "startDate": "01/06/2024",
             "endDate": "01/06/2026",
             "awardDate": "13/02/2024",
             "title": "Synthesizing Photorealistic 3D Scene from Zero to One or Limited Views",
-            "name": "MSCA Fellowship SYN3D",
+            "name": "MSCA Fellowship",
             "shortName": "SYN3D",
             "description": "The aim of SYN3D is to enable the effortless creation of novel view synthesis and 3D reconstruction from limited views (from 0 to 5) in a feed-forward manner. In general, such a few input views do not contain sufficient information for compressive 3D synthesis. However, our scientific hypothesis is that 3D synthesis from limited views is still possible by learning, from billion images, the capability of hallucinating unobserved parts of 3D objects/scenes, thus obtaining plausible if not faithful reconstructions.",
             "reference": "EP/Z001811/1",
@@ -52,7 +98,7 @@
                 },
                 {
                     "label": "project website",
-                    "url": "/projects/~syn3d/"
+                    "url": "/projects/~syn3d"
                 }
             ]
         }
