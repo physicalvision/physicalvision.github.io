@@ -226,18 +226,20 @@ export default function Home() {
                       </a>,
                       &nbsp;{project.role}
                       {project.teamMembers.length > 0 && (
-                        <span> , with
+                        <span>
                           {project.teamMembers.map((member, memberIndex) => (
-                            <span key={memberIndex}> &nbsp;
-                              <a
-                                href={member.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-800 hover:text-blue-900 underline"
-                              >
-                                {member.name}
-                              </a>
-                            </span>
+                            member.name && (
+                              <span key={memberIndex}>, with &nbsp;
+                                <a
+                                  href={member.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-blue-800 hover:text-blue-900 underline"
+                                >
+                                  {member.name}
+                                </a>
+                              </span>
+                            )                           
                            ))}
                         </span>
                       )}

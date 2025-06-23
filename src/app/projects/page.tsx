@@ -49,19 +49,20 @@ export default function PublicationsPage() {
                                             &nbsp;{project.role}
                                             {project.teamMembers.length > 0 && (
                                                 <span>
-                                                    , with
-                                                    {project.teamMembers.map((member, memberIndex) => (
-                                                        <span key={memberIndex}>
-                                                            &nbsp;<a
-                                                                href={member.url}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                                className="text-blue-800 hover:text-blue-900 underline"
-                                                            >
-                                                                {member.name}
-                                                            </a>
-                                                        </span>
-                                                    ))}
+                                                {project.teamMembers.map((member, memberIndex) => (
+                                                    member.name && (
+                                                    <span key={memberIndex}>, with &nbsp;
+                                                        <a
+                                                        href={member.url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-blue-800 hover:text-blue-900 underline"
+                                                        >
+                                                        {member.name}
+                                                        </a>
+                                                    </span>
+                                                    )                           
+                                                ))}
                                                 </span>
                                             )}
                                         </p>

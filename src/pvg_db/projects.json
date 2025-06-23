@@ -2,6 +2,52 @@
     "currentProjects":
     [
         {
+            "startDate": "01/09/2025",
+            "endDate": "30/08/2030",
+            "awardDate": "12/02/2025",
+            "title": "Integrating Physical Properties in Natural World Creation",
+            "name": "NRF Fellowship, National Research Foundation",
+            "shortName": "PhysWorld",
+            "description": "The aim of PhysWorld is to create a realistic natural world adhering to physical principles, rather than dealing with only the realistic pixels as in traditional image, video, and 3D synthesis. Physics-based natural world creation is challenging because it requires a holistic interpretation of scenes and objects within it, including but not limited to appearance, geometry, materials, occlusion, motion, gravity, interaction, mass and sound.",
+            "reference": "",
+            "founder": {
+                "name": "National Research Foundation",
+                "url": "https://www.nrf.gov.sg/grants/nrff/"
+            },
+            "role": "PI",
+            "budget": "S$ 3,078,720.00",
+            "website": "",
+            "topics": ["Geometry", "Motion", "Interaction", "Gravity", "Occlusion", "Physics"],
+            "objectives":
+            [
+                "To develop a system for feed-forward 3D reconstruction and decomposition from a set of sparse views.",
+                "To develop a system for feed-forward 4D reconstruction and decomposition from a monocular video.",
+                "To develop a system for natural world creation with physical interaction."
+            ],
+            "teamMembers":
+            [
+                {
+                    "name": "",
+                    "url": ""
+                }
+            ],
+            "image":
+            [
+                {
+                    "src": "",
+                    "title": "",
+                    "alt": ""
+                }
+            ],
+            "links":
+            [
+                {
+                    "label": "NRF Fellowship",
+                    "url": "https://www.nrf.gov.sg/grants/nrff/"
+                }
+            ]
+        },
+        {
             "startDate": "01/07/2025",
             "endDate": "30/06/2026",
             "awardDate": "30/03/2025",
