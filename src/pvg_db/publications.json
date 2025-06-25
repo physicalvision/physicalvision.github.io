@@ -399,59 +399,6 @@
         ]
     },
     {
-        "date": "08/08/2024",
-        "image": "/videos/puppet-master.mp4",
-        "title": "Puppet-Master: Scaling Interactive Video Generation as a Motion Prior for Part-Level Dynamics",
-        "description": "An interactive video generative model that can serve as a motion prior for part-level dynamics.",
-        "type": ["preprint"],
-        "projects": ["SYN3D"], 
-        "preprint": "arXiv, 2024",
-        "id": "selected",
-        "topics": ["Interaction", "Diffusion Model"],
-        "authors":
-        [
-            {
-                "name": "Ruining Li",
-                "url": "https://ruiningli.com/"
-            },
-            {
-                "name": "Chuanxia Zheng",
-                "url": "/people/~chuanxia"
-            },
-            {
-                "name": "Christian Rupprecht",
-                "url": "https://chrirupp.github.io/"
-            },
-            {
-                "name": "Andrea Vedaldi",
-                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
-            }
-        ],
-        "links":
-        [
-            {
-                "label": "website",
-                "url": "https://vgg-puppetmaster.github.io/"
-            },
-            {
-                "label": "arxiv",
-                "url": "https://arxiv.org/abs/2408.04631"
-            },
-            {
-                "label": "code",
-                "url":"https://github.com/RuiningLi/puppet-master"
-            },
-            {
-                "label": "data",
-                "url": "https://github.com/RuiningLi/puppet-master/tree/main/data"
-            },
-            {
-                "label": "demo",
-                "url": "https://huggingface.co/spaces/rayli/Puppet-Master"
-            }
-        ]
-    },
-    {
         "date": "23/10/2024",
         "image": "/videos/matchnerf_teaser.mp4",
         "title": "Explicit Correspondence Matching for Generalizable Neural Radiance Fields",
