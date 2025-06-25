@@ -6,7 +6,7 @@
         "description": "A method to repurpose video diffusion models for monocular 3D reconstruction of dynamic scenes.",
         "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "ICCV, 2025",
+        "conference": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Motion"],
         "authors":
@@ -55,7 +55,7 @@
         "description": "A feed-forward approach to increase the likelihood that the 3D generator outputs stable 3D objects directly.",
         "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "ICCV, 2025",
+        "conference": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Gravity"],
         "authors":
@@ -104,7 +104,7 @@
         "description": "A modal for completed 3D reconstruction from partially visible inputs.",
         "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "ICCV, 2025",
+        "conference": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Occlusion"],
         "authors":
@@ -157,7 +157,7 @@
         "description": "An interactive video generative model that can serve as a motion prior for part-level dynamics.",
         "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "ICCV, 2025",
+        "conference": "ICCV, 2025",
         "id": "selected",
         "topics": ["Interaction", "Diffusion Model"],
         "authors":
