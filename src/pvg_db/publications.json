@@ -1,12 +1,12 @@
 [
     {
-        "date": "28/03/2025",
+        "date": "25/06/2025",
         "image": "/videos/geo4d-short.mp4",
         "title": "Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction",
         "description": "A method to repurpose video diffusion models for monocular 3D reconstruction of dynamic scenes.",
-        "type": ["preprint"],
+        "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "arXiv, 2025",
+        "preprint": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Motion"],
         "authors":
@@ -49,13 +49,13 @@
         ]
     },
     {
-        "date": "28/03/2025",
+        "date": "25/06/2025",
         "image": "/videos/DSO_teaser.mp4",
         "title": "DSO: Aligning 3D Generators with Simulation Feedback for Physical Soundness",
         "description": "A feed-forward approach to increase the likelihood that the 3D generator outputs stable 3D objects directly.",
-        "type": ["preprint"],
+        "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "arXiv, 2025",
+        "preprint": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Gravity"],
         "authors":
@@ -98,13 +98,13 @@
         ]
     },
     {
-        "date": "28/03/2025",
+        "date": "25/06/2025",
         "image": "/videos/amodal3r_teaser.mp4",
         "title": "Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images",
         "description": "A modal for completed 3D reconstruction from partially visible inputs.",
-        "type": ["preprint"],
+        "type": ["conference"],
         "projects": ["SYN3D"], 
-        "preprint": "arXiv, 2025",
+        "preprint": "ICCV, 2025",
         "id": "selected",
         "topics": ["Physics", "Diffusion Model", "3D Reconstruction", "Occlusion"],
         "authors":
@@ -147,6 +147,59 @@
             {
                 "label": "demo",
                 "url": "https://huggingface.co/spaces/Sm0kyWu/Amodal3R"
+            }
+        ]
+    },
+    {
+        "date": "25/06/2025",
+        "image": "/videos/puppet-master.mp4",
+        "title": "Puppet-Master: Scaling Interactive Video Generation as a Motion Prior for Part-Level Dynamics",
+        "description": "An interactive video generative model that can serve as a motion prior for part-level dynamics.",
+        "type": ["conference"],
+        "projects": ["SYN3D"], 
+        "preprint": "ICCV, 2025",
+        "id": "selected",
+        "topics": ["Interaction", "Diffusion Model"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://vgg-puppetmaster.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2408.04631"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/RuiningLi/puppet-master"
+            },
+            {
+                "label": "data",
+                "url": "https://github.com/RuiningLi/puppet-master/tree/main/data"
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/rayli/Puppet-Master"
             }
         ]
     },
