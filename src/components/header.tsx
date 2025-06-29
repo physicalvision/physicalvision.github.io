@@ -29,6 +29,7 @@ export default function Header() {
               <Image
                   src="/images/NTU_Logo.webp"
                   alt="NTU Logo"
+                  className="h-[40px] w-auto object-contain"
                   width={100}
                   height={60}
               />
@@ -37,6 +38,7 @@ export default function Header() {
               <Image
                   src="/images/pvg_log.png"
                   alt="PVG Logo"
+                  className="h-[50px] w-auto object-contain"
                   width={100}
                   height={60}
               />
