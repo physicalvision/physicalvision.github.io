@@ -101,7 +101,7 @@
         "date": "25/06/2025",
         "image": "/videos/amodal3r_teaser.mp4",
         "title": "Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images",
-        "description": "A modal for completed 3D reconstruction from partially visible inputs.",
+        "description": "A model for completed 3D reconstruction from partially visible inputs.",
         "type": ["conference"],
         "projects": ["SYN3D"], 
         "conference": "ICCV, 2025",
