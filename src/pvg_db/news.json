@@ -1,9 +1,100 @@
 [
     {
+        "date": "25/06/2025",
+        "title": "Four papers accepted at ICCV'25",
+        "description": "Papers accepted: Geo4D, Amodal3R, DSO and Puppet-Master",
+        "type": "publication",
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "Geo4D",
+                    "text": "Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction",
+                    "url": "https://geo4d.github.io/"
+                },
+                {
+                    "name": "Amodal3R",
+                    "text": "Amodal3R: Amodal 3D Reconstruction from Occluded 2D Images",
+                    "url": "https://sm0kywu.github.io/Amodal3R/"
+                },
+                {
+                    "name": "DSO",
+                    "text": "DSO: Aligning 3D Generators with Simulation Feedback for Physical Soundness",
+                    "url": "https://ruiningli.com/dso"
+                },
+                {
+                    "name": "Puppet-Master",
+                    "text": "Puppet-Master: Scaling Interactive Video Generation as a Motion Prior for Part-Level Dynamics",
+                    "url": "https://vgg-puppetmaster.github.io/"
+                }
+            ]
+    },
+    {
+        "date": "24/04/2025",
+        "title": "One paper accepted at ICLR'25",
+        "description": "Papers accepted: Semantix",
+        "type": "publication",
+        "id": "unselected",
+        "links":
+            [
+                {
+                    "name": "Semantix",
+                    "text": "Semantix: An Energy Guided Sampler for Semantic Style Transfer",
+                    "url": "https://huiang-he.github.io/semantix/"
+                }
+            ]
+    },
+    {
+        "date": "25/03/2025",
+        "title": "One paper accepted at 3DV'25",
+        "description": "Papers accepted: Flash3D",
+        "type": "publication",
+        "id": "unselected",
+        "links":
+            [
+                {
+                    "name": "Flash3D",
+                    "text": "Flash3D: Feed-Forward Generalisable 3D Scene Reconstruction from a Single Image",
+                    "url": "https://www.robots.ox.ac.uk/~vgg/research/flash3d/"
+                }
+            ]
+    },
+    {
+        "date": "12/02/2025",
+        "title": "Chuanxia Zheng is awarded the Singapore NRF Fellowship",
+        "description": "NRF runs initiatives to attract and retain top scientists, support competitive funding of research, establish world-leading research centres and engage eminent science and technology leaders.",
+        "type": ["award", "project"],
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "NRF Fellowship",    
+                    "text": "NRF Fellowship",
+                    "url": "https://www.nrf.gov.sg/grants/nrff/"
+                }
+            ]
+    },
+    {
+        "date": "01/11/2024",
+        "title": "Chuanxia Zheng is awarded the DAAD AInet Fellows",
+        "description": "The DAAD is the world’s largest funding organisation for the international exchange of students and researchers",
+        "type": ["award", "project"],
+        "id": "unselected",
+        "links":
+            [
+                {
+                    "name": "DAAD AInet Fellowship",    
+                    "text": "DAAD AInet Fellowship",
+                    "url": "https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/"
+                }
+            ]
+    },
+    {
         "date": "25/09/2024",
         "title": "Two papers accepted at NeurIPS'24",
         "description": "Papers accepted: MVSplat360 and Physical Understanding",
         "type": "publication",
+        "id": "selected",
         "links":
             [
                 {
@@ -23,6 +114,7 @@
         "title": "Three papers accepted at ECCV'24",
         "description": "Papers accepted: MVSplat, DragApart and ClusteringSDF",
         "type": "publication",
+        "id": "selected",
         "links":
             [
                 {
@@ -47,6 +139,7 @@
         "title": "Three papers accepted at CVPR'24",
         "description": "Papers accepted: Free3D, Amodal in the wild, and OneMoreStep",
         "type": "publication",
+        "id": "unselected",
         "links":
             [
                 {
@@ -71,6 +164,7 @@
         "title": "Chuanxia Zheng is awarded the MSCA Fellowship",
         "description": "The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships",
         "type": ["award", "project"],
+        "id": "selected",
         "links":
             [
                 {

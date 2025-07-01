@@ -39,7 +39,7 @@ export default function Home() {
   };
 
   const currentVideo = videoData[activeIndex];
-  const currentNews = newsData.slice(0, 4);  // Get the first 4 news items
+  const currentNews = newsData.filter(p => p.id == "selected");  // Get the first 4 news items
   const currentProjects = projectData.currentProjects.slice(0, 4); // Get the first 4 current projects
 
   return (
