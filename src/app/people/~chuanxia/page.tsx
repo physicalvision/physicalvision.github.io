@@ -66,7 +66,7 @@ export default function ChuanxiaPage() {
                         <p className="font-bold text-gray-700 mb-4">Generative AI</p>
                         {/* CV Button */}
                         <a
-                            href="/https://physicalvision.github.io/people/~chuanxia/resume_chuanxia.pdf"
+                            href="/files/resume_chuanxia.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded shadow"
