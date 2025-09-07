@@ -4,18 +4,22 @@
         {
             "name": "Chuanxia Zheng",
             "title": "Nanyang Assistant Professor",
-            "curTitle": "MSCA Fellow",
+            "curTitle": "Nanyang Assistant Professor",
             "curGroup": {
-                "name": "Visual Geometry Group",
-                "url": "http://www.robots.ox.ac.uk/~vgg/"
+                "name": "Physical Visual Group",
+                "url": "https://physicalvision.github.io/"
             },
             "curDepartment": {
-                "name": "Department of Engineering Science",
-                "url": "https://eng.ox.ac.uk/"
+                "name": "College of Computing and Data Science",
+                "url": "https://www.ntu.edu.sg/computing"
             },
             "curUniversity": {
-                "name": "University of Oxford",
-                "url": "https://www.ox.ac.uk/"
+                "name": "Nanyang Technological University",
+                "url": "https://www.ntu.edu.sg/"
+            },
+            "location": {
+                "name": "N3-02C-94",
+                "url": "https://www.ntu.edu.sg/"
             },
             "group": {
                 "name": "Physical Visual Group",
@@ -38,7 +42,7 @@
                 },
                 {
                     "label": "email",
-                    "url": "chuanxia001@e.ntu.edu.sg"
+                    "url": "chuanxia.zheng@ntu.edu.sg"
                 },
                 {
                     "label": "google-scholar",
@@ -61,6 +65,25 @@
     ],
     "currentStudents":
     [
+        {
+            "name": "Weirong Chen",
+            "title": "PhD Student",
+            "university": "Technical University of Munich, Germany",
+            "startYear": 2025,
+            "photo": "/images/team/weirong_chen.jpg",
+            "coSupervisors": "A. Vedaldi and D. Cremers",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://wrchen530.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?hl=en&user=50yGm5wAAAAJ"
+                }
+            ]
+        },
         {
             "name": "Zeren Jiang",
             "title": "PhD Student",
@@ -113,12 +136,17 @@
                     "url": "https://scholar.google.com/citations?user=JmQkXLUAAAAJ&hl=en"
                 }
             ]
-        },
+        }
+    ],
+    "alumni":
+    [
         {
             "name": "Tianhao Wu",
             "title": "PhD Student",
             "startYear": 2022,
+            "endYear": 2025,
             "university": "Nanyang Technological University, SG",
+            "workposition": "Research Scientist at Apple",
             "photo": "/images/team/tianhao_wu.jpg",
             "coSupervisors": "T.J. Cham",
             "links":
@@ -132,10 +160,7 @@
                     "url": "https://scholar.google.com/citations?hl=en&user=AHTID_gAAAAJ"
                 }
             ]
-        }
-    ],
-    "alumni":
-    [
+        },
         {
             "name": "Yuedong Chen",
             "title": "Doctoral",

@@ -120,7 +120,7 @@ export default function Home() {
         </h3>
         <ul className="list-disc font-medium italic pl-5 mb-1 text-gray-900">
             <li className="mb-1"><strong className="underline">Phd student:</strong> &nbsp;
-              we have multiple PhD openings for Spring 2026 and Fall 2026.
+              we have multiple PhD openings for Fall 2026.
             </li>
             <li className="mb-1"><strong className="underline">Postdoc position:</strong> &nbsp;
               we have two postdoc positions available.

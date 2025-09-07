@@ -171,7 +171,7 @@ export default function PublicationsPage() {
                                             )}
                                         </p>
                                         <p className="text-base text-gray-900 mb-4">
-                                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
+                                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and was end on {project.endDate}.
                                         </p>
                                         {/* Description */}
                                         <p className="text-sm text-gray-700 mb-4">{project.description}</p>

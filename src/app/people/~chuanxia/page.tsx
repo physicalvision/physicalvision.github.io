@@ -30,7 +30,7 @@ export default function ChuanxiaPage() {
                     </Image>
                 </div>
                 {/* Person Info */}
-                <div className="w-4/5 flex flex-col md:flex-row justify-between">
+                <div className="w-2/5 flex flex-col md:flex-row justify-between">
                     <div className="flex-1">
                         {/* Name and Title */}
                         <h1 className="text-2xl font-bold text-gray-900 mb-4">{person?.name}</h1>
@@ -56,14 +56,51 @@ export default function ChuanxiaPage() {
                         )}
                     </div>
                 </div>
+                {/* Other Info */}
+                <div className="w-2/5 flex flex-col md:flex-row justify-between">
+                    <div className="flex-1">
+                        {/* Research Direction */}
+                        <h1 className="text-2xl font-bold text-gray-900 mb-1">Research Interests:</h1>
+                        <p className="font-bold text-gray-700">Physical AI</p>
+                        <p className="font-bold text-gray-700">Spatial AI</p>
+                        <p className="font-bold text-gray-700 mb-4">Generative AI</p>
+                        {/* CV Button */}
+                        <a
+                            href="/https://physicalvision.github.io/people/~chuanxia/resume_chuanxia.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded shadow"
+                        >
+                            Resume
+                        </a>
+                        {/* Google Scholar Button */}
+                        <a
+                            href="https://scholar.google.com/citations?user=mvpE6bIAAAAJ&hl=en"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-gray-100 hover:bg-gray-200 text-black px-4 py-2 rounded shadow ml-8"
+                        >
+                            Google Scholar
+                        </a>
+                    </div>
+                </div>
             </div>
             {/* Biography */}
             <div className="w-full px-4 md:px-6 mb-2 py-2 text-justify">
                 <p className="text-gray-900 mb-4">
-                    I am currently a <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900">Marie Skłodowska-Curie Actions (MSCA) Fellow </a>
+                    I am a <a href="https://www.ntu.edu.sg/research/research-careers/nanyang-assistant-professorship-(nap)" className="text-blue-800 hover:text-blue-900">{person?.title} </a>
+                    at the <a href={person?.department.url} className="text-blue-800 hover:text-blue-900"> {person?.department.name}</a>,
+                    <a href={person?.university.url} className="text-blue-800 hover:text-blue-900"> {person?.university.name}</a>,
+                    where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.group.name}</a>.
+                    My research focuses on <strong>Creative AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
+                    The broader goal is to create realistic digital twins of the natural world, with various physical properties in a simulator,
+                    capturing not only appearance, content, and geometry but also <strong>occlusion, dynamics, gravity, interaction, sound and more.</strong>
+                </p>
+                <p className="text-gray-900 mb-4">
+                    Before joining NTU, I was a <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900">Marie Skłodowska-Curie Actions (MSCA) Fellow </a>
                     in <a href="https://www.robots.ox.ac.uk/~vgg/" className="text-blue-800 hover:text-blue-900"> VGG </a> 
                     at the <a href="https://www.ox.ac.uk/" className="text-blue-800 hover:text-blue-900">University of Oxford</a>,
-                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a> on feed-forward photorealistic 3D and 4D reconstruction.
+                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a> on feed-forward ealistic 3D and 4D reconstruction.
                     I was very fortunate to also collaborate with <a href="https://www.robots.ox.ac.uk/~az/" className="text-blue-800 hover:text-blue-900">Andrew Zisserman</a>,
                     <a href="https://chrirupp.github.io/" className="text-blue-800 hover:text-blue-900"> Christian Rupprecht</a>,
                     and <a href="https://scholar.google.com/citations?user=n9nXAPcAAAAJ&hl=en" className="text-blue-800 hover:text-blue-900">Iro Laina </a>
@@ -72,15 +109,6 @@ export default function ChuanxiaPage() {
                     <a href="https://www.ntu.edu.sg/" className="text-blue-800 hover:text-blue-900"> Nanyang Technological University (NTU)</a>,
                     advised by <a href="https://personal.ntu.edu.sg/astjcham/" className="text-blue-800 hover:text-blue-900"> Prof. Tat-Jen Cham </a>
                     and <a href="https://jianfei-cai.github.io/" className="text-blue-800 hover:text-blue-900"> Prof. Jianfei Cai</a>.             
-                </p>
-                <p className="text-gray-900 mb-4">
-                    I am an incoming <a href="https://www.ntu.edu.sg/research/research-careers/nanyang-assistant-professorship-(nap)" className="text-blue-800 hover:text-blue-900">{person?.title} </a>
-                    (starting from Fall 2025) at the <a href={person?.department.url} className="text-blue-800 hover:text-blue-900"> {person?.department.name}</a>,
-                    <a href={person?.university.url} className="text-blue-800 hover:text-blue-900"> {person?.university.name}</a>,
-                    where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.group.name}</a>.
-                    My research focuses on <strong>Creative AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
-                    The broader goal is to create realistic digital twins of the natural world, with various physical properties,
-                    capturing not only appearance, content, and geometry but also <strong>occlusion, dynamics, gravity, interaction, sound and more.</strong>
                 </p>
             </div>
 
@@ -92,7 +120,7 @@ export default function ChuanxiaPage() {
                 </h3>
                 <ul className="list-disc font-medium italic pl-5 mb-1 text-gray-900">
                     <li className="mb-1"><strong className="underline">Phd student:</strong> &nbsp;
-                    we have multiple PhD openings for Spring 2026 and Fall 2026.
+                    we have multiple PhD openings for Fall 2026.
                     </li>
                     <li className="mb-1"><strong className="underline">Postdoc position:</strong> &nbsp;
                     we have two postdoc positions available.
@@ -220,7 +248,7 @@ export default function ChuanxiaPage() {
             <div className="w-full px-4 md:px-6 mb-6 py-2">
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">Professional Services</h1>
                 <ul className="list-disc pl-5 text-gray-900">
-                    <li className="mb-1">Area chair: BMVC (2024-2025), ACM MM 2024</li>
+                    <li className="mb-1">Area chair: BMVC (2024-2025), ACM MM 2024, ICLR 2026, CVPR 2026</li>
                     <li className="mb-1">Conference reviewer: CVPR (2020-2025), ICCV (2019-2025), ECCV (2020-2024), NeurIPS (2022-2025), ICLR (2021-2025), ICML 2023</li>
                     <li className="mb-1">Journal reviewer: TPAMI, IJCV, TIP, PR, TMM (Outstanding Reviewer Award, 2021), TCSVT</li>
                 </ul>

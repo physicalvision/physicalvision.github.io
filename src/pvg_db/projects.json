@@ -92,10 +92,13 @@
                     "url": "https://www.sony.com/en/SonyInfo/research-award-program/#Overview"
                 }
             ]
-        },
+        }
+    ],
+    "pastProjects":
+    [
         {
             "startDate": "01/06/2024",
-            "endDate": "01/06/2026",
+            "endDate": "31/08/2025",
             "awardDate": "13/02/2024",
             "title": "Synthesizing Photorealistic 3D Scene from Zero to One or Limited Views",
             "name": "MSCA Fellowship",
@@ -147,11 +150,7 @@
                     "url": "/projects/~syn3d"
                 }
             ]
-        }
-    ],
-    "pastProjects":
-    [
-        
+        },   
         {
             "startDate": "01/02/2024",
             "endDate": "01/08/2024",
