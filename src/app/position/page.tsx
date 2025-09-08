@@ -53,13 +53,13 @@ export default function PositionPage() {
                             <h1 className="text-2xl font-bold text-gray-900 mb-2">Require Documents</h1>
                             <p className="text-gray-700 mb-4">
                             When applying, please compile all required documents into a <strong>single pdf</strong> and email to &nbsp;
-                            <a href="mailto:chuanxia001@e.ntu.edu.sg" className="text-blue-800 hover:underline">
+                            <a href="mailto:chuanxia.zheng@ntu.edu.sg" className="text-blue-800 hover:underline">
                                 <MdEmail
                                 size={16}
                                 className="inline-block align-text-bottom text-blue-800 hover:text-blue-900 transition-colors duration-200"
                                 >
                                 </MdEmail>
-                                chuanxia001@e.ntu.edu.sg
+                                chuanxia.zheng@ntu.edu.sg
                             </a>
                             &nbsp; with the subject line "Application for [Position] - [Your Name]":
                             </p>
