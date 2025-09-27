@@ -6,7 +6,7 @@
             "title": "Nanyang Assistant Professor",
             "curTitle": "Nanyang Assistant Professor",
             "curGroup": {
-                "name": "Physical Visual Group",
+                "name": "Physical Visual Group (PVG)",
                 "url": "https://physicalvision.github.io/"
             },
             "curDepartment": {
@@ -207,6 +207,23 @@
     ],
     "collaborators":
     [
+        {
+            "name": "Dr. Daniel Cremers",
+            "title": "Professor",
+            "department": "School of Computation, Information and Technology",
+            "university": "Technical University of Munich, Germany",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://cvg.cit.tum.de/members/cremers"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=cXQciMEAAAAJ"
+                }
+            ]
+        },
         {
             "name": "Dr. Tat-Jen Cham",
             "title": "Professor",

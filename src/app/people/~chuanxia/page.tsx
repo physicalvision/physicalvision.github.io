@@ -1,10 +1,13 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 import publicationsData from "@/pvg_db/publications.json";
 import peopleData from "@/pvg_db/people.json";
+import projectData from "@/pvg_db/projects.json";
 import { SocialIcons } from "@/components/ui/icons";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
+import { BsArrowRightCircle } from "react-icons/bs";
 
 const peopleName = "Chuanxia"
 
@@ -13,6 +16,7 @@ export default function ChuanxiaPage() {
     const person = peopleData.faculty[0]; //.find(p => p.name.toLowerCase().includes(peopleName.toLowerCase()));
     
     const selctedPublications = publicationsData.filter(pub => pub.id && pub.id === "selected");
+    const currentProjects = projectData.currentProjects.slice(0, 1); // Get the first 4 current projects
 
     return (
         <>
@@ -91,7 +95,7 @@ export default function ChuanxiaPage() {
                     I am a <a href="https://www.ntu.edu.sg/research/research-careers/nanyang-assistant-professorship-(nap)" className="text-blue-800 hover:text-blue-900">{person?.title} </a>
                     at the <a href={person?.department.url} className="text-blue-800 hover:text-blue-900"> {person?.department.name}</a>,
                     <a href={person?.university.url} className="text-blue-800 hover:text-blue-900"> {person?.university.name}</a>,
-                    where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.group.name}</a>.
+                    where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.curGroup.name}</a>.
                     My research focuses on <strong>Creative AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
                     The broader goal is to create realistic digital twins of the natural world, with various physical properties in a simulator,
                     capturing not only appearance, content, and geometry but also <strong>occlusion, dynamics, gravity, interaction, sound and more.</strong>
@@ -100,7 +104,7 @@ export default function ChuanxiaPage() {
                     Before joining NTU, I was a <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900">Marie Skłodowska-Curie Actions (MSCA) Fellow </a>
                     in <a href="https://www.robots.ox.ac.uk/~vgg/" className="text-blue-800 hover:text-blue-900"> VGG </a> 
                     at the <a href="https://www.ox.ac.uk/" className="text-blue-800 hover:text-blue-900">University of Oxford</a>,
-                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a> on feed-forward ealistic 3D and 4D reconstruction.
+                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a> on feed-forward realistic 3D and 4D reconstruction.
                     I was very fortunate to also collaborate with <a href="https://www.robots.ox.ac.uk/~az/" className="text-blue-800 hover:text-blue-900">Andrew Zisserman</a>,
                     <a href="https://chrirupp.github.io/" className="text-blue-800 hover:text-blue-900"> Christian Rupprecht</a>,
                     and <a href="https://scholar.google.com/citations?user=n9nXAPcAAAAJ&hl=en" className="text-blue-800 hover:text-blue-900">Iro Laina </a>
@@ -112,23 +116,131 @@ export default function ChuanxiaPage() {
                 </p>
             </div>
 
-            {/* Positions */}
-            <div className="w-full px-4 md:px-6 mb-6 py-2 text-justify bg-yellow-100">
+            {/* Positions section */}
+            <section id="positions" className="w-full pb-4 max-w-full text-justify">
+            <div className="container px-6 md:px-6 bg-yellow-100" role="alert">
                 <h3 className="text-base font-medium italic flex items-center text-gray-900">
                 <span className="mr-2 text-lg">📍</span>
-                    Openings: more details are available at &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">Position</a>.
+                If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>.
                 </h3>
-                <ul className="list-disc font-medium italic pl-5 mb-1 text-gray-900">
-                    <li className="mb-1"><strong className="underline">Phd student:</strong> &nbsp;
-                    we have multiple PhD openings for Fall 2026.
+            </div>
+            </section>
+
+            {/* News */}
+            <div className="w-full px-4 md:px-6 mb-4 py-2">
+                <h1 className="text-2xl font-bold text-gray-900 mb-2">News</h1>
+                <ul className="list-disc pl-5 text-gray-900">
+                    <li className="mb-1">
+                        [29/07/2025] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        I am one of eleven researchers selected for 
+                        <a href="https://file.go.gov.sg/nrf-fellowship.pdf" className="text-blue-800 hover:text-blue-900"> Singapore National Research Foundation (NRF) Fellow of the Year 2025</a>,
+                        awarded outstanding young scientists from around the world to conduct independent research in Singapore, over a five-year period.
                     </li>
-                    <li className="mb-1"><strong className="underline">Postdoc position:</strong> &nbsp;
-                    we have two postdoc positions available.
+                    <li className="mb-1">
+                        [29/10/2024] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        I have been selected as a
+                        <a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/" className="text-blue-800 hover:text-blue-900"> DAAD AInet fellow</a>,
+                        a fellowship awarded to excellent international researchers from the field of AI.
                     </li>
-                    <li className="mb-1"><strong className="underline">Research Assistant:</strong> &nbsp;
-                    we have two research assistant positions available.
+                    <li className="mb-1">
+                        [13/02/2024] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        I am awarded the prestigious
+                        <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900"> Marie Skłodowska-Curie Actions (MSCA) Fellowship</a>.
+                        The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships
+                        (<a href="https://en.wikipedia.org/wiki/Marie_Sk%C5%82odowska-Curie_Actions" className="text-blue-800 hover:text-blue-900">Wikipedia</a>).
                     </li>
                 </ul>
+            </div>
+
+            {/* latest projects */}
+            <div className="container px-4 md:px-6">
+                <div className="flex items-center justify-between mb-2">
+                <h3 className="text-1xl sm:text-1xl md:text-1xl lg:text-2xl font-bold text-gray-800">Projects</h3>
+                <Link href="/projects" className="text-blue-800 hover:underline text-sm md:text-base mt-2 px-2">
+                    View All Projects ...
+                </Link>
+                </div>
+                <hr className="border-t-2 border-gray-400 mb-2 w-full" />
+            </div>
+
+            <div className="container px-4 md:px-6 space-y-2 pb-2 mb-4">
+                {currentProjects.length > 0 && (
+                <div className="space-y-6">
+                    {currentProjects.map((project, index) => (
+                        <article key={index} className="w-full bg-white border border-gray-200 rounded-lg shadow-sm">
+                        <div className="flex items-center px-4 py-3 border-b bg-gray-200">
+                            <h3 className="text-xl font-semibold text-gray-800 pr-6">{project.name}</h3>
+                            {project.website && (
+                                <a
+                                key={index}
+                                href={project.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-1 text-lg text-blue-800 hover:text-blue-900"
+                                >
+                                <BsArrowRightCircle/>
+                                </a>
+                            )}
+                        </div>
+
+                        <div className="flex flex-col px-4 py-3">
+                            <h3 className="text-lg font-semibold text-gray-900 mb-2">{project.shortName}: {project.title}</h3>
+                            <p className="text-base text-gray-900">
+                            <a
+                                key={index}
+                                href={project.founder.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-800 hover:text-blue-900 underline"
+                            >
+                                {project.founder.name}
+                            </a>,
+                            &nbsp;{project.role}
+                            {project.teamMembers.length > 0 && (
+                                <span>
+                                {project.teamMembers.map((member, memberIndex) => (
+                                    member.name && (
+                                    <span key={memberIndex}>, with &nbsp;
+                                        <a
+                                        href={member.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-blue-800 hover:text-blue-900 underline"
+                                        >
+                                        {member.name}
+                                        </a>
+                                    </span>
+                                    )                           
+                                ))}
+                                </span>
+                            )}
+                            </p>
+                            <p className="text-base text-gray-900 mb-4">
+                            The grant was awarded on {project.awardDate} ({project.budget}), and started on {project.startDate} and will end on {project.endDate}.
+                            </p>
+                            {/* Description */}
+                            <p className="text-sm text-gray-700 mb-4">{project.description}</p>
+                            {/* Links */}
+                            {project.links && project.links.length > 0 && (
+                            <div className="flex flex-wrap gap-2 items-bottom">
+                                {project.links.map((link, linkIndex) => (
+                                <a
+                                    key={linkIndex}
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-3 py-1 text-xs text-blue-800 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 rounded-lg"
+                                >
+                                    {link.label}
+                                </a>
+                                ))}
+                            </div>
+                            )}
+                        </div>
+                        </article>
+                    ))}
+                </div>
+                )}
             </div>
 
             {/* Publucations */}

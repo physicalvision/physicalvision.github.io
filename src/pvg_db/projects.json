@@ -9,7 +9,7 @@
             "name": "NRF Fellowship, National Research Foundation",
             "shortName": "PhysWorld",
             "description": "The aim of PhysWorld is to create a realistic natural world adhering to physical principles, rather than dealing with only the realistic pixels as in traditional image, video, and 3D synthesis. Physics-based natural world creation is challenging because it requires a holistic interpretation of scenes and objects within it, including but not limited to appearance, geometry, materials, occlusion, motion, gravity, interaction, mass and sound.",
-            "reference": "",
+            "reference": "NRFF17-2025-0148",
             "founder": {
                 "name": "National Research Foundation",
                 "url": "https://www.nrf.gov.sg/grants/nrff/"
@@ -61,7 +61,7 @@
                 "url": "https://www.sony.com/en/SonyInfo/research-award-program/#FocusedResearchAward"
             },
             "role": "Co-PI",
-            "budget": "",
+            "budget": "$100,000",
             "website": "",
             "topics": ["4D Synthesis", "Novel View Synthesis", "4D Reconstruction"],
             "objectives":

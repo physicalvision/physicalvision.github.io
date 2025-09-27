@@ -64,7 +64,7 @@ export default function Home() {
                 <span className="text-orange-500"> occlusion, motion, gravity, interaction, mass and sound</span>.
                 Our broader goal is to build realistic digital twins of the natural world, with various physical properties.
                 Our group is part of the&nbsp;
-                <a href="https://www.ntu.edu.sg/computing/research/institutes-centres/micl" className="underline">Multimedia and Interactive Computing Lab (MICL)</a>&nbsp;
+                <a href="https://www.ntu.edu.sg/computing/research/institutes-centres/micl" className="underline">Computer Vision and Language (CVL)</a>&nbsp;
                 within the &nbsp;
                 <a href="https://www.ntu.edu.sg/computing" className="underline">College of Computing and Data Science (CCDS)</a>&nbsp;
                 at &nbsp;
@@ -116,19 +116,8 @@ export default function Home() {
       <div className="px-4 md:px-6 text-justify bg-yellow-100">
         <h3 className="text-base font-medium italic flex items-center text-gray-900">
         <span className="mr-2 text-lg">📍</span>
-          Openings: more details are available at &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">Position</a>.
+          If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>.
         </h3>
-        <ul className="list-disc font-medium italic pl-5 mb-1 text-gray-900">
-            <li className="mb-1"><strong className="underline">Phd student:</strong> &nbsp;
-              we have multiple PhD openings for Fall 2026.
-            </li>
-            <li className="mb-1"><strong className="underline">Postdoc position:</strong> &nbsp;
-              we have two postdoc positions available.
-            </li>
-            <li className="mb-1"><strong className="underline">Research Assistant:</strong> &nbsp;
-              we have two research assistant positions available.
-            </li>
-        </ul>
       </div>
     </section>
 
