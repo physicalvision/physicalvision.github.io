@@ -129,25 +129,64 @@ export default function ChuanxiaPage() {
             {/* News */}
             <div className="w-full px-4 md:px-6 mb-4 py-2">
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">News</h1>
-                <ul className="list-disc pl-5 text-gray-900">
-                    <li className="mb-1">
-                        [29/07/2025] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                        I am one of eleven researchers selected for 
-                        <a href="https://file.go.gov.sg/nrf-fellowship.pdf" className="text-blue-800 hover:text-blue-900"> Singapore National Research Foundation (NRF) Fellow of the Year 2025</a>,
-                        awarded outstanding young scientists from around the world to conduct independent research in Singapore, over a five-year period.
+                <ul className="space-y-4 pl-5 text-gray-900">
+                    <li className="flex items-start">
+                        <div className="flext-1">
+                            <span className="inline-block w-36 text-medium font-medium text-gray-500">
+                                [29/07/2025]
+                            </span>
+                            I am one of eleven researchers selected for 
+                            <a href="https://file.go.gov.sg/nrf-fellowship.pdf" className="text-blue-800 hover:text-blue-900"> Singapore National Research Foundation (NRF) Fellow of the Year 2025</a>,
+                            awarded outstanding young scientists from around the world to conduct independent research in Singapore, over a five-year period.
+                        </div>
+                        <div className="w-20 flex-shrink-0 ml-4">
+                            <Image
+                                src="/images/nrf_logo.jpg"
+                                alt="NRF Fellow of the Year 2025"
+                                width={160}
+                                height={90}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </li>
-                    <li className="mb-1">
-                        [29/10/2024] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        I have been selected as a
-                        <a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/" className="text-blue-800 hover:text-blue-900"> DAAD AInet fellow</a>,
-                        a fellowship awarded to excellent international researchers from the field of AI.
+                    <li className="flex items-start">
+                        <div className="flext-1">
+                            <span className="inline-block w-36 text-medium font-medium text-gray-500">
+                                [29/10/2024]
+                            </span>
+                            I have been selected as a
+                            <a href="https://www.daad.de/en/the-daad/postdocnet/fellows/fellows/" className="text-blue-800 hover:text-blue-900"> DAAD AInet fellow</a>,
+                            awarded to excellent international researchers from the field of AI.
+                        </div>
+                        <div className="w-30 flex-shrink-0 ml-4 bg-gray-700">
+                            <Image
+                                src="/images/daad_logo.svg"
+                                alt="DAAD AInet Fellow"
+                                width={160}
+                                height={90}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </li>
-                    <li className="mb-1">
-                        [13/02/2024] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        I am awarded the prestigious
-                        <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900"> Marie Skłodowska-Curie Actions (MSCA) Fellowship</a>.
-                        The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships
-                        (<a href="https://en.wikipedia.org/wiki/Marie_Sk%C5%82odowska-Curie_Actions" className="text-blue-800 hover:text-blue-900">Wikipedia</a>).
+                    <li className="flex items-start">
+                        <div className="flext-1">
+                            <span className="inline-block w-36 text-medium font-medium text-gray-500">
+                                [13/02/2024]
+                            </span>                       
+                            I am awarded the prestigious
+                            <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900"> Marie Skłodowska-Curie Actions (MSCA) Fellowship</a>.
+                            The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships
+                            (<a href="https://en.wikipedia.org/wiki/Marie_Sk%C5%82odowska-Curie_Actions" className="text-blue-800 hover:text-blue-900">Wikipedia</a>).
+                        </div>
+                        <div className="w-30 flex-shrink-0 ml-4">
+                            <Image
+                                src="/images/msca_logo.png"
+                                alt="MSCA Fellow"
+                                width={160}
+                                height={90}
+                                className="rounded-lg"
+                            />
+                        </div>
                     </li>
                 </ul>
             </div>
