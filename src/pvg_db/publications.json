@@ -206,6 +206,57 @@
         ]
     },
     {
+        "date": "09/08/2025",
+        "image": "/videos/matchnerf_teaser.mp4",
+        "title": "Explicit Correspondence Matching for Generalizable Neural Radiance Fields",
+        "description": "Employing explicit correspondence matching as a geometry prior enables NeRF to generalize across scenes.",
+        "type": ["journal"],
+        "journal": "T-PAMI, 2025",
+        "topics": ["Novel View Synthesis", "3D Reconstruction"],
+        "authors":
+        [
+            {
+                "name": "Yuedong Chen",
+                "url": "https://donydchen.github.io/"
+            },
+            {
+                "name": "Haofei Xu",
+                "url": "https://haofeixu.github.io/"
+            },
+            {
+                "name": "Qianyi Wu",
+                "url": "https://wuqianyi.top/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Tat-Jen Cham",
+                "url": "https://personal.ntu.edu.sg/astjcham/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://donydchen.github.io/matchnerf/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2304.12294"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/donydchen/matchnerf"
+            }
+        ]
+    },
+    {
         "date": "24/04/2025",
         "image": "/videos/semantix_teaser.mp4",
         "title": "Semantix: An Energy Guided Sampler for Semantic Style Transfer",
@@ -308,6 +359,10 @@
                 "url": "https://arxiv.org/abs/2406.04343"
             },
             {
+                "label": "pdf",
+                "url": "https://ieeexplore.ieee.org/abstract/document/11125585"
+            },
+            {
                 "label": "code",
                 "url":"https://github.com/eldar/flash3d"
             }
@@ -397,57 +452,6 @@
             {
                 "label": "demo",
                 "url": "https://huggingface.co/spaces/brandonsmart/splatt3r"
-            }
-        ]
-    },
-    {
-        "date": "23/10/2024",
-        "image": "/videos/matchnerf_teaser.mp4",
-        "title": "Explicit Correspondence Matching for Generalizable Neural Radiance Fields",
-        "description": "Employing explicit correspondence matching as a geometry prior enables NeRF to generalize across scenes.",
-        "type": ["preprint"],
-        "preprint": "arXiv, 2024",
-        "topics": ["Novel View Synthesis", "3D Reconstruction"],
-        "authors":
-        [
-            {
-                "name": "Yuedong Chen",
-                "url": "https://donydchen.github.io/"
-            },
-            {
-                "name": "Haofei Xu",
-                "url": "https://haofeixu.github.io/"
-            },
-            {
-                "name": "Qianyi Wu",
-                "url": "https://wuqianyi.top/"
-            },
-            {
-                "name": "Chuanxia Zheng",
-                "url": "/people/~chuanxia"
-            },
-            {
-                "name": "Tat-Jen Cham",
-                "url": "https://personal.ntu.edu.sg/astjcham/"
-            },
-            {
-                "name": "Jianfei Cai",
-                "url": "https://jianfei-cai.github.io/"
-            }
-        ],
-        "links":
-        [
-            {
-                "label": "website",
-                "url": "https://donydchen.github.io/matchnerf/"
-            },
-            {
-                "label": "arxiv",
-                "url": "https://arxiv.org/abs/2304.12294"
-            },
-            {
-                "label": "code",
-                "url": "https://github.com/donydchen/matchnerf"
             }
         ]
     },
