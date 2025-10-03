@@ -96,7 +96,7 @@ export default function ChuanxiaPage() {
                     at the <a href={person?.department.url} className="text-blue-800 hover:text-blue-900"> {person?.department.name}</a>,
                     <a href={person?.university.url} className="text-blue-800 hover:text-blue-900"> {person?.university.name}</a>,
                     where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.curGroup.name}</a>.
-                    My research focuses on <strong>Creative AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
+                    My research focuses on <strong>Physical AI</strong> and <strong>Spatial AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
                     The broader goal is to create realistic digital twins of the natural world, with various physical properties in a simulator,
                     capturing not only appearance, content, and geometry but also <strong>occlusion, dynamics, gravity, interaction, sound and more.</strong>
                 </p>
