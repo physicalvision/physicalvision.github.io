@@ -399,7 +399,7 @@ export default function ChuanxiaPage() {
             <div className="w-full px-4 md:px-6 mb-6 py-2">
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">Professional Services</h1>
                 <ul className="list-disc pl-5 text-gray-900">
-                    <li className="mb-1">Area chair: BMVC (2024-2025), ACM MM 2024, ICLR 2026, CVPR 2026</li>
+                    <li className="mb-1">Area chair: BMVC (2024-2025), ACM MM 2024, ICLR 2026</li>
                     <li className="mb-1">Conference reviewer: CVPR (2020-2025), ICCV (2019-2025), ECCV (2020-2024), NeurIPS (2022-2025), ICLR (2021-2025), ICML 2023</li>
                     <li className="mb-1">Journal reviewer: TPAMI, IJCV, TIP, PR, TMM (Outstanding Reviewer Award, 2021), TCSVT</li>
                 </ul>
