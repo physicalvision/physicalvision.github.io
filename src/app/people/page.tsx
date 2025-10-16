@@ -82,6 +82,11 @@ export default function PeoplePage() {
                                 </div>
                                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{student.name}</h3>
                                 <p className="text-sm text-gray-900 mb-2">{student.title} {student.startYear && `(${student.startYear}-)`}</p>
+                                {student.label && (
+                                <p className="text-sm text-gray-600">
+                                {student.label}
+                                </p>
+                                )}
                                 {student.coSupervisors && (
                                 <p className="text-sm text-gray-600">
                                 with {student.coSupervisors}
