@@ -44,8 +44,10 @@ export default function PositionPage() {
                                 </li>
                                 <li><strong>Research Assistants:</strong> A Research Assistant will typically work on a specific project with us for a period of time, usually <strong>1-2 years</strong>.
                                 Candidates should have some experience in programming and data analysis.</li>
-                                <li><strong>Interns:</strong> If you are interested in an internship or visitor position (<strong>six months or longer</strong>),
-                                feel free to contact.</li>
+                                <li><strong>Interns:</strong> I do not host remote interns.
+                                Please note that the college does not allow salary or funding for interns, so you would need to secure your own financial support.
+                                If you are still interested in an on-site internship or visiting position (<strong>six months or longer</strong>),
+                                feel free to contact me.</li>
                             </ul>
                             </p>
 
