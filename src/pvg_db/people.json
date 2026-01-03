@@ -66,6 +66,60 @@
     "currentStudents":
     [
         {
+            "name": "Ruijie Zhu",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": 2026,
+            "photo": "/images/team/ruijie_zhu.png",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://ruijiezhu94.github.io/ruijiezhu/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=6uuAEdkAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Yitong Xia",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": 2026,
+            "photo": "/images/team/yitong_xia.jpeg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.linkedin.com/in/yitong-xia-5a111120a/?originalSubdomain=ch"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=AO60Va8AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Ismail El Yamany",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": 2026,
+            "photo": "/images/team/ismail_yamany.jpeg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.linkedin.com/in/ismail-el-yamany/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=YpxxJlEAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
             "name": "Chongtian Huang",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
@@ -161,7 +215,7 @@
     [
         {
             "name": "Tianhao Wu",
-            "title": "PhD Student",
+            "title": "Doctoral",
             "startYear": 2022,
             "endYear": 2025,
             "university": "Nanyang Technological University, SG",
@@ -200,29 +254,7 @@
                     "url": "https://scholar.google.com/citations?user=GqgGZlQAAAAJ"
                 }
             ]
-        },
-        {
-            "name": "Minghui Hu",
-            "title": "Doctoral",
-            "startYear": 2021,
-            "endYear": 2023,
-            "university": "Nanyang Technological University, SG",
-            "workposition": "Researcher at SpellBrush",
-            "photo": "/images/team/minghui_hu.jpg",
-            "coSupervisors": "T.J. Cham",
-            "links":
-            [
-                {
-                    "label": "website",
-                    "url": "https://mhh0318.github.io/"
-                },
-                {
-                    "label": "google-scholar",
-                    "url": "https://scholar.google.com/citations?user=9jfGj64AAAAJ&hl"
-                }
-            ]
-          }
-        
+        }
     ],
     "collaborators":
     [
