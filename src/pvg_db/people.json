@@ -63,6 +63,27 @@
             ]
         }
     ],
+    "postDocs":
+    [
+        {
+            "name": "Bingchen Yang",
+            "title": "Postdoctoral Researcher",
+            "university": "Nanyang Technological University, SG",
+            "startYear": 2026,
+            "photo": "/images/team/bingchen_yang.jpeg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://github.com/DrZiji"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=N3UNmnUAAAAJ&hl=en"
+                }
+            ]
+        }
+    ],
     "currentStudents":
     [
         {
@@ -207,6 +228,24 @@
                 {
                     "label": "google-scholar",
                     "url": "https://scholar.google.com/citations?user=JmQkXLUAAAAJ&hl=en"
+                }
+            ]
+        }
+    ],
+    "visitingStudents":
+    [
+        {
+            "name": "Xudong Cai",
+            "title": "Visiting PhD Student",
+            "university": "Renmin University, China",
+            "startYear": 2025,
+            "photo": "/images/team/xudong_cai.jpg",
+            "coSupervisors": "W. Xie",
+            "links":
+            [
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=TkwComsAAAAJ&hl=en"
                 }
             ]
         }
