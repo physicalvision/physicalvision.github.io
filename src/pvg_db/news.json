@@ -1,8 +1,8 @@
 [
     {
         "date": "06/03/2026",
-        "title": "One paper accepted by 3DV'26; One paper accepted at ICLR'26; Four papers accepted at CVPR'26",
-        "description": "Papers accepted: Particulate, MotionCrafter, Mesh4D, NOVA3R AND SplatFusion",
+        "title": "One paper accepted by 3DV'26; One paper accepted at ICLR'26; Three papers accepted at CVPR'26",
+        "description": "Papers accepted: Particulate, MotionCrafter, Mesh4D, NOVA3R and SplatFusion",
         "type": "publication",
         "id": "selected",
         "links":
