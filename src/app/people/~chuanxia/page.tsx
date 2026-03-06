@@ -24,17 +24,17 @@ export default function ChuanxiaPage() {
         <section className="max-w-6xl pt-6 pb-2 rounded-lg">
             <div className="flex flex-col md:flex-row gap-8 px-4 md:px-6 py-2">
                 {/* Image */}
-                <div className="w-2/3 md:w-1/5 flex sm:flex-row items-center">
+                <div className="w-full md:w-1/5 flex items-center">
                     <Image
                         src={person.photo}
                         alt={person.name}
                         width={960}
                         height={960}
-                        className="rounded-xl mx-auto">
+                        className="rounded-xl w-full max-w-xs md:max-w-none h-auto">
                     </Image>
                 </div>
                 {/* Person Info */}
-                <div className="w-2/5 flex flex-col md:flex-row justify-between">
+                <div className="w-full md:w-2/5 flex flex-col justify-between">
                     <div className="flex-1">
                         {/* Name and Title */}
                         <h1 className="text-2xl font-bold text-gray-900 mb-4">{person?.name}</h1>
@@ -61,10 +61,10 @@ export default function ChuanxiaPage() {
                     </div>
                 </div>
                 {/* Other Info */}
-                <div className="w-2/5 flex flex-col md:flex-row justify-between">
+                <div className="w-full md:w-2/5 flex flex-col justify-between">
                     <div className="flex-1">
                         {/* Research Direction */}
-                        <h1 className="text-2xl font-bold text-gray-900 mb-1">Research Interests:</h1>
+                        <h1 className="text-2xl font-bold text-gray-900 mb-2">Research Interests:</h1>
                         <p className="font-bold text-gray-700">Physical AI</p>
                         <p className="font-bold text-gray-700">Spatial AI</p>
                         <p className="font-bold text-gray-700 mb-4">Generative AI</p>
@@ -305,11 +305,11 @@ export default function ChuanxiaPage() {
                                     className="flex flex-col md:flex-row gap-8 bg-white border border-gray-200 rounded-lg shadow-sm pl-2 py-2"
                                     >
                                         {/* Image */}
-                                        <div className="w-2/3 md:w-1/7 flex sm:flex-row justify-between items-center">
+                                        <div className="w-2/3 md:w-2/9 h-40 flex sm:flex justify-between items-center">
                                             {pub.image && pub.image.endsWith(".mp4") ? (
                                             <video
                                                 key={pub.image}
-                                                className="w-full h-auto object-cover rounded-lg"
+                                                className="w-full h-full object-cover rounded-lg"
                                                 loop 
                                                 autoPlay
                                                 muted
@@ -328,7 +328,7 @@ export default function ChuanxiaPage() {
                                             }
                                         </div>
                                         {/* Content */}
-                                        <div className="w-6/7 flex flex-col md:flex-row justify-between">
+                                        <div className="w-7/9 flex flex-col md:flex-row justify-between">
                                             <div className="flex-1">
                                                 <h3 className="text-base font-semibold text-gray-900">{pub.title}</h3>
                                                 <div className="flex flex-wrap gap-2 py-1 text-sm text-gray-900">

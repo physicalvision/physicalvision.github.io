@@ -1,5 +1,265 @@
 [
     {
+        "date": "01/06/2026",
+        "image": "/videos/particulate_teaser.mp4",
+        "title": "Particulate: Feed-Forward 3D Object Articulation",
+        "description": "A feed-forward approach that directly infers underlying articulated structure from a single static mesh",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "CVPR, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Articulated", "3D segmentation", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Yuxin Yao",
+                "url": "https://scholar.google.com/citations?user=nx3Y7gIAAAAJ&hl=en"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Joan Lasenby",
+                "url": "https://www.eng.cam.ac.uk/profiles/jl221"
+            },
+            {
+                "name": "Shangzhe Wu",
+                "url": "https://elliottwu.com/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://ruiningli.com/particulate"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2512.11798"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/RuiningLi/particulate"
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/rayli/particulate"
+            }
+        ]
+    },
+    {
+        "date": "01/06/2026",
+        "image": "/videos/motioncrafter_teaser.mp4",
+        "title": "MotionCrafter: Dense Geometry and Motion Reconstruction with a 4D VAE",
+        "description": "A video generator is reformulated as a 4D VAE to jointly reconstruct dense geometry and motion from monocular videos.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "CVPR, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "4D Reconstruction", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Ruijie Zhu",
+                "url": "https://ruijiezhu94.github.io/ruijiezhu/"
+            },
+            {
+                "name": "Jiahao Lu",
+                "url": ""
+            },
+            {
+                "name": "Wenbo Hu",
+                "url": "https://wbhu.github.io/"
+            },
+            {
+                "name": "Xiaoguang Han",
+                "url": "https://gaplab.cuhk.edu.cn/"
+            },
+            {
+                "name": "Jianfei Cai",
+                "url": "https://jianfei-cai.github.io/"
+            },
+            {
+                "name": "Ying Shan",
+                "url": "https://scholar.google.com/citations?user=4oXBp9UAAAAJ"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://ruijiezhu94.github.io/MotionCrafter_Page/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2602.08961"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/TencentARC/MotionCrafter"
+            }
+        ]
+    },
+    {
+        "date": "01/06/2026",
+        "image": "/videos/mesh4d_teaser.mp4",
+        "title": "Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video",
+        "description": "Given a monocular video, Mesh4D reconstructs a complete 3D mesh and tracks its motion across frames.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "CVPR, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "4D Reconstruction", "Motion", "3D tracking"],
+        "authors":
+        [
+            {
+                "name": "Zeren Jiang",
+                "url": "https://jzr99.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Iro Laina",
+                "url": "https://eng.ox.ac.uk/people/iro-laina/"
+            },
+            {
+                "name": "Diane Larlus",
+                "url": "https://dlarlus.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://mesh-4d.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/pdf/2601.05251"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/jzr99/Mesh4D"
+            }
+        ]
+    },
+    {
+        "date": "23/04/2026",
+        "image": "/videos/nova3r_teaser.mp4",
+        "title": "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction",
+        "description": "NOVA3R recovers complete, non-overlapping 3D geometry, reconstructing visible and occluded regions with physical plausibility.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "ICLR, 2026",
+        "id": "selected",
+        "topics": ["Physics", "3D Reconstruction", "Diffusion Model", "Occlusion"],
+        "authors":
+        [
+            {
+                "name": "Weirong Chen",
+                "url": "https://wrchen530.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng*",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Ganlin Zhang",
+                "url": "https://ganlinzhang.xyz/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            },
+            {
+                "name": "Daniel Cremers",
+                "url": "https://cvg.cit.tum.de/members/cremers"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://wrchen530.github.io/nova3r/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2603.04179"
+            },
+            {
+                "label": "code",
+                "url":""
+            }
+        ]
+    },
+    {
+        "date": "20/03/2026",
+        "image": "/images/splattfusion_teaser.png",
+        "title": "Learning Compact 3D Gaussians via Feed-Forward Point Fusion",
+        "description": "A method to reconstruct compact and high-quality 3D Gaussians using Octree-based point fusion.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "3DV, 2026",
+        "topics": ["Physics", "3D Reconstruction", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Brandon Smart",
+                "url": "https://scholar.google.com/citations?user=k_jn6-EAAAAJ"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Iro Laina",
+                "url": "https://scholar.google.com/citations?user=n9nXAPcAAAAJ"
+            },
+            {
+                "name": "Victor Adrian Prisacariu",
+                "url": "https://www.robots.ox.ac.uk/~victor/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": ""
+            },
+            {
+                "label": "arxiv",
+                "url": "https://openreview.net/pdf?id=wD1OI2uauD"
+            },
+            {
+                "label": "code",
+                "url":""
+            }
+        ]
+    },
+    {
         "date": "25/06/2025",
         "image": "/videos/geo4d-short.mp4",
         "title": "Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction",
@@ -116,7 +376,7 @@
                 "url": "https://sm0kywu.github.io/CV/CV.html"
             },
             {
-                "name": "Chuanxia Zheng",
+                "name": "Chuanxia Zheng*",
                 "url": "/people/~chuanxia"
             },
             {

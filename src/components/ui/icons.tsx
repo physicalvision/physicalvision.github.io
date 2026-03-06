@@ -470,7 +470,9 @@ export const linkIcons = {
   ),
   "arxiv": (
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/92/ArXiv_logo.svg"
+        src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arxiv.svg"
+        width={16}
+        height={16}
         className="inline-block align-text-bottom"
       />
     ),

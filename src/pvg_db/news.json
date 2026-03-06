@@ -1,5 +1,35 @@
 [
     {
+        "date": "06/03/2026",
+        "title": "One paper accepted by 3DV'26; One paper accepted at ICLR'26; Four papers accepted at CVPR'26",
+        "description": "Papers accepted: Particulate, MotionCrafter, Mesh4D, NOVA3R AND SplatFusion",
+        "type": "publication",
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "Particulate",
+                    "text": "Particulate: Feed-Forward 3D Object Articulation",
+                    "url": "https://ruiningli.com/particulate"
+                },
+                {
+                    "name": "MotionCrafter",
+                    "text": "MotionCrafter: Dense Geometry and Motion Reconstruction with a 4D VAE",
+                    "url": "https://ruijiezhu94.github.io/MotionCrafter_Page/"
+                },
+                {
+                    "name": "Mesh4D",
+                    "text": "Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video",
+                    "url": "https://mesh-4d.github.io/"
+                },
+                {
+                    "name": "NOVA3R",
+                    "text": "NOVA3R: Non-pixel-aligned Visual Transformer for Amodal 3D Reconstruction",
+                    "url": "https://wrchen530.github.io/nova3r/"
+                }
+            ]
+    },
+    {
         "date": "25/06/2025",
         "title": "Four papers accepted at ICCV'25",
         "description": "Papers accepted: Geo4D, Amodal3R, DSO and Puppet-Master",
