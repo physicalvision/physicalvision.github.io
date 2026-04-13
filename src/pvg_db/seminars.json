@@ -1,0 +1,60 @@
+{
+  "pageTitle": "PVG Seminar Series",
+  "description": "The Physical Vision Group seminar series brings together researchers in computer vision, machine learning, graphics, robotics, Spatial AI and physical AI.",
+  "calendar": {
+    "label": "Import our calendar",
+    "importUrl": "https://calendar.google.com/calendar/u/0?cid=cGh5c2ljYWx2aXNpb24yMDI1QGdtYWlsLmNvbQ",
+    "embedUrl": "https://calendar.google.com/calendar/embed?src=physicalvision2025%40gmail.com&ctz=Asia%2FSingapore",
+    "location": "Nanyang Technological University, Singapore",
+    "time": "Selected Wednesdays, 1:00 PM SGT"
+  },
+  "upcoming": [
+    {
+      "date": "15/04/2026 10:00",
+      "speaker": "Xingjian Bai",
+      "speakerUrl": "https://xingjianbai.com/",
+      "jobTitle": "PhD Student (supervised by Prof. Kaiming He)",
+      "affiliation": "MIT",
+      "title": "End-to-End Training for Unified Tokenization and Latent Denoising",
+      "description": "Training state-of-the-art latent diffusion models requires complex staging: a tokenizer must first be trained before a diffusion model can operate in its frozen latent space. We propose UNITE — an architecture for unified tokenization and latent diffusion. A single Generative Encoder serves as both image tokenizer and latent generator via weight sharing, trained in a single stage that jointly optimizes both tasks. UNITE learns a common latent language for tokenization and generation.",
+      "mode": "Virtual seminar",
+      "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
+      "location": "MICL Meeting Room (N4-B1c-17)",
+      "slides": "",
+      "type": ["event"],
+      "id": "featured"
+    }
+  ],
+  "archive": [
+    {
+      "date": "01/04/2026 13:00",
+      "speaker": "Andrea Vedaldi",
+      "speakerUrl": "https://www.robots.ox.ac.uk/~vedaldi/",
+      "jobTitle": "Professor",
+      "affiliation": "VGG, University of Oxford",
+      "title": "The new 3D",
+      "description": "In this talk, I will discuss our progress in making 3D a first-class citizen in AI. I will argue that understanding 3D structures is a prerequisite for understanding, acting, and creating in the physical world. I will then explore how a new generation of 3D foundation models has changed the way we approach 3D reconstruction. I will show that these ideas extend to novel-view synthesis as well, benefiting from transformers trained for 3D reconstruction. Next, I will consider 4D reconstruction, where the goal is to recover 3D shape and motion from videos, and demonstrate how transformers can be further extended to this task via dynamic point maps. I will then examine the role of scale in learning these models, introducing VGGT-Omega, a new, more efficient architecture trained on 15× more data than our previous model. I will discuss the importance and challenges of 3D data engineering and demonstrate significant performance improvements on benchmarks. Finally, I will address the problem of 3D generation for content creation, simulation, and design. I will emphasize that generating 3D shape alone is insufficient, and discuss approaches to compositional and articulated generation as well.",
+      "mode": "In-person seminar",
+      "zoomLink": "",
+      "location": "Tutorial Room 1 (TR1, NS4-05-79)",
+      "slides": "",
+      "type": ["event"],
+      "id": "selected"
+    },
+    {
+      "date": "04/02/2026 17:00",
+      "speaker": "Edgar Sucar",
+      "speakerUrl": "https://edgarsucar.github.io/",
+      "jobTitle": "Postdoctoral Fellow",
+      "affiliation": "VGG, University of Oxford",
+      "title": "A Unified Model for 4D Reconstruction",
+      "description": "In this talk I will give an overview of our recent V-DPM: 4D Video Reconstruction with Dynamics Point Maps. In this work we tackle the goal of 4D feed-forward reconstruction with an emphasis on versatility, the ability to work in diverse in-the-wild videos. I will go through the evolution of designs to reach this point, starting with the original version on Dynamic Point Maps which built on top of DUSt3R and processed pairs of frames. I will motivate why we want and end-to-end model for 4D reconstructions compared to decoupled designs common in 3D trackers. I will then describe how we build on top of a pre-trained model for static scenes VGGT, to adapt it to 4D reconstructions with a training recipe that does not need massive data, showing some of the early designs that failed. Finally will show results highlighting the versatility of the method but also the current limitations for future work.",
+      "mode": "Virtual seminar",
+      "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
+      "location": "MICL Meeting Room (N4-B1c-17)",
+      "slides": "https://drive.google.com/file/d/18L7SDJRBdLp3a9ZuemSvDm09d6wzb0y0/view?usp=sharing",
+      "type": ["event"],
+      "id": "unselected"
+    }
+  ]
+}
