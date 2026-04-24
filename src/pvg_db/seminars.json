@@ -9,6 +9,8 @@
     "time": "Selected Wednesdays, 1:00 PM SGT"
   },
   "upcoming": [
+  ],
+  "archive": [
     {
       "date": "15/04/2026 10:00",
       "speaker": "Xingjian Bai",
@@ -23,9 +25,7 @@
       "slides": "",
       "type": ["event"],
       "id": "featured"
-    }
-  ],
-  "archive": [
+    },
     {
       "date": "01/04/2026 13:00",
       "speaker": "Andrea Vedaldi",

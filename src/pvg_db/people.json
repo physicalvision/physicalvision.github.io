@@ -63,13 +63,13 @@
             ]
         }
     ],
-    "postDocs":
+    "Researchers":
     [
         {
             "name": "Bingchen Yang",
-            "title": "Postdoctoral Researcher",
+            "title": "Research Fellow",
             "university": "Nanyang Technological University, SG",
-            "startYear": 2026,
+            "startYear": "2026 Spring",
             "photo": "/images/team/bingchen_yang.jpeg",
             "links":
             [
@@ -90,7 +90,7 @@
             "name": "Ruijie Zhu",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
-            "startYear": 2026,
+            "startYear": "2026 Spring",
             "photo": "/images/team/ruijie_zhu.png",
             "links":
             [
@@ -108,7 +108,7 @@
             "name": "Yitong Xia",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
-            "startYear": 2026,
+            "startYear": "2026 Spring",
             "photo": "/images/team/yitong_xia.jpeg",
             "links":
             [
@@ -126,7 +126,7 @@
             "name": "Ismail El Yamany",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
-            "startYear": 2026,
+            "startYear": "2026 Spring",
             "photo": "/images/team/ismail_yamany.jpeg",
             "links":
             [
@@ -144,7 +144,7 @@
             "name": "Chongtian Huang",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
-            "startYear": 2025,
+            "startYear": "2025 Fall",
             "photo": "/images/team/chongtian_huang.jpeg",
             "label": "Transferred from MAE to CCDS",
             "links":
@@ -236,16 +236,67 @@
     [
         {
             "name": "Xudong Cai",
-            "title": "Visiting PhD Student",
+            "title": "PhD",
             "university": "Renmin University, China",
-            "startYear": 2025,
+            "startYear": 2026,
             "photo": "/images/team/xudong_cai.jpg",
             "coSupervisors": "W. Xie",
             "links":
             [
                 {
+                    "label": "website",
+                    "url": "https://master-cai.github.io/"
+                },
+                {
                     "label": "google-scholar",
                     "url": "https://scholar.google.com/citations?user=TkwComsAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Yingqi Wang",
+            "title": "Master",
+            "university": "Nanyang Technological University, SG",
+            "startYear": 2026,
+            "photo": "/images/team/yingqi_wang.png",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.linkedin.com/in/yingqi-wang-aa448438b/"
+                }
+            ]
+        },
+        {
+            "name": "Haoliang Shang",
+            "title": "Master",
+            "university": "ETH, Zurich",
+            "startYear": 2026,
+            "photo": "/images/team/haoliang_shang.jpeg",
+            "coSupervisors": "Marc Pollefeys",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.linkedin.com/in/haoliang-shang-1544b1116"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=Fy2qdooAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Nathan Rouillé",
+            "title": "Master",
+            "university": "PSL Research University, France",
+            "startYear": 2026,
+            "photo": "/images/team/nathan_rouille.jpeg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.linkedin.com/in/nathanrouille/"
                 }
             ]
         }
@@ -297,6 +348,23 @@
     ],
     "collaborators":
     [
+        {
+            "name": "Dr. Shangzhe Wu",
+            "title": "Professor",
+            "department": "Department of Engineering",
+            "university": " University of Cambridge, UK",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://www.elliottwu.com/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=36NmvrMAAAAJ&hl=en"
+                }
+            ]
+        },
         {
             "name": "Dr. Daniel Cremers",
             "title": "Professor",
