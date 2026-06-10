@@ -12,6 +12,21 @@
   ],
   "archive": [
     {
+      "date": "10/06/2026 13:00",
+      "speaker": "Donny (Yuedong) Chen",
+      "speakerUrl": "https://donydchen.github.io/",
+      "jobTitle": "Research Scientist",
+      "affiliation": "ByteDance Seed (Singapore)",
+      "title": "Simulation-Ready 3D, Efficiently",
+      "description": "3D reconstruction and generation have come a long way, but the 3D they produce is often hard to actually use. A point cloud, the 3D Gaussians, or a freshly generated asset is not something a robot can stand on, or a physics engine can read. My broader goal here is simple: build 3D that is efficient to create and ready to simulate, so it can serve as a substrate for embodied AI. In this talk I will share our two recent works toward this goal, Depth Anything 3 and TriSplat. Depth Anything 3 is a foundation model that recovers geometry from any number of views, with a minimal design of just depth and rays on a plain Transformer. TriSplat then builds on this kind of geometry prior to predict oriented triangles, so a single feed-forward pass exports a simulation-ready texture mesh in about one second, with no post-processing. I will close with our ongoing project on agentic, simulation-ready 3D scene generation, including some early demos, which I hope can be a good starting point for our discussion.",
+      "mode": "In-person seminar",
+      "zoomLink": "",
+      "location": "MICL Meeting Room (N4-B1c-17)",
+      "slides": "",
+      "type": ["event"],
+      "id": "selected"
+    },
+    {
       "date": "15/04/2026 10:00",
       "speaker": "Xingjian Bai",
       "speakerUrl": "https://xingjianbai.com/",
@@ -24,7 +39,7 @@
       "location": "MICL Meeting Room (N4-B1c-17)",
       "slides": "https://drive.google.com/file/d/10NGP0WswuuNVDmA1fxivWIFj8j0lx1i3/view?usp=sharing",
       "type": ["event"],
-      "id": "featured"
+      "id": "selected"
     },
     {
       "date": "01/04/2026 13:00",
