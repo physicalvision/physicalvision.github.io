@@ -15,14 +15,29 @@
       "speakerUrl": "https://sam-motamed.github.io/",
       "jobTitle": "PhD Student (supervised by Prof. Luc Van Gool)",
       "affiliation": "INSAIT, ETH Zurich",
-      "title": "",
-      "description": "",
+      "title": "Physics in Video: Benchmarking, Understanding, and Generating",
+      "description": "We all know video generative models still struggle with the physics of a scene. Objects can multiply, deform, and float around. We are still waiting for video generation to have the same moment that image generation reached, and chances are that with scale, we will get close sometime soon (~a year?). But where would that leave us academics with limited data and compute? In this talk, I will discuss some works I have done on benchmarking, understanding, and generating physics in video models, and share my perspective on where academia’s focus will be most worthwhile as companies scale bigger and bigger models.",
       "mode": "Virtual seminar",
       "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
       "location": "MICL Meeting Room (N4-B1c-17)",
       "slides": "",
       "type": ["event"],
       "id": "selected"
+    },
+    {
+      "date": "17/06/2026 13:00",
+      "speaker": "Weijie Wang",
+      "speakerUrl": "https://lhmd.top/",
+      "jobTitle": "PhD Student (supervised by Prof. Bohan Zhuang)",
+      "affiliation": "Zhejiang University (China)",
+      "title": "Towards 3D-aware Video World Models",
+      "description": "Video generation models are getting impressively realistic, but the worlds they produce are often geometrically inconsistent and forgetful. A camera that pans away and comes back sees a different room, and objects drift over time because the model has no real sense of 3D space or lasting memory. My topic today is building video world models that respect 3D structure and remember what they have already seen, so they can serve as reliable interactive world simulators. In this talk I will share our two recent works toward this goal, World-R1 and Latent Spatial Memory. World-R1 aligns text-to-video generation with 3D constraints through reinforcement learning, improving geometric consistency while preserving visual quality and motion diversity. Latent Spatial Memory then stores persistent 3D scene content directly as latent tokens, giving the model an efficient and spatially consistent memory that keeps scenes stable across long rollouts. I will close with our ongoing project on agentic video world modeling, including some early demos, which I hope can be a good starting point for our discussion.",
+      "mode": "In-person seminar",
+      "zoomLink": "",
+      "location": "MICL Meeting Room (N4-B1c-17)",
+      "slides": "",
+      "type": ["event"],
+      "id": "unselected"
     }
   ],
   "archive": [
