@@ -19,7 +19,7 @@
       "description": "We all know video generative models still struggle with the physics of a scene. Objects can multiply, deform, and float around. We are still waiting for video generation to have the same moment that image generation reached, and chances are that with scale, we will get close sometime soon (~a year?). But where would that leave us academics with limited data and compute? In this talk, I will discuss some works I have done on benchmarking, understanding, and generating physics in video models, and share my perspective on where academia’s focus will be most worthwhile as companies scale bigger and bigger models.",
       "mode": "Virtual seminar",
       "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
-      "location": "MICL Meeting Room (N4-B1c-17)",
+      "location": "CVL Meeting Room (N4-B1c-17)",
       "slides": "",
       "type": ["event"],
       "id": "selected"
@@ -34,7 +34,7 @@
       "description": "Video generation models are getting impressively realistic, but the worlds they produce are often geometrically inconsistent and forgetful. A camera that pans away and comes back sees a different room, and objects drift over time because the model has no real sense of 3D space or lasting memory. My topic today is building video world models that respect 3D structure and remember what they have already seen, so they can serve as reliable interactive world simulators. In this talk I will share our two recent works toward this goal, World-R1 and Latent Spatial Memory. World-R1 aligns text-to-video generation with 3D constraints through reinforcement learning, improving geometric consistency while preserving visual quality and motion diversity. Latent Spatial Memory then stores persistent 3D scene content directly as latent tokens, giving the model an efficient and spatially consistent memory that keeps scenes stable across long rollouts. I will close with our ongoing project on agentic video world modeling, including some early demos, which I hope can be a good starting point for our discussion.",
       "mode": "In-person seminar",
       "zoomLink": "",
-      "location": "MICL Meeting Room (N4-B1c-17)",
+      "location": "CVL Meeting Room (N4-B1c-17)",
       "slides": "",
       "type": ["event"],
       "id": "unselected"
@@ -51,7 +51,7 @@
       "description": "3D reconstruction and generation have come a long way, but the 3D they produce is often hard to actually use. A point cloud, the 3D Gaussians, or a freshly generated asset is not something a robot can stand on, or a physics engine can read. My broader goal here is simple: build 3D that is efficient to create and ready to simulate, so it can serve as a substrate for embodied AI. In this talk I will share our two recent works toward this goal, Depth Anything 3 and TriSplat. Depth Anything 3 is a foundation model that recovers geometry from any number of views, with a minimal design of just depth and rays on a plain Transformer. TriSplat then builds on this kind of geometry prior to predict oriented triangles, so a single feed-forward pass exports a simulation-ready texture mesh in about one second, with no post-processing. I will close with our ongoing project on agentic, simulation-ready 3D scene generation, including some early demos, which I hope can be a good starting point for our discussion.",
       "mode": "In-person seminar",
       "zoomLink": "",
-      "location": "MICL Meeting Room (N4-B1c-17)",
+      "location": "CVL Meeting Room (N4-B1c-17)",
       "slides": "https://drive.google.com/file/d/1Sw3mIl2qXAF7G31CGrE4wigpVkd4TvCE/view?usp=sharing",
       "type": ["event"],
       "id": "unselected"
@@ -66,7 +66,7 @@
       "description": "Training state-of-the-art latent diffusion models requires complex staging: a tokenizer must first be trained before a diffusion model can operate in its frozen latent space. We propose UNITE — an architecture for unified tokenization and latent diffusion. A single Generative Encoder serves as both image tokenizer and latent generator via weight sharing, trained in a single stage that jointly optimizes both tasks. UNITE learns a common latent language for tokenization and generation.",
       "mode": "Virtual seminar",
       "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
-      "location": "MICL Meeting Room (N4-B1c-17)",
+      "location": "CVL Meeting Room (N4-B1c-17)",
       "slides": "https://drive.google.com/file/d/10NGP0WswuuNVDmA1fxivWIFj8j0lx1i3/view?usp=sharing",
       "type": ["event"],
       "id": "selected"
@@ -96,7 +96,7 @@
       "description": "In this talk I will give an overview of our recent V-DPM: 4D Video Reconstruction with Dynamics Point Maps. In this work we tackle the goal of 4D feed-forward reconstruction with an emphasis on versatility, the ability to work in diverse in-the-wild videos. I will go through the evolution of designs to reach this point, starting with the original version on Dynamic Point Maps which built on top of DUSt3R and processed pairs of frames. I will motivate why we want and end-to-end model for 4D reconstructions compared to decoupled designs common in 3D trackers. I will then describe how we build on top of a pre-trained model for static scenes VGGT, to adapt it to 4D reconstructions with a training recipe that does not need massive data, showing some of the early designs that failed. Finally will show results highlighting the versatility of the method but also the current limitations for future work.",
       "mode": "Virtual seminar",
       "zoomLink": "https://ntu-sg.zoom.us/j/4255968683?pwd=3AbDNcFUdt1LmLsHb1fUQRaIZ7dmfT.1&omn=85343964749",
-      "location": "MICL Meeting Room (N4-B1c-17)",
+      "location": "CVL Meeting Room (N4-B1c-17)",
       "slides": "https://drive.google.com/file/d/18L7SDJRBdLp3a9ZuemSvDm09d6wzb0y0/view?usp=sharing",
       "type": ["event"],
       "id": "unselected"
