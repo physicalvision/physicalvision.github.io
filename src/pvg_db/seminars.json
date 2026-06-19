@@ -23,7 +23,9 @@
       "slides": "",
       "type": ["event"],
       "id": "selected"
-    },
+    }
+  ],
+  "archive": [
     {
       "date": "17/06/2026 13:00",
       "speaker": "Weijie Wang",
@@ -38,9 +40,7 @@
       "slides": "",
       "type": ["event"],
       "id": "unselected"
-    }
-  ],
-  "archive": [
+    },
     {
       "date": "10/06/2026 13:00",
       "speaker": "Donny (Yuedong) Chen",
