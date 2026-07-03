@@ -113,10 +113,10 @@ export default function Home() {
 
     {/* Positions section */}
     <section id="positions" className="w-full pt-2 pb-8 max-w-full text-justify">
-      <div className="px-4 md:px-6 text-justify bg-yellow-100">
+      <div className="container px-4 md:px-2 text-justify bg-yellow-100">
         <h3 className="text-base font-medium italic flex items-center text-gray-900">
         <span className="mr-2 text-lg">📍</span>
-          If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>.
+          If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>, and fill out this &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog" className="text-blue-800 hover:text-blue-900">form</a>.
         </h3>
       </div>
     </section>
