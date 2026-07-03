@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { MdEmail } from "react-icons/md";
+
+const interestFormHref = "https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog";
 
 export default function PositionPage() {
     return (
@@ -9,6 +10,18 @@ export default function PositionPage() {
             <section id="position" className="max-w-6xl pt-6 pb-2 rounded-lg text-justify">
                 <div className="flex flex-col px-4 md:px-6 py-2">
                         <div className="flex-1">
+                            {/* Application form */}
+                            <div className="mb-6 rounded-[6px] border border-gray-200 bg-gray-50 px-6 py-5 shadow-sm">
+                                <p className="text-xl leading-relaxed text-yellow-800 md:text-1xl">
+                                    <span className="font-bold text-yellow-700">All Research Positions: </span>
+                                    All applications for research positions must be submitted via this <a href={interestFormHref} className="text-blue-800 hover:text-blue-900">form</a>.
+                                </p>
+                                <p className="text-gray-700">
+                                Due to the high volume of applications, we are not able to respond to all applicants.
+                                We will only contact shortlisted candidates for interviews. 
+                                </p>
+                            </div>
+                            
                             {/* Position */}
                             <h1 className="text-2xl font-bold text-gray-900 mb-2">Position Openings</h1>
                             <p className="text-gray-700 mb-4 ">
@@ -29,11 +42,11 @@ export default function PositionPage() {
                                 </li>
                                 <li><strong>PhD Students:</strong> A PhD student will typically work with us for 3-4 years on a long-term topic.
                                 If you are interested in becoming a PhD student in Physical Vision Group, please apply through &nbsp;
-                                <a href="https://venus.wis.ntu.edu.sg/GOAL/OnlineApplicationModule/frmOnlineApplication.aspx" className="text-blue-800 hover:underline">
+                                <a href="https://www.ntu.edu.sg/admissions/graduate/radmissionguide" className="text-blue-800 hover:underline">
                                  Application Portal &nbsp;
                                 </a>
                                 (check out the deadlines &nbsp;
-                                <a href="https://www.ntu.edu.sg/mse/admissions/postgraduates/prospective-students/doctor-of-philosophy-master-of-engineering" className="text-blue-800 hover:underline">
+                                <a href="https://www.ntu.edu.sg/admissions/graduate/radmissionguide#Content_C047_Col00" className="text-blue-800 hover:underline">
                                  here
                                 </a>).
                                 The PhD would normally be fully founded by one of our projects.
@@ -51,7 +64,7 @@ export default function PositionPage() {
                             </ul>
                             </p>
 
-                            {/* Position requirements*/}
+                            {/* Position requirements
                             <h1 className="text-2xl font-bold text-gray-900 mb-2">Require Documents</h1>
                             <p className="text-gray-700 mb-4">
                             When applying, please compile all required documents into a <strong>single pdf</strong> and email to &nbsp;
@@ -84,7 +97,7 @@ export default function PositionPage() {
                                 <li><strong>Transcripts and Certificates:</strong> Scans of your academic transcripts and certificates from your previous degrees.
                                 </li>
                             </ul>
-                            </p>
+                            </p> */}
 
                             {/* Other Information */}
                             <h1 className="text-2xl font-bold text-gray-900 mb-2">Useful Links</h1>
@@ -106,11 +119,6 @@ export default function PositionPage() {
                                     </Link>
                                 </li>
                             </ul>
-
-                            <p className="text-gray-700 mb-4">
-                                Note that, due to the high volume of applications, we may not be able to respond to all applicants.
-                                Generally, we will only contact shortlisted candidates for interviews (in 2-3 weeks). 
-                            </p>
                         </div>
                 </div>
 
