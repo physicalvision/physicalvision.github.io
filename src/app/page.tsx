@@ -113,11 +113,27 @@ export default function Home() {
 
     {/* Positions section */}
     <section id="positions" className="w-full pt-2 pb-8 max-w-full text-justify">
-      <div className="container px-4 md:px-2 text-justify bg-yellow-100">
-        <h3 className="text-base font-medium italic flex items-center text-gray-900">
-        <span className="mr-2 text-lg">📍</span>
-          If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>, and fill out this &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog" className="text-blue-800 hover:text-blue-900">form</a>.
-        </h3>
+      <div className="container px-4 md:px-2">
+        <div className="rounded-2xl bg-yellow-100 px-4 py-4 shadow-sm ring-1 ring-yellow-200/70 sm:px-5">
+          <div className="flex items-start gap-3 sm:items-center">
+            <span className="mt-0.5 text-lg sm:mt-0 sm:text-xl">📍</span>
+            <p className="text-sm leading-6 text-gray-900 sm:text-base">
+              <span className="font-medium italic">If you are looking for research positions,</span>{" "}
+              please see{" "}
+              <a href="/position" className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900">
+                here
+              </a>
+              , and fill out this{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog"
+                className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900"
+              >
+                form
+              </a>
+              .
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
