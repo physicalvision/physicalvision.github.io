@@ -1,5 +1,25 @@
 [
     {
+        "date": "07/07/2026",
+        "title": "Workshop on Physical AI at ECCV'26",
+        "description": "It includes a series of talks, challenges, and discussions. The Physical AI workshop aims to brings together researchers across vision, graphics, robotics, and generative modeling to advance physics-grounded understanding of the real world.",
+        "type": ["event"],
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "Physical AI Workshop",    
+                    "text": "Physical AI Workshop",
+                    "url": "https://phys-ai-workshop.github.io/eccv26/"
+                },
+                {
+                    "name": "ECCV'26",    
+                    "text": "ECCV'26",
+                    "url": "https://eccv.ecva.net/Conferences/2026/Workshops"
+                }
+            ]
+    },
+    {
         "date": "02/07/2026",
         "title": "Hangwei Zhang is awarded the AISG PhD Fellowship",
         "description": "The AISG PhD Fellowship Programme supports top AI research talents in pursuing their PhD in Singapore.",
@@ -74,7 +94,7 @@
         "title": "Four papers accepted at ICCV'25",
         "description": "Papers accepted: Geo4D, Amodal3R, DSO and Puppet-Master",
         "type": "publication",
-        "id": "selected",
+        "id": "unselected",
         "links":
             [
                 {
