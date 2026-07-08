@@ -69,6 +69,7 @@
         "projects": ["PhyWorld"], 
         "conference": "CVPR, 2026",
         "id": "selected",
+        "category": "highlight",
         "topics": ["Physics", "Diffusion Model", "4D Reconstruction", "Motion"],
         "authors":
         [

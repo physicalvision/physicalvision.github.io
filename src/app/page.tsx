@@ -10,20 +10,10 @@ export default function Home() {
 
   const [activeIndex, setActiveIndex] = useState(0);
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const startAutoCycle = () => {
-    intervalRef.current = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % videoData.length);
-    }, 10000);
+  const advanceVideo = () => {
+    setActiveIndex((prevIndex) => (prevIndex + 1) % videoData.length);
   };
-
-  useEffect(() => {
-    startAutoCycle();
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, []);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -34,8 +24,6 @@ export default function Home() {
 
   const handleManualSelect = (index: number) => {
     setActiveIndex(index);
-    if (intervalRef.current) clearInterval(intervalRef.current);
-    startAutoCycle();
   };
 
   const currentVideo = videoData[activeIndex];
@@ -79,10 +67,10 @@ export default function Home() {
                   ref={videoRef}
                   key={currentVideo.src}
                   className="w-full h-auto object-cover"
-                  loop 
                   autoPlay
                   muted
                   playsInline
+                  onEnded={advanceVideo}
                 >
                   <source src={currentVideo.src} type="video/mp4" />
                   Your browser does not support the video tag.

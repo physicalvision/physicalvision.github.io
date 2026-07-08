@@ -1,26 +1,44 @@
 [
     {
-        "category": "Motion",
-        "src": "/videos/geo4d-short.mp4",
-        "title": "Geo4D",
-        "url": "https://geo4d.github.io/"
+        "category": "Decomposition",
+        "src": "/videos/cola3d_teaser.mp4",
+        "title": "Cola3D",
+        "url": ""
+    },
+    {
+        "category": "Agentic 3D",
+        "src": "/videos/articraft_teaser.mp4",
+        "title": "Articraft",
+        "url": "https://articraft3d.github.io/"
+    },
+    {
+        "category": "Geometry, Motion, Tracking and Rendering",
+        "src": "/videos/syn4d_teaser.mp4",
+        "title": "Syn4D (ECCV'26)",
+        "url": "https://jzr99.github.io/Syn4D/"
+    },
+    {
+        "category": "Articulation",
+        "src": "/videos/particulate_teaser.mp4",
+        "title": "Particulate (CVPR'26)",
+        "url": "https://ruiningli.com/particulate"
     },
     {
         "category": "Occlusion",
         "src": "/videos/amodal3r_teaser.mp4",
-        "title": "Amodal3R",
+        "title": "Amodal3R (ICCV'25)",
         "url": "https://sm0kywu.github.io/Amodal3R/"
     },
     {
         "category": "Stability under Gravity",
         "src": "/videos/DSO.mp4",
-        "title": "DSO",
-        "url": "https://ruiningli.com/dso/"
+        "title": "DSO (ICCV'25)",
+        "url": "https://ruiningli.com/dso"
     },
     {
         "category": "Geometry and Appearance",
         "src": "/videos/mvsplat-360.mp4",
-        "title": "MVSplat, MVSplat360",
+        "title": "MVSplat (ECCV'24), MVSplat360 (NeurIPS'24)",
         "url": "https://donydchen.github.io/mvsplat/"
     }
 ]
