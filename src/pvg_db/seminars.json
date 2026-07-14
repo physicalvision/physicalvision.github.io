@@ -9,10 +9,7 @@
     "time": "Selected Wednesdays, 1:00 PM SGT"
   },
   "upcoming": [
-    
-  ],
-  "archive": [
-    {
+      {
       "date": "12/08/2026 13:00",
       "speaker": "Chen Geng",
       "speakerUrl": "https://chen-geng.com/",
@@ -20,6 +17,7 @@
       "affiliation": "Stanford University",
       "title": "Rethinking Inverse Simulation through the Lens of Lagrangian Mechanics",
       "description": "Building simulation models for diverse physical systems from observational data is critical for many downstream applications, such as creating digital twins for robot learning. However, such inverse modeling remains challenging to scale: each new object requires selecting a category-specific physical model, then recovering its parameters through often-fragile system identification. In this talk, we ask whether we can build a neural simulation system with a single governing structure that models diverse physical phenomena, from articulated rigid bodies to deformable solids, without category-specific equations. One natural design is to keep Lagrangian mechanics as the universal physical principle shared across these phenomena, while the category-specific structure is absorbed into generalized coordinates learned across categories from large-scale, multi-category 4D data. We show that the covariance of the Euler-Lagrange equations extends even to such overcomplete, learned coordinates, and simulate by solving these equations directly in the latent kinematic space, reframing inverse simulation as a generative modeling problem. The resulting system turns raw 3D shapes of diverse categories into simulatable assets in a feed-forward manner, with no physical annotations or per-object fitting, and generalizes to real-world scenes scanned with a phone.",
+      "bio": "Chen Geng (https://chen-geng.com/) is a Ph.D. candidate in Computer Science at Stanford University, advised by Jiajun Wu. His research lies at the intersection of 4D computer vision, physics-based simulation, and machine learning. He develops physically grounded neural simulators of the 4D physical world by combining scalable generative modeling algorithms with fundamental principles from classical physics. He received his B.S. in Computer Science from Zhejiang University in 2023, graduating with honors from the Chu Kochen Honors College, where he was advised by Xiaowei Zhou. He has organized several workshops on 4D computer vision and digital twin at CVPR and ICCV. His research has been recognized with several awards and fellowships, including an NVIDIA Graduate Fellowship and selection as a Qualcomm Innovation Fellowship Finalist.",
       "mode": "Virtual seminar",
       "zoomLink": "TBD",
       "location": "CVL Meeting Room (N4-B1c-17)",
@@ -35,13 +33,16 @@
       "affiliation": "HKUST",
       "title": "TBD",
       "description": "TBD",
-      "mode": "Virtual seminar",
+      "bio": "",
+      "mode": "In-person seminar",
       "zoomLink": "TBD",
       "location": "TBD",
       "slides": "",
       "type": ["event"],
       "id": "selected"
-    },
+    }
+  ],
+  "archive": [
     {
       "date": "24/06/2026 14:00",
       "speaker": "Sam Motamed",
