@@ -1,5 +1,82 @@
 [
     {
+        "date": "17/06/2026",
+        "image": "/videos/syn4d_teaser.mp4",
+        "title": "Syn4D: A Multiview Synthetic 4D Dataset",
+        "description": "A large-scale synthetic multiview 4D dataset with dense geometry, tracking, camera motion, and human pose annotations.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"],
+        "conference": "ECCV, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Dataset", "4D Reconstruction", "Motion", "3D Tracking"],
+        "authors":
+        [
+            {
+                "name": "Zeren Jiang",
+                "url": "https://jzr99.github.io/"
+            },
+            {
+                "name": "Yushi Lan",
+                "url": "https://nirvanalan.github.io/"
+            },
+            {
+                "name": "Yihang Luo",
+                "url": "https://yihangluo.com/"
+            },
+            {
+                "name": "Yufan Deng",
+                "url": "https://yufandeng.com/"
+            },
+            {
+                "name": "Zihang Lai",
+                "url": "https://scholar.google.com/citations?user=31eXgMYAAAAJ&hl=en"
+            },
+            {
+                "name": "Edgar Sucar",
+                "url": "https://edgarsucar.github.io/"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Iro Laina",
+                "url": "https://eng.ox.ac.uk/people/iro-laina/"
+            },
+            {
+                "name": "Diane Larlus",
+                "url": "https://dlarlus.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://jzr99.github.io/Syn4D/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2605.05207"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/jzr99/Syn4D"
+            },
+            {
+                "label": "data",
+                "url": "https://huggingface.co/datasets/Syn4D/Syn4D"
+            }
+        ]
+    },
+    {
         "date": "01/06/2026",
         "image": "/videos/particulate_teaser.mp4",
         "title": "Particulate: Feed-Forward 3D Object Articulation",
@@ -69,6 +146,7 @@
         "projects": ["PhyWorld"], 
         "conference": "CVPR, 2026",
         "id": "selected",
+        "category": "highlight",
         "topics": ["Physics", "Diffusion Model", "4D Reconstruction", "Motion"],
         "authors":
         [

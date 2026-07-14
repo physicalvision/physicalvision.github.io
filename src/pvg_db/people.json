@@ -87,6 +87,62 @@
     "currentStudents":
     [
         {
+            "name": "Dhrubo Saha",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": "2026 Fall",
+            "photo": "/images/team/dhrubo_saha.jpeg",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://dhrubosahaprofile.netlify.app/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=-HPIIM8AAAAJ&hl=en"
+                }
+            ]
+        },
+        {
+            "name": "Chen Si",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": "2026 Fall",
+            "photo": "/images/team/chen_si.png",
+            "label": "Nanyang President's Scholarship",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://chen-si-cs.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=T4cfGQkAAAAJ"
+                }
+            ]
+        },
+        {
+            "name": "Hangwei Zhang",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": "2026 Fall",
+            "photo": "/images/team/hangwei_zhang.png",
+            "label": "AISG Scholarship",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://fogradio.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=AzZWN1cAAAAJ&hl=en"
+                }
+            ]
+        },
+        {
             "name": "Ruijie Zhu",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
@@ -137,25 +193,6 @@
                 {
                     "label": "google-scholar",
                     "url": "https://scholar.google.com/citations?user=YpxxJlEAAAAJ&hl=en"
-                }
-            ]
-        },
-        {
-            "name": "Chongtian Huang",
-            "title": "PhD Student",
-            "university": "Nanyang Technological University, SG",
-            "startYear": "2025 Fall",
-            "photo": "/images/team/chongtian_huang.jpeg",
-            "label": "Transferred from MAE to CCDS",
-            "links":
-            [
-                {
-                    "label": "website",
-                    "url": "https://nerdtomars.github.io/"
-                },
-                {
-                    "label": "google-scholar",
-                    "url": "https://scholar.google.com/citations?user=k8gLZAsAAAAJ&hl=en"
                 }
             ]
         },

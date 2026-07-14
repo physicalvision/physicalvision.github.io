@@ -10,20 +10,10 @@ export default function Home() {
 
   const [activeIndex, setActiveIndex] = useState(0);
   const videoRef = useRef<HTMLVideoElement | null>(null);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const startAutoCycle = () => {
-    intervalRef.current = setInterval(() => {
-      setActiveIndex((prevIndex) => (prevIndex + 1) % videoData.length);
-    }, 10000);
+  const advanceVideo = () => {
+    setActiveIndex((prevIndex) => (prevIndex + 1) % videoData.length);
   };
-
-  useEffect(() => {
-    startAutoCycle();
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, []);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -34,8 +24,6 @@ export default function Home() {
 
   const handleManualSelect = (index: number) => {
     setActiveIndex(index);
-    if (intervalRef.current) clearInterval(intervalRef.current);
-    startAutoCycle();
   };
 
   const currentVideo = videoData[activeIndex];
@@ -79,10 +67,10 @@ export default function Home() {
                   ref={videoRef}
                   key={currentVideo.src}
                   className="w-full h-auto object-cover"
-                  loop 
                   autoPlay
                   muted
                   playsInline
+                  onEnded={advanceVideo}
                 >
                   <source src={currentVideo.src} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -113,11 +101,27 @@ export default function Home() {
 
     {/* Positions section */}
     <section id="positions" className="w-full pt-2 pb-8 max-w-full text-justify">
-      <div className="px-4 md:px-6 text-justify bg-yellow-100">
-        <h3 className="text-base font-medium italic flex items-center text-gray-900">
-        <span className="mr-2 text-lg">📍</span>
-          If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>.
-        </h3>
+      <div className="container px-4 md:px-2">
+        <div className="rounded-2xl bg-yellow-100 px-4 py-4 shadow-sm ring-1 ring-yellow-200/70 sm:px-5">
+          <div className="flex items-start gap-3 sm:items-center">
+            <span className="mt-0.5 text-lg sm:mt-0 sm:text-xl">📍</span>
+            <p className="text-sm leading-6 text-gray-900 sm:text-base">
+              <span className="font-medium italic">If you are looking for research positions,</span>{" "}
+              please see{" "}
+              <a href="/position" className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900">
+                here
+              </a>
+              , and fill out this{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog"
+                className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900"
+              >
+                form
+              </a>
+              .
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 

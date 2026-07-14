@@ -26,7 +26,7 @@ const typeLabels = {
     "publication": "Publication",
     "award": "Award",
     "project": "Project",
-    // "event": "Event",
+    "event": "Event",
     "other": "Other",
 };
 
