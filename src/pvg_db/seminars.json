@@ -26,6 +26,24 @@
       "id": "selected"
     },
     {
+      "date": "20/08/2026 09:30",
+      "speaker": "Letian Wang",
+      "speakerUrl": "https://letian-wang.github.io/",
+      "jobTitle": "PhD Student (supervised by Prof. Steven Waslander)",
+      "affiliation": "University of Toronto",
+      "title": "Video Generation Models are General-Purpose Vision Learners",
+      "description": "Driven by next-token prediction, NLP shifted from task-specific models into powerful generalist foundation models. What, then, is the equivalent catalyst needed to achieve a general-purpose model in computer vision? In this talk, we contend that large-scale text-to-video generation serves as a pivotal pre-training paradigm for computer vision, providing the necessary spatiotemporal priors, vision-language alignment, and scalability required for general visual intelligence. We introduce GenCeption, which leverages a pre-trained video generative diffusion backbone to define a feed-forward perception model, capable of performing various vision tasks steered by text instructions. Empirical results demonstrate that it achieves state-of-the-art performance across a diverse suite of tasks, including depth, surface normal, and camera pose estimation, expression-referring segmentation, and 3D keypoint prediction, often matching or surpassing specialized models (e.g., DepthAnything3, SAM3, D4RT, VGGT-Omega, Sapiens, David, Genmo, and Lotus-2). Furthermore, we demonstrate the video generative pretrained backbone outperforms alternative pretraining paradigms, exhibits preliminary data and model scaling properties, along with exceptional data efficiency, and triggers intriguing emergent behaviors. These findings suggest that video generation is not merely a synthesis tool, but a foundational path toward generalist vision intelligence for the physical world.",
+      "bio": "Letian Wang is a final-year Ph.D. student at the University of Toronto and the Vector Institute, advised by Prof. Steven Waslander. He has conducted research with Google DeepMind, NVIDIA Research, Carnegie Mellon University, and UC Berkeley. He is the author of two books, and his work has been recognized with the Qualcomm Fellowship, the RA-L Best Paper Award Honorable Mention, and the CARLA Autonomous Driving Challenge championship. His research aims to develop multimodal AI systems that can generalize and adapt to the open world, much like humans do. More recently, he has focused on scalable perception and generalizable decision-making by leveraging foundation models and learning paradigms that scale effectively with data.",
+      "mode": "Virtual seminar",
+      "zoomLink": "TBD",
+      "location": "CVL Meeting Room (N4-B1c-17)",
+      "slides": "",
+      "type": ["event"],
+      "id": "selected"
+    }
+  ],
+  "archive": [
+    {
       "date": "22/07/2026 13:00",
       "speaker": "Yinghao Xu",
       "speakerUrl": "https://justimyhxu.github.io/",
@@ -40,9 +58,7 @@
       "slides": "",
       "type": ["event"],
       "id": "selected"
-    }
-  ],
-  "archive": [
+    },
     {
       "date": "24/06/2026 14:00",
       "speaker": "Sam Motamed",
