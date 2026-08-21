@@ -30,6 +30,7 @@ type SeminarItem = {
   type?: string[];
   id?: string;
   links?: SeminarLink[];
+  recording?: SeminarLink[];
 };
 
 function parseDate(dateString: string) {
@@ -121,7 +122,15 @@ function renderTitleSlot(item: SeminarItem) {
 }
 
 function renderEventMeta(item: SeminarItem) {
-  if (!item.location && !item.mode && !item.zoomLink && !item.slides && (!item.links || item.links.length === 0)) {
+  const links = [
+    ...(item.links ?? []),
+    ...(item.recording ?? []).map((link) => ({
+      ...link,
+      label: `📄 ${link.label ?? link.text ?? link.name ?? "Recording"}`,
+    })),
+  ];
+
+  if (!item.location && !item.mode && !item.zoomLink && !item.slides && links.length === 0) {
     return null;
   }
 
@@ -149,9 +158,9 @@ function renderEventMeta(item: SeminarItem) {
           📄 Slides (PDF)
         </a>
       ) : null}
-      {item.links && item.links.length > 0 ? (
+      {links.length > 0 ? (
         <div className="space-y-1">
-          {item.links.map((link) => (
+          {links.map((link) => (
             <a
               key={link.url}
               href={link.url}
