@@ -117,12 +117,28 @@ export default function ChuanxiaPage() {
             </div>
 
             {/* Positions section */}
-            <section id="positions" className="w-full pb-4 max-w-full text-justify">
-            <div className="container px-6 md:px-6 bg-yellow-100" role="alert">
-                <h3 className="text-base font-medium italic flex items-center text-gray-900">
-                <span className="mr-2 text-lg">📍</span>
-                If you are looking for research positions, please see &nbsp;<a href="/position" className="text-blue-800 hover:text-blue-900">here</a>.
-                </h3>
+            <section id="positions" className="w-full pt-2 pb-8 max-w-full text-justify">
+            <div className="container px-4 md:px-2">
+                <div className="rounded-2xl bg-yellow-100 px-4 py-4 shadow-sm ring-1 ring-yellow-200/70 sm:px-5">
+                <div className="flex items-start gap-3 sm:items-center">
+                    <span className="mt-0.5 text-lg sm:mt-0 sm:text-xl">📍</span>
+                    <p className="text-sm leading-6 text-gray-900 sm:text-base">
+                    <span className="font-medium italic">If you are looking for research positions,</span>{" "}
+                    please see{" "}
+                    <a href="/position" className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900">
+                        here
+                    </a>
+                    , and fill out this{" "}
+                    <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSe524kxz9_cCS8XG7BHQdprCfjR1mAqft9O7TeF_DTvLYcdIw/viewform?usp=dialog"
+                        className="font-medium text-blue-800 underline decoration-1 underline-offset-2 hover:text-blue-900"
+                    >
+                        form
+                    </a>
+                    .
+                    </p>
+                </div>
+                </div>
             </div>
             </section>
 
@@ -399,7 +415,7 @@ export default function ChuanxiaPage() {
             <div className="w-full px-4 md:px-6 mb-6 py-2">
                 <h1 className="text-2xl font-bold text-gray-900 mb-2">Professional Services</h1>
                 <ul className="list-disc pl-5 text-gray-900">
-                    <li className="mb-1">Area chair: BMVC (2024-2025), ACM MM 2024, ICLR 2026</li>
+                    <li className="mb-1">Area chair: BMVC (2024-2026), ACM MM 2024, ICLR 2026, 2027, NeurIPS 2026</li>
                     <li className="mb-1">Conference reviewer: CVPR (2020-2025), ICCV (2019-2025), ECCV (2020-2024), NeurIPS (2022-2025), ICLR (2021-2025), ICML 2023</li>
                     <li className="mb-1">Journal reviewer: TPAMI, IJCV, TIP, PR, TMM (Outstanding Reviewer Award, 2021), TCSVT</li>
                 </ul>

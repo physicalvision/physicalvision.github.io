@@ -9,6 +9,28 @@
     "time": "Selected Wednesdays, 1:00 PM SGT"
   },
   "upcoming": [
+    {
+      "date": "24/09/2026 09:30",
+      "speaker": "Stan Szymanowicz",
+      "speakerUrl": "https://szymanowiczs.github.io/",
+      "jobTitle": "PhD Student (supervised by Prof. Andrea Vedaldi)",
+      "affiliation": "VGG, University of Oxford (UK); DeepMind",
+      "title": "TBD",
+      "description": "TBD",
+      "bio": "TBD",
+      "mode": "Virtual seminar",
+      "zoomLink": "https://ntu-sg.zoom.us/j/89388534861?pwd=XTStZbwwfqdcLvHfKzPGcjIZAeyEQI.1",
+      "location": "CVL Meeting Room (N4-B1c-17)",
+      "slides": "",
+      "recording": [
+            {
+            "label": "",
+            "url": ""
+            }
+        ],
+      "type": ["event"],
+      "id": "selected"
+    }
   ],
   "archive": [
      {
