@@ -10,10 +10,10 @@
   },
   "upcoming": [
     {
-      "date": "24/09/2026 09:30",
+      "date": "24/09/2026 09:00",
       "speaker": "Stan Szymanowicz",
       "speakerUrl": "https://szymanowiczs.github.io/",
-      "jobTitle": "PhD Student (supervised by Prof. Andrea Vedaldi)",
+      "jobTitle": "Research Scientist (Google DeepMind)",
       "affiliation": "VGG, University of Oxford (UK); DeepMind",
       "title": "Where did 3D go?",
       "description": "3D Computer Vision has been a central area of research in the last few years, fuelled by the success of Radiance Fields at modelling photorealistic 3D environments. However, generative video models, also capable of photorealistic rendering, discard any 3D priors or structure. Does the success of generative video models mean that there is no more space for 3D research in the era of embracing the `bitter lesson’? In this talk, I will study this question through the lens of feed-forward Novel View Synthesis (NVS). Prior efforts in this area are divided between works that use explicit 3D representations and those that discard the notion of 3D structure completely. I will argue that 3D awareness is still useful, even if explicit 3D representations are not needed. To this end, I will present LagerNVS: a fully neural, real-time Novel View Synthesis method with state-of-the-art results. I will conclude with a speculation on the wider implications of findings from LagerNVS and what they might mean for the future of 3D research.",
