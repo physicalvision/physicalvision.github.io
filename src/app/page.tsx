@@ -42,15 +42,15 @@ export default function Home() {
               <hr className="border-t-2 border-gray-400 mt-2 mb-2 w-full" />
               <h1 className="text-gray-600 font-semibold justify-between">
                 Our group conducts research in computer vision and machine learning, focusing on 
-                <span className="text-orange-400"> reconstructing and understanding the physical world</span>.
+                <span className="text-orange-400"> reconstructing, simulating and interacting in the physical world</span>.
               </h1>
               <h1 className="text-sm max-w-[400px] text-gray-600 justify-between mt-3">
                 We study
                 <span className="text-orange-500"> Physical Natural World Creation</span>,
-                building systems that can perceive, reconstruct, and interact with the physical world.
+                building systems that can perceive, reconstruct, simulate and interact with the physical world.
                 Beyond classical tasks such as appearance, content and geometry generation, we investigate deeper physical properties, like
-                <span className="text-orange-500"> occlusion, motion, gravity, interaction, mass and sound</span>.
-                Our broader goal is to build realistic digital twins of the natural world, with various physical properties.
+                <span className="text-orange-500"> occlusion, collision, friction, motion, gravity, interaction, mass and sound</span>.
+                Our broader goal is to build realistic digital twins of the physical world, with various physical properties.
                 Our group is part of the&nbsp;
                 <a href="https://www.ntu.edu.sg/computing/research/institutes-centres/micl" className="underline">Computer Vision and Language (CVL)</a>&nbsp;
                 within the &nbsp;
