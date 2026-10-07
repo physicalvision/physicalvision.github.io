@@ -106,80 +106,85 @@ export default function PeoplePage() {
 
     return (
         <>
-            {/* Faculty */}
+            {/* Faculty and researchers share the same responsive grid as students. */}
             <section className="max-w-6xl pt-6 pb-2 rounded-lg">
                 <div className="flex flex-col px-4 md:px-6 py-2">
-                    <h2 className="text-2xl font-semibold mb-6 text-gray-900">Faculty</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {peopleData.faculty.map((person, index) => (
-                            <div key={index} className="bg-white rounded-lg shadow-md items-center text-center transition p-4">
-                                <div className="flex items-center mb-4">
-                                    <Image
-                                        src={person.photo}
-                                        alt={person.name}
-                                        width={160}
-                                        height={160}
-                                        className="rounded-full mx-auto">
-                                    </Image>
-                                </div>
-                                <h3 className="text-xl font-semibold text-gray-900 mb-2">{person.name}</h3>
-                                <p className="text-sm text-gray-900 mb-2">{person.title}</p>
-                                <p className="text-xs text-gray-600 mb-0">{person.department.name}</p>
-                                <p className="text-xs text-gray-600 mb-4">{person.university.name}</p>
-                                {person.links && person.links.length > 0 && (
-                                    <div className="flex items-center justify-center">
-                                        {person.links.map((link, linkIndex) => (
-                                            <a
-                                                key={linkIndex}
-                                                href={link.url}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="px-2 text-sm text-gray-800 hover:text-gray-900"
-                                            >
-                                                {SocialIcons[link.label as keyof typeof SocialIcons]}
-                                            </a>
-                                        ))}
-                                    </div>
+                            <div key={index} className="flex flex-col">
+                                {index === 0 ? (
+                                    <h2 className="text-2xl font-semibold mb-6 text-gray-900">Faculty</h2>
+                                ) : (
+                                    <div className="hidden md:block h-8 mb-6" aria-hidden="true" />
                                 )}
+                                <div className="bg-white rounded-lg shadow-md items-center text-center transition p-4 flex-1">
+                                    <div className="flex items-center mb-4">
+                                        <Image
+                                            src={person.photo}
+                                            alt={person.name}
+                                            width={160}
+                                            height={160}
+                                            className="rounded-full mx-auto">
+                                        </Image>
+                                    </div>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{person.name}</h3>
+                                    <p className="text-sm text-gray-900 mb-2">{person.title}</p>
+                                    <p className="text-xs text-gray-600 mb-0">{person.department.name}</p>
+                                    <p className="text-xs text-gray-600 mb-4">{person.university.name}</p>
+                                    {person.links && person.links.length > 0 && (
+                                        <div className="flex items-center justify-center">
+                                            {person.links.map((link, linkIndex) => (
+                                                <a
+                                                    key={linkIndex}
+                                                    href={link.url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="px-2 text-sm text-gray-800 hover:text-gray-900"
+                                                >
+                                                    {SocialIcons[link.label as keyof typeof SocialIcons]}
+                                                </a>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         ))}
-                    </div>
-                </div>
-            </section>
-            {/* Staff */}
-            <section className="max-w-6xl pt-6 pb-2 rounded-lg">
-                <div className="flex flex-col px-4 md:px-6 py-2">
-                    <h2 className="text-2xl font-semibold mb-6 text-gray-900">Researchers</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {sortedResearchers.map((researcher, index) => (
-                            <div key={index} className="bg-white rounded-lg shadow-md items-center text-center transition p-4">
-                                <div className="flex items-center mb-4">
-                                    <Image
-                                        src={researcher.photo}
-                                        alt={researcher.name}
-                                        width={160}
-                                        height={160}
-                                        className="rounded-full mx-auto">
-                                    </Image>
-                                </div>
-                                <h3 className="text-xl font-semibold text-gray-900 mb-2">{researcher.name}</h3>
-                                <p className="text-sm text-gray-900 mb-2">{researcher.title} {formatOpenRange(researcher.startYear)}</p>
-                                <p className="text-xs text-gray-600 mb-4">{researcher.university}</p>
-                                {researcher.links && researcher.links.length > 0 && (
-                                    <div className="flex items-center justify-center">
-                                        {researcher.links.map((link, linkIndex) => (
-                                            <a
-                                                key={linkIndex}
-                                                href={link.url}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                className="px-3 text-sm text-gray-800 hover:text-gray-900"
-                                            >
-                                                {SocialIcons[link.label as keyof typeof SocialIcons]}
-                                            </a>
-                                        ))}
-                                    </div>
+                            <div key={index} className="flex flex-col">
+                                {index === 0 ? (
+                                    <h2 className="text-2xl font-semibold mb-6 text-gray-900">Researchers</h2>
+                                ) : (
+                                    <div className="hidden md:block h-8 mb-6" aria-hidden="true" />
                                 )}
+                                <div className="bg-white rounded-lg shadow-md items-center text-center transition p-4 flex-1">
+                                    <div className="flex items-center mb-4">
+                                        <Image
+                                            src={researcher.photo}
+                                            alt={researcher.name}
+                                            width={160}
+                                            height={160}
+                                            className="rounded-full mx-auto">
+                                        </Image>
+                                    </div>
+                                    <h3 className="text-xl font-semibold text-gray-900 mb-2">{researcher.name}</h3>
+                                    <p className="text-sm text-gray-900 mb-2">{researcher.title} {formatOpenRange(researcher.startYear)}</p>
+                                    <p className="text-xs text-gray-600 mb-4">{researcher.university}</p>
+                                    {researcher.links && researcher.links.length > 0 && (
+                                        <div className="flex items-center justify-center">
+                                            {researcher.links.map((link, linkIndex) => (
+                                                <a
+                                                    key={linkIndex}
+                                                    href={link.url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="px-3 text-sm text-gray-800 hover:text-gray-900"
+                                                >
+                                                    {SocialIcons[link.label as keyof typeof SocialIcons]}
+                                                </a>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         ))}
                     </div>
