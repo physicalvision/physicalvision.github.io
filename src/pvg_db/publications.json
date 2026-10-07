@@ -1,5 +1,200 @@
 [
     {
+        "date": "01/10/2026",
+        "image": "/videos/anyhand_teaser.mp4",
+        "title": "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
+        "description": "A pipeline to build a large-scale synthetic dataset for RGB(-D) hand pose estimation.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "NeurIPS, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Motion", "3d hand"],
+        "authors":
+        [
+            {
+                "name": "Chen Si*",
+                "url": "https://chen-si-cs.github.io/"
+            },
+            {
+                "name": "Yulin Liu*",
+                "url": "https://liuyulinn.github.io/"
+            },
+            {
+                "name": "Bo Ai",
+                "url": "https://albertboai.com/"
+            },
+            {
+                "name": "Jianwen Xie",
+                "url": "http://www.stat.ucla.edu/~jxie/"
+            },
+            {
+                "name": "Rolandos Alexandros Potamias",
+                "url": "https://rolpotamias.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng†",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Hao Su†",
+                "url": "https://www.haosu.ai/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://chen-si-cs.github.io/projects/AnyHand/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2603.25726"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/chen-si-cs/AnyHand"
+            },
+            {
+                "label": "demo",
+                "url":"https://chen-si-02-anyhand-demo.hf.space/"
+            },
+            {
+                "label": "data",
+                "url":"https://huggingface.co/chen-si-02/AnyHand-Dataset"
+            }
+            
+        ]
+    },
+    {
+        "date": "01/10/2026",
+        "image": "/videos/articraft_teaser.mp4",
+        "title": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+        "description": "An agentic system that enables scalable generation of articulated 3D assets.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "NeurIPS, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Articulated", "3D segmentation", "Motion", "Agentic"],
+        "authors":
+        [
+            {
+                "name": "Matt Zhou*",
+                "url": "https://mattzh72.github.io/"
+            },
+            {
+                "name": "Ruining Li*",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Xiaoyang Lyu*",
+                "url": "https://shawlyu.github.io/"
+            },
+            {
+                "name": "Zhaomou Song*",
+                "url": "https://scholar.google.com/citations?user=nRWVQNsAAAAJ"
+            },
+            {
+                "name": "Zhening Huang*",
+                "url": "https://zheninghuang.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            },            {
+                "name": "Shangzhe Wu",
+                "url": "https://elliottwu.com/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://articraft3d.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2605.15187"
+            },
+            {
+                "label": "code",
+                "url":"https://github.com/mattzh72/articraft"
+            }
+        ]
+    },
+    {
+        "date": "01/10/2026",
+        "image": "/videos/instruct_particulate_teaser.mp4",
+        "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+        "description": "A feed-forward approach that utilizes kinematic prompt to guide 3D object articulation.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"], 
+        "conference": "NeurIPS, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Articulated", "3D segmentation", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Ruining Li*",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Yuxin Yao*",
+                "url": "https://scholar.google.com/citations?user=nx3Y7gIAAAAJ&hl=en"
+            },
+            {
+                "name": "Matt Zhou",
+                "url": "https://mattzh72.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Christian Rupprecht",
+                "url": "https://chrirupp.github.io/"
+            },
+            {
+                "name": "Joan Lasenby",
+                "url": "https://www.eng.cam.ac.uk/profiles/jl221"
+            },
+            {
+                "name": "Shangzhe Wu†",
+                "url": "https://elliottwu.com/"
+            },
+            {
+                "name": "Andrea Vedaldi†",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://instruct-particulate.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2606.14699"
+            },
+            {
+                "label": "code",
+                "url":""
+            },
+            {
+                "label": "demo",
+                "url": "https://huggingface.co/spaces/rayli/instruct-particulate"
+            }
+        ]
+    },
+    {
         "date": "17/06/2026",
         "image": "/videos/syn4d_teaser.mp4",
         "title": "Syn4D: A Multiview Synthetic 4D Dataset",
@@ -89,11 +284,11 @@
         "authors":
         [
             {
-                "name": "Ruining Li",
+                "name": "Ruining Li*",
                 "url": "https://ruiningli.com/"
             },
             {
-                "name": "Yuxin Yao",
+                "name": "Yuxin Yao*",
                 "url": "https://scholar.google.com/citations?user=nx3Y7gIAAAAJ&hl=en"
             },
             {
@@ -109,11 +304,11 @@
                 "url": "https://www.eng.cam.ac.uk/profiles/jl221"
             },
             {
-                "name": "Shangzhe Wu",
+                "name": "Shangzhe Wu†",
                 "url": "https://elliottwu.com/"
             },
             {
-                "name": "Andrea Vedaldi",
+                "name": "Andrea Vedaldi†",
                 "url": "https://www.robots.ox.ac.uk/~vedaldi/index.html"
             }
         ],
@@ -261,7 +456,7 @@
                 "url": "https://wrchen530.github.io/"
             },
             {
-                "name": "Chuanxia Zheng*",
+                "name": "Chuanxia Zheng†",
                 "url": "/people/~chuanxia"
             },
             {
