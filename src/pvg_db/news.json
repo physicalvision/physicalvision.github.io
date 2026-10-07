@@ -1,5 +1,50 @@
 [
     {
+        "date": "07/10/2026",
+        "title": "Seven papers accepted at NeurIPS'26",
+        "description": "Papers accepted: CoLa3D, Plan4D, AnyHand, Articraft, Instruct-Particulate, Holo4D, Track4D",
+        "type": "publication",
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "CoLa3D",
+                    "text": "CoLa3D: Composable Latent 3D Decomposition",
+                    "url": ""
+                },
+                {
+                    "name": "Plan4D",
+                    "text": "Plan4D: Generative Plannable 4D Worlds",
+                    "url": ""
+                },
+                {
+                    "name": "AnyHand",
+                    "text": "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
+                    "url": "https://chen-si-cs.github.io/projects/AnyHand/"
+                },
+                {
+                    "name": "Articraft",
+                    "text": "Articraft: An Agentic System for Scalable Articulated 3D Asset Generation",
+                    "url": "https://articraft3d.github.io/"
+                },
+                {
+                    "name": "Instruct-Particulate",
+                    "text": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control",
+                    "url": "https://instruct-particulate.github.io/"
+                },
+                {
+                    "name": "Holo4D",
+                    "text": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+                    "url": ""
+                },
+                {
+                    "name": "Track4D",
+                    "text": "Track4D: Representing Dense 3D Tracking for Video Diffusion Models",
+                    "url": ""
+                }
+            ]
+    },
+    {
         "date": "07/07/2026",
         "title": "Workshop on Physical AI at ECCV'26",
         "description": "It includes a series of talks, challenges, and discussions. The Physical AI workshop aims to brings together researchers across vision, graphics, robotics, and generative modeling to advance physics-grounded understanding of the real world.",
@@ -169,7 +214,7 @@
         "title": "Chuanxia Zheng is awarded the Singapore NRF Fellowship",
         "description": "NRF runs initiatives to attract and retain top scientists, support competitive funding of research, establish world-leading research centres and engage eminent science and technology leaders.",
         "type": ["award", "project"],
-        "id": "selected",
+        "id": "unselected",
         "links":
             [
                 {
@@ -269,7 +314,7 @@
         "title": "Chuanxia Zheng is awarded the MSCA Fellowship",
         "description": "The Marie Skłodowska-Curie Actions (MSCA) are among Europe's most competitive and prestigious research and innovation fellowships",
         "type": ["award", "project"],
-        "id": "selected",
+        "id": "unselected",
         "links":
             [
                 {
