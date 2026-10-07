@@ -6,6 +6,12 @@
         "url": ""
     },
     {
+        "category": "Interaction",
+        "src": "/videos/anyhand_teaser.mp4",
+        "title": "AnyHand (NeurIPS'26)",
+        "url": "https://chen-si-cs.github.io/projects/AnyHand/"
+    },
+    {
         "category": "Agentic 3D",
         "src": "/videos/articraft_teaser.mp4",
         "title": "Articraft (NeurIPS'26)",
