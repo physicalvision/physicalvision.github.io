@@ -87,6 +87,26 @@
     "currentStudents":
     [
         {
+            "name": "Mengting Li",
+            "title": "PhD Student",
+            "university": "Nanyang Technological University, SG",
+            "startYear": "2026 Fall",
+            "photo": "/images/team/mengting_li.png",
+            "coSupervisors": "Siqiang Luo",
+            "label": "Nanyang President's Scholarship",
+            "links":
+            [
+                {
+                    "label": "website",
+                    "url": "https://levinaxu.github.io/"
+                },
+                {
+                    "label": "google-scholar",
+                    "url": "https://scholar.google.com/citations?user=33R9798AAAAJ"
+                }
+            ]
+        },
+        {
             "name": "Dhrubo Saha",
             "title": "PhD Student",
             "university": "Nanyang Technological University, SG",
