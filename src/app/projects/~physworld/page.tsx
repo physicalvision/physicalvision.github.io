@@ -4,6 +4,7 @@ import publicationsData from "@/pvg_db/publications.json";
 import projectsData from "@/pvg_db/projects.json";
 import { HiChevronUp } from "react-icons/hi";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
+import LazyVideo from "@/components/ui/lazyVideo";
 
 const projectName = "NRF Fellowship, National Research Foundation";
 const projectKey = "PhyWorld";
@@ -65,17 +66,11 @@ export default function PhyWorldPage() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
                                     {project.image.filter(img => img.src).map((img, imgIndex) => (
                                         <p key={imgIndex} className="relative rounded-lg">
-                                            <video
+                                            <LazyVideo
                                                 key={imgIndex}
-                                                className="w-full h-auto rounded-lg"
-                                                loop 
-                                                autoPlay
-                                                muted
-                                                playsInline
-                                            >
-                                                <source src={img.src} type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                            </video>
+                                                src={img.src}
+                                                className="w-full h-auto rounded-lg bg-gray-50"
+                                            />
                                             <span className="absolute top-0 right-0 bg-black bg-opacity-100 text-white px-2 py-1 text-xs rounded">{img.title}</span>
                                             <span className="text-sm text-gray-500">{img.alt}</span>
                                         </p>
@@ -99,19 +94,15 @@ export default function PhyWorldPage() {
                                                 {/* Image */}
                                                 <div className="w-2/3 md:w-1/7 flex sm:flex-row justify-between items-center">
                                                     {pub.image && pub.image.endsWith(".mp4") ? (
-                                                    <video
+                                                    <LazyVideo
                                                         key={pub.image}
-                                                        className="w-full h-auto object-cover rounded-lg"
-                                                        loop 
-                                                        autoPlay
-                                                        muted
-                                                    >
-                                                        <source src={pub.image} type="video/mp4" />
-                                                        Your browser does not support the video tag.
-                                                    </video>     
+                                                        src={pub.image}
+                                                        className="w-full h-auto object-cover rounded-lg bg-gray-50"
+                                                    />
                                                     ):(
                                                         <img
                                                             key={pub.image}
+                                                            loading="lazy"
                                                             src={pub.image}
                                                             alt={pub.title}
                                                             className="w-full h-auto object-cover rounded-lg"
