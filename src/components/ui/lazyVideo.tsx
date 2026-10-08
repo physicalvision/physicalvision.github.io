@@ -6,19 +6,20 @@ type LazyVideoProps = {
     src: string;
     poster?: string;
     className?: string;
+    id?: string;
 };
 
-// Poster image convention: /videos/foo.mp4 -> /videos/posters/foo.jpg
+// Poster image convention: /path/to/foo.mp4 -> /path/to/posters/foo.jpg
 export function posterFor(src: string): string | undefined {
-    if (!src || !src.startsWith("/videos/") || !src.endsWith(".mp4")) return undefined;
-    return src.replace("/videos/", "/videos/posters/").replace(/\.mp4$/, ".jpg");
+    if (!src || !src.endsWith(".mp4")) return undefined;
+    return src.replace(/\/([^/]+)\.mp4$/, "/posters/$1.jpg");
 }
 
 /**
  * A muted, looping video that only downloads once it scrolls near the viewport,
  * and pauses when it leaves the viewport. Shows a lightweight poster until then.
  */
-export default function LazyVideo({ src, poster, className }: LazyVideoProps) {
+export default function LazyVideo({ src, poster, className, id }: LazyVideoProps) {
     const ref = useRef<HTMLVideoElement>(null);
     const [load, setLoad] = useState(false);
 
@@ -51,6 +52,7 @@ export default function LazyVideo({ src, poster, className }: LazyVideoProps) {
     return (
         <video
             ref={ref}
+            id={id}
             className={className}
             poster={poster ?? posterFor(src)}
             src={load ? src : undefined}

@@ -8,6 +8,7 @@ import projectData from "@/pvg_db/projects.json";
 import { SocialIcons } from "@/components/ui/icons";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
 import { BsArrowRightCircle } from "react-icons/bs";
+import LazyVideo from "@/components/ui/lazyVideo";
 
 const peopleName = "Chuanxia"
 
@@ -323,19 +324,11 @@ export default function ChuanxiaPage() {
                                         {/* Image */}
                                         <div className="w-2/3 md:w-2/9 h-40 flex sm:flex justify-between items-center">
                                             {pub.image && pub.image.endsWith(".mp4") ? (
-                                            <video
-                                                key={pub.image}
-                                                className="w-full h-full object-cover rounded-lg"
-                                                loop 
-                                                autoPlay
-                                                muted
-                                            >
-                                                <source src={pub.image} type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                            </video>     
+                                            <LazyVideo key={pub.image} src={pub.image} className="w-full h-full object-cover rounded-lg bg-gray-50" />
                                             ):(
                                                 <img
                                                     key={pub.image}
+                                                    loading="lazy"
                                                     src={pub.image}
                                                     alt={pub.title}
                                                     className="w-full h-auto object-cover rounded-lg"

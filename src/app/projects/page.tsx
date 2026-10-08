@@ -1,6 +1,7 @@
 "use client"
 
 import projectData from "@/pvg_db/projects.json";
+import LazyVideo from "@/components/ui/lazyVideo";
 
 export default function PublicationsPage() {
     // Sort projects by date in descending order
@@ -76,17 +77,7 @@ export default function PublicationsPage() {
                                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                                                 {project.image.map((img, imgIndex) => (img.src && (
                                                     <p key={imgIndex} className="relative rounded-lg">
-                                                        <video
-                                                            key={imgIndex}
-                                                            className="w-full h-auto rounded-lg"
-                                                            loop 
-                                                            autoPlay
-                                                            muted
-                                                            playsInline
-                                                        >
-                                                            <source src={img.src} type="video/mp4" />
-                                                            Your browser does not support the video tag.
-                                                        </video>
+                                                        <LazyVideo key={imgIndex} src={img.src} className="w-full h-auto rounded-lg bg-gray-50" />
                                                     <span className="absolute top-0 right-0 bg-black bg-opacity-100 text-white px-2 py-1 text-xs rounded">{img.title}</span>
                                                     <span className="text-sm text-gray-500">{img.alt}</span>
                                                     </p>
@@ -180,17 +171,7 @@ export default function PublicationsPage() {
                                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                                                 {project.image.map((img, imgIndex) => (img.src && (
                                                     <p key={imgIndex} className="relative rounded-lg">
-                                                        <video
-                                                            key={imgIndex}
-                                                            className="w-full h-auto rounded-lg"
-                                                            loop 
-                                                            autoPlay
-                                                            muted
-                                                            playsInline
-                                                        >
-                                                            <source src={img.src} type="video/mp4" />
-                                                            Your browser does not support the video tag.
-                                                        </video>
+                                                        <LazyVideo key={imgIndex} src={img.src} className="w-full h-auto rounded-lg bg-gray-50" />
                                                     <span className="absolute top-0 right-0 bg-black bg-opacity-100 text-white px-2 py-1 text-xs rounded">{img.title}</span>
                                                     <span className="text-sm text-gray-500">{img.alt}</span>
                                                     </p>

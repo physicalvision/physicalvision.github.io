@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Search} from "@/components/ui/icons";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { typeColors, typeLabels, linkIcons } from "@/components/ui/icons";
+import LazyVideo from "@/components/ui/lazyVideo";
 
 export default function PublicationsPage() {
     // State to manage search query and filtered publications
@@ -183,19 +184,11 @@ export default function PublicationsPage() {
                                         {/* Image */}
                                         <div className="w-2/3 md:w-2/9 h-40 flex sm:flex justify-between items-center">
                                             {pub.image && pub.image.endsWith(".mp4") ? (
-                                            <video
-                                                key={pub.image}
-                                                className="w-full h-full object-cover rounded-lg"
-                                                loop 
-                                                autoPlay
-                                                muted
-                                            >
-                                                <source src={pub.image} type="video/mp4" />
-                                                Your browser does not support the video tag.
-                                            </video>     
+                                            <LazyVideo key={pub.image} src={pub.image} className="w-full h-full object-cover rounded-lg bg-gray-50" />
                                             ):(
                                                 <img
                                                     key={pub.image}
+                                                    loading="lazy"
                                                     src={pub.image}
                                                     alt={pub.title}
                                                     className="w-full h-auto object-cover rounded-lg"

@@ -3,6 +3,7 @@
 import publicationsData from "@/pvg_db/publications.json";
 import { HiChevronDown } from "react-icons/hi";
 import { SocialIcons, linkIcons} from "@/components/ui/icons";
+import LazyVideo from "@/components/ui/lazyVideo";
 
 const paperKey = "free3d";
 const bibtex = `@inproceedings{zheng2024free3d,
@@ -120,16 +121,7 @@ export default function Free3DPage() {
                 {/* body the paper */}
                 <div className="flex flex-col justify-center mt-8">
                     {/* teaser */}
-                    <video
-                        id="teaser"
-                        className="w-full h-auto object-cover rounded-lg"
-                        loop 
-                        autoPlay
-                        muted
-                    >
-                        <source src="/research/~free3d/static/videos/teaser.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    <LazyVideo id="teaser" src="/research/~free3d/static/videos/teaser.mp4" className="w-full h-auto object-cover rounded-lg bg-gray-50" />
                     <p className="text-gray-700 text-lg pt-2 mb-8"><strong>Free3D</strong> synthesizes consistent novel view without the need of explicit 3D representation.</p>
                     {/* abstract */}
                     <h3 className="pt-8 text-3xl font-semibold text-gray-900 mb-4 text-center">Abstract</h3>
@@ -198,31 +190,19 @@ export default function Free3DPage() {
                         <p>Using <strong>Free3D</strong>, you can directly render a consistent 360-degree video without
                             the need of an additional explicit 3D representation or network.
                         </p>
-                        <video className="w-full h-auto object-cover rounded-lg" loop autoPlay muted playsInline preload="metadata">
-                            <source src="/research/~free3d/static/videos/video_comparison.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <LazyVideo src="/research/~free3d/static/videos/video_comparison.mp4" className="w-full h-auto object-cover rounded-lg bg-gray-50" />
                     </div>
                     <h3 className="pt-6 text-xl font-semibold text-gray-900 mb-4 text-left">Videos on Objaverse Dataset</h3>
                     <div className="text-base text-gray-700 text-justify">
-                        <video className="w-full h-auto object-cover rounded-lg" loop autoPlay muted playsInline preload="metadata">
-                            <source src="/research/~free3d/static/videos/objaverse_70.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <LazyVideo src="/research/~free3d/static/videos/objaverse_70.mp4" className="w-full h-auto object-cover rounded-lg bg-gray-50" />
                     </div>
                     <h3 className="pt-6 text-xl font-semibold text-gray-900 mb-4 text-left">Videos on OminiObject3D Dataset</h3>
                     <div className="text-base text-gray-700 text-justify">
-                        <video className="w-full h-auto object-cover rounded-lg" loop autoPlay muted playsInline preload="metadata">
-                            <source src="/research/~free3d/static/videos/oo3d_32.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <LazyVideo src="/research/~free3d/static/videos/oo3d_32.mp4" className="w-full h-auto object-cover rounded-lg bg-gray-50" />
                     </div>
                     <h3 className="pt-6 text-xl font-semibold text-gray-900 mb-4 text-left">Videos on GSO Dataset</h3>
                     <div className="text-base text-gray-700 text-justify">
-                        <video className="w-full h-auto object-cover rounded-lg" loop autoPlay muted playsInline preload="metadata">
-                            <source src="/research/~free3d/static/videos/gso_32.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <LazyVideo src="/research/~free3d/static/videos/gso_32.mp4" className="w-full h-auto object-cover rounded-lg bg-gray-50" />
                     </div>
                     {/* Concurrent work */}
                     <h3 className="pt-8 text-3xl font-semibold text-gray-900 mb-4">Related Links</h3>

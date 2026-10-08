@@ -5,6 +5,7 @@ import videoData from "@/pvg_db/home_video.json";
 import newsData from "@/pvg_db/news.json";
 import projectData from "@/pvg_db/projects.json";
 import { BsArrowRightCircle } from "react-icons/bs";
+import { posterFor } from "@/components/ui/lazyVideo";
 
 export default function Home() {
 
@@ -21,6 +22,16 @@ export default function Home() {
       (videoRef.current as HTMLVideoElement).play().catch(() => {});
     }
   }, [activeIndex]);
+
+  // Once the current video can play through, warm the browser cache with the next one
+  // so switching slides is instant without downloading every video up front.
+  const prefetched = useRef<Set<string>>(new Set());
+  const prefetchNext = () => {
+    const next = videoData[(activeIndex + 1) % videoData.length].src;
+    if (prefetched.current.has(next)) return;
+    prefetched.current.add(next);
+    fetch(next).catch(() => {});
+  };
 
   const handleManualSelect = (index: number) => {
     setActiveIndex(index);
@@ -66,11 +77,14 @@ export default function Home() {
                 <video
                   ref={videoRef}
                   key={currentVideo.src}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover bg-gray-50"
+                  poster={posterFor(currentVideo.src)}
+                  preload="auto"
                   autoPlay
                   muted
                   playsInline
                   onEnded={advanceVideo}
+                  onCanPlayThrough={prefetchNext}
                 >
                   <source src={currentVideo.src} type="video/mp4" />
                   Your browser does not support the video tag.
