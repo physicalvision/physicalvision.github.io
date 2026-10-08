@@ -8,7 +8,7 @@
             "title": "Integrating Physical Properties in Natural World Creation",
             "name": "NRF Fellowship, National Research Foundation",
             "shortName": "From Pixels to Physics",
-            "description": "The aim of From Pixels to Physics is to create a realistic natural world adhering to physical principles, rather than dealing with only the realistic pixels as in traditional image, video, and 3D synthesis. Physics-based natural world creation is challenging because it requires a holistic interpretation of scenes and objects within it, including but not limited to appearance, geometry, materials, occlusion, motion, gravity, interaction, mass and sound.",
+            "description": "The aim of From Pixels to Physics is to create a realistic natural world adhering to physical principles, rather than dealing with only the realistic pixels as in traditional image, video, and 3D synthesis. Physics-based natural world creation is challenging because it requires a holistic interpretation of scenes and objects within it, including but not limited to appearance, geometry, motion, materials, collision, occlusion, gravity, interaction, mass, force and sound.",
             "reference": "NRFF17-2025-0148",
             "founder": {
                 "name": "National Research Foundation",
@@ -16,13 +16,12 @@
             },
             "role": "PI",
             "budget": "S$ 3,078,720.00",
-            "website": "",
+            "website": "/projects/~physworld",
             "topics": ["Geometry", "Motion", "Interaction", "Gravity", "Occlusion", "Physics"],
             "objectives":
             [
-                "To develop a system for feed-forward 3D reconstruction and decomposition from a set of sparse views.",
-                "To develop a system for feed-forward 4D reconstruction and decomposition from a monocular video.",
-                "To develop a system for natural world creation with physical interaction."
+                "Spatial AI: To develop systems that reconstruct and decompose the complete 3D and 4D scene from a single image or video.",
+                "Physical AI: Incorporating physical properties into the 3D and 4D scene reconstruction, decomposition and simulation."
             ],
             "teamMembers":
             [
@@ -34,16 +33,36 @@
             "image":
             [
                 {
-                    "src": "",
-                    "title": "",
-                    "alt": ""
+                    "src": "/videos/articraft_teaser.mp4",
+                    "title": "Articraft",
+                    "alt": "Agentic system for scalable generation of articulated 3D assets"
+                },
+                {
+                    "src": "/videos/syn4d_teaser.mp4",
+                    "title": "Syn4D",
+                    "alt": "A large-scale synthetic multiview 4D dataset with dense annotations."
+                },
+                {
+                    "src": "/videos/nova3r_teaser.mp4",
+                    "title": "NOVA3R",
+                    "alt": "Amodal 3D reconstruction of visible and occluded regions from sparse views"
+                },
+                {
+                    "src": "/videos/instruct_particulate_teaser.mp4",
+                    "title": "Instruct Particulate",
+                    "alt": "Feed-forward articulated structure inference for physically interactive 3D objects"
                 }
+                
             ],
             "links":
             [
                 {
                     "label": "NRF Fellowship",
                     "url": "https://www.nrf.gov.sg/grants/nrff/"
+                },
+                {
+                    "label": "project website",
+                    "url": "/projects/~physworld"
                 }
             ]
         }
