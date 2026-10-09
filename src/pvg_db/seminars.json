@@ -9,6 +9,9 @@
     "time": "Selected Wednesdays, 1:00 PM SGT"
   },
   "upcoming": [
+    
+  ],
+  "archive": [
     {
       "date": "24/09/2026 09:00",
       "speaker": "Stan Szymanowicz",
@@ -30,9 +33,7 @@
         ],
       "type": ["event"],
       "id": "selected"
-    }
-  ],
-  "archive": [
+    },
      {
       "date": "20/08/2026 09:30",
       "speaker": "Letian Wang",
