@@ -1,5 +1,25 @@
 [
     {
+        "date": "10/10/2026",
+        "title": "Hangwei Zhang and Chuanxia Zheng are recognized as NeurIPS'26 Top Reviewer and AC, respectively",
+        "description": "",
+        "type": ["award"],
+        "id": "selected",
+        "links":
+            [
+                {
+                    "name": "NeurIPS'26",    
+                    "text": "NeurIPS'26",
+                    "url": "https://neurips.cc/"
+                },
+                {
+                    "name": "Hangwei Zhang",    
+                    "text": "Hangwei Zhang",
+                    "url": "https://fogradio.github.io/"
+                }
+            ]
+    },
+    {
         "date": "07/10/2026",
         "title": "Seven papers accepted at NeurIPS'26",
         "description": "Papers accepted: CoLa3D, Plan4D, AnyHand, Articraft, Instruct-Particulate, Holo4D, Track4D",
