@@ -1,5 +1,17 @@
 [
     {
+        "category": "Physically Grounded 3D",
+        "src": "/videos/artisan_teaser.mp4",
+        "title": "Artisan (arXiv'26)",
+        "url": "https://physicalvision.github.io/artisan/"
+    },
+    {
+        "category": "Full 4D Perception",
+        "src": "/videos/gen4p_teaser.mp4",
+        "title": "Gen4P (arXiv'26)",
+        "url": "https://gen4p.github.io/"
+    },
+    {
         "category": "Decomposition",
         "src": "/videos/cola3d_teaser.mp4",
         "title": "Cola3D (NeurIPS'26)",

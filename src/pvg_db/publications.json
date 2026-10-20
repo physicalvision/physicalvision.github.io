@@ -1,5 +1,119 @@
 [
     {
+        "date": "20/10/2026",
+        "image": "/videos/artisan_teaser.mp4",
+        "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+        "description": "Artisan is a multi-agent system that adds physics-simulation feedback to articulated 3D asset generation, together with a benchmark for evaluating how generated objects look, move, and function.",
+        "type": ["preprint"],
+        "projects": ["PhyWorld"], 
+        "preprint": "arXiv, 2026",
+        "id": "selected",
+        "topics": ["Articulated", "Agentic", "Physics", "Dataset"],
+        "authors":
+        [
+            {
+                "name": "Xudong Cai*",
+                "url": "https://master-cai.github.io/"
+            },
+            {
+                "name": "Ruijie Zhu*",
+                "url": "https://ruijiezhu94.github.io/ruijiezhu/"
+            },
+            {
+                "name": "Haoliang Shang*",
+                "url": "https://www.linkedin.com/in/haoliang-shang-1544b1116"
+            },
+            {
+                "name": "Ruining Li*",
+                "url": "https://ruiningli.com/"
+            },
+            {
+                "name": "Marc Pollefeys",
+                "url": "https://people.inf.ethz.ch/pomarc/"
+            },
+            {
+                "name": "Shangzhe Wu",
+                "url": "https://elliottwu.com/"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://physicalvision.github.io/artisan/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2610.13947"
+            },
+            {
+                "label": "pdf",
+                "url": "https://arxiv.org/pdf/2610.13947"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/physicalvision/Artisan"
+            },
+            {
+                "label": "data",
+                "url": "https://huggingface.co/datasets/mastercai/Artisan-Benchmark"
+            }
+        ]
+    },
+    {
+        "date": "20/10/2026",
+        "image": "/videos/gen4p_teaser.mp4",
+        "title": "Gen4P: Video Generators are 4D Perceivers",
+        "description": "Gen4P repurposes a video generator for feed-forward 4D perception, with single-pass encoding and continuous-time embeddings.",
+        "type": ["preprint"],
+        "projects": ["PhyWorld"], 
+        "preprint": "arXiv, 2026",
+        "id": "selected",
+        "topics": ["4D Reconstruction", "Depth Estimation", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Yitong Xia",
+                "url": "https://www.linkedin.com/in/yitong-xia-5a111120a/"
+            },
+            {
+                "name": "Zeren Jiang",
+                "url": "https://jzr99.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://gen4p.github.io/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2610.22371"
+            },
+            {
+                "label": "pdf",
+                "url": "https://arxiv.org/pdf/2610.22371"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/yitongx/Gen4P"
+            }
+        ]
+    },
+    {
         "date": "01/10/2026",
         "image": "/videos/anyhand_teaser.mp4",
         "title": "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",

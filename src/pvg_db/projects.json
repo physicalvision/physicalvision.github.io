@@ -33,24 +33,24 @@
             "image":
             [
                 {
+                    "src": "/videos/artisan_teaser.mp4",
+                    "title": "Artisan (arXiv'26)",
+                    "alt": "Physically grounded articulated 3D synthesis from text prompts and images"
+                },
+                {
                     "src": "/videos/articraft_teaser.mp4",
-                    "title": "Articraft",
+                    "title": "Articraft (NeurIPS'26)",
                     "alt": "Agentic system for scalable generation of articulated 3D assets"
                 },
                 {
                     "src": "/videos/syn4d_teaser.mp4",
-                    "title": "Syn4D",
+                    "title": "Syn4D (ECCV'26)",
                     "alt": "A large-scale synthetic multiview 4D dataset with dense annotations."
                 },
                 {
                     "src": "/videos/nova3r_teaser.mp4",
-                    "title": "NOVA3R",
-                    "alt": "Amodal 3D reconstruction of visible and occluded regions from sparse views"
-                },
-                {
-                    "src": "/videos/instruct_particulate_teaser.mp4",
-                    "title": "Instruct Particulate",
-                    "alt": "Feed-forward articulated structure inference for physically interactive 3D objects"
+                    "title": "NOVA3R (ICLR'26)",
+                    "alt": "Non-pixel Aligned 3D reconstruction of visible and occluded regions from sparse views"
                 }
                 
             ],
