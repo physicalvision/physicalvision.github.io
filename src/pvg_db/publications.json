@@ -113,6 +113,145 @@
             }
         ]
     },
+        {
+        "date": "20/10/2026",
+        "image": "/videos/corrflow_teaser.mp4",
+        "title": "CorrFlow: Self-Correcting Flow Matching",
+        "description": "A lightweight refiner learns to correct the base model's velocity at each sampling step.",
+        "type": ["preprint"],
+        "projects": ["PhyWorld"],
+        "preprint": "arXiv, 2026",
+        "id": "selected",
+        "topics": ["Physics", "Diffusion Model", "Video Generation"],
+        "authors":
+        [
+            {
+                "name": "Hangwei Zhang",
+                "url": "https://fogradio.github.io/"
+            },
+            {
+                "name": "Nathan Rouillé",
+                "url": "https://www.linkedin.com/in/nathanrouille/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://fogradio.github.io/corrflow-project/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2610.24750"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/fogradio/CorrFlow"
+            }
+        ]
+    },
+    {
+        "date": "01/10/2026",
+        "image": "/videos/plan4d_teaser.mp4",
+        "title": "Plan4D: Generative Plannable 4D Worlds",
+        "description": "A plannable 4D world model that predicts future RGB video together with dense 4D geometry (depth, cameras, point clouds and scene flow) from an observed scene and text-specified actions.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"],
+        "conference": "NeurIPS, 2026",
+        "id": "selected",
+        "topics": ["World Model", "4D Reconstruction", "Diffusion Model", "Motion"],
+        "authors":
+        [
+            {
+                "name": "Hangwei Zhang",
+                "url": "https://fogradio.github.io/"
+            },
+            {
+                "name": "Rujing Dang",
+                "url": "https://scholar.google.com/citations?user=QKTF2UQAAAAJ&hl=zh-TW"
+            },
+            {
+                "name": "Ruimin Lin",
+                "url": "https://www.researchgate.net/scientific-contributions/Ruimin-Lin-2338212314"
+            },
+            {
+                "name": "Jiahong Wu",
+                "url": "https://scholar.google.com/citations?user=zCljkooAAAAJ&hl=zh-CN"
+            },
+            {
+                "name": "Xiangxiang Chu",
+                "url": "https://cxxgtxy.github.io"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://fogradio.github.io/plan4d-project/"
+            }
+        ]
+    },
+    {
+        "date": "01/10/2026",
+        "image": "/videos/cola3d_teaser.mp4",
+        "title": "CoLa3D: Composable Latent 3D Decomposition",
+        "description": "A single feed-forward transformer that decomposes a whole-scene 3D latent into object-level meshes in one shared coordinate frame.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"],
+        "conference": "NeurIPS, 2026",
+        "id": "selected",
+        "topics": ["3D Decomposition", "3D Generation"],
+        "authors":
+        [
+            {
+                "name": "Xudong Cai",
+                "url": "https://master-cai.github.io/"
+            },
+            {
+                "name": "Yongcai Wang",
+                "url": "https://yongcaiwang.github.io/index_en.html"
+            },
+            {
+                "name": "Deying Li",
+                "url": "http://info.ruc.edu.cn/Home/Faculty/Departments/ComputerScienceandTechnology/df9a35884ea649fb9495a51007043cfd.htm"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://master-cai.github.io/CoLa3D/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2611.03533"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/Master-cai/CoLa3D"
+            },
+            {
+                "label": "data",
+                "url": "https://huggingface.co/datasets/mastercai/CoLa3D-Training"
+            },
+            {
+                "label": "benchmark",
+                "url": "https://huggingface.co/datasets/mastercai/CoLa3D-Benchmarks"
+            }
+        ]
+    },
     {
         "date": "01/10/2026",
         "image": "/videos/anyhand_teaser.mp4",
@@ -305,6 +444,58 @@
             {
                 "label": "demo",
                 "url": "https://huggingface.co/spaces/rayli/instruct-particulate"
+            }
+        ]
+    },
+    {
+        "date": "01/10/2026",
+        "image": "/videos/holo4d_teaser.mp4",
+        "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+        "description": "Holo4D re-films a dynamic video from a new camera path, using persistent 3D tracks as geometric control.",
+        "type": ["conference"],
+        "projects": ["PhyWorld"],
+        "conference": "NeurIPS, 2026",
+        "topics": ["4D Reconstruction", "Novel View Synthesis", "Diffusion Model", "3D Tracking"],
+        "authors":
+        [
+            {
+                "name": "Yushi Lan*",
+                "url": "https://nirvanalan.github.io/"
+            },
+            {
+                "name": "Zeren Jiang*",
+                "url": "https://jzr99.github.io/"
+            },
+            {
+                "name": "Koichi Namekata",
+                "url": "https://kmcode1.github.io/"
+            },
+            {
+                "name": "Xingang Pan",
+                "url": "https://xingangpan.github.io/"
+            },
+            {
+                "name": "Chuanxia Zheng",
+                "url": "/people/~chuanxia"
+            },
+            {
+                "name": "Andrea Vedaldi",
+                "url": "https://www.robots.ox.ac.uk/~vedaldi/"
+            }
+        ],
+        "links":
+        [
+            {
+                "label": "website",
+                "url": "https://nirvanalan.github.io/projects/holo4d/"
+            },
+            {
+                "label": "arxiv",
+                "url": "https://arxiv.org/abs/2610.25276"
+            },
+            {
+                "label": "code",
+                "url": "https://github.com/NIRVANALAN/Holo4D"
             }
         ]
     },

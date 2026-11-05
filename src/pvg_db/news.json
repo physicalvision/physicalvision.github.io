@@ -30,12 +30,12 @@
                 {
                     "name": "CoLa3D",
                     "text": "CoLa3D: Composable Latent 3D Decomposition",
-                    "url": ""
+                    "url": "https://physicalvision.github.io/CoLa3D/"
                 },
                 {
                     "name": "Plan4D",
                     "text": "Plan4D: Generative Plannable 4D Worlds",
-                    "url": ""
+                    "url": "https://fogradio.github.io/plan4d-project/"
                 },
                 {
                     "name": "AnyHand",
@@ -55,12 +55,12 @@
                 {
                     "name": "Holo4D",
                     "text": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
-                    "url": ""
+                    "url": "https://nirvanalan.github.io/projects/holo4d/"
                 },
                 {
                     "name": "Track4D",
                     "text": "Track4D: Representing Dense 3D Tracking for Video Diffusion Models",
-                    "url": ""
+                    "url": "https://nirvanalan.github.io/projects/track4d/"
                 }
             ]
     },

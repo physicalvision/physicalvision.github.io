@@ -97,15 +97,11 @@ export default function ChuanxiaPage() {
                     at the <a href={person?.department.url} className="text-blue-800 hover:text-blue-900"> {person?.department.name}</a>,
                     <a href={person?.university.url} className="text-blue-800 hover:text-blue-900"> {person?.university.name}</a>,
                     where I lead the <a href={person?.group.url} className="text-blue-800 hover:text-blue-900"> {person?.curGroup.name}</a>.
-                    My research focuses on <strong>Physical AI</strong> and <strong>Spatial AI</strong>, aiming to develop systems that perceive, reconstruct and interact with the physical world.
-                    The broader goal is to create realistic digital twins of the natural world, with various physical properties in a simulator,
-                    capturing not only appearance, content, and geometry but also <strong>occlusion, dynamics, gravity, interaction, sound and more.</strong>
-                </p>
-                <p className="text-gray-900 mb-4">
+                    My research focuses on <strong>Physical AI</strong> and <strong>Spatial AI</strong>, aiming to develop systems that perceive, reconstruct, simulate and interact with the physical world.
                     Before joining NTU, I was a <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" className="text-blue-800 hover:text-blue-900">Marie Skłodowska-Curie Actions (MSCA) Fellow </a>
                     in <a href="https://www.robots.ox.ac.uk/~vgg/" className="text-blue-800 hover:text-blue-900"> VGG </a> 
                     at the <a href="https://www.ox.ac.uk/" className="text-blue-800 hover:text-blue-900">University of Oxford</a>,
-                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a> on feed-forward realistic 3D and 4D reconstruction.
+                    working with <a href="https://www.robots.ox.ac.uk/~vedaldi/" className="text-blue-800 hover:text-blue-900">Andrea Vedaldi</a>.
                     I was very fortunate to also collaborate with <a href="https://www.robots.ox.ac.uk/~az/" className="text-blue-800 hover:text-blue-900">Andrew Zisserman</a>,
                     <a href="https://chrirupp.github.io/" className="text-blue-800 hover:text-blue-900"> Christian Rupprecht</a>,
                     and <a href="https://scholar.google.com/citations?user=n9nXAPcAAAAJ&hl=en" className="text-blue-800 hover:text-blue-900">Iro Laina </a>
